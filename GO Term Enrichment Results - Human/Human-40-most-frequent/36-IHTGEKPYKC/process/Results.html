@@ -1,0 +1,1404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0075)http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Results
+</title>
+
+<script type="text/javascript">
+function toggle(item) {
+obj=document.getElementById(item);
+visible=(obj.style.display!="none")
+key=document.getElementById("ctrl_" + item);
+if (visible) {
+    obj.style.display="none";
+key.innerHTML="[+] Show genes";
+}
+else {
+obj.style.display="block";
+key.innerHTML="[-] Hide genes";
+}
+}
+</script>
+</head>
+<body>
+<p></p><center><b>
+
+</b></center><p></p>
+<table border="1" width="80%" id="tab:pval_legend" align="center">
+<caption><em>P-value color scale</em></caption>
+<tbody><tr>
+	<td width="140" align="center"> &gt; 10<sup>-3</sup></td>
+	<td width="140" align="center" bgcolor="#FFFFCC"> 10<sup>-3</sup> to 10<sup>-5</sup></td>
+	<td width="140" align="center" bgcolor="#FFCC66"> 10<sup>-5</sup> to 10<sup>-7</sup></td>
+	<td width="140" align="center" bgcolor="#FF9900"> 10<sup>-7</sup> to 10<sup>-9</sup></td>
+	<td width="140" align="center" bgcolor="#FF3300"> &lt; 10<sup>-9</sup></td>
+</tr>
+</tbody></table>
+<map name="goPathImage">
+<area shape="RECT" coords="864,490,979,553" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0009059" alt="">
+<area shape="RECT" coords="749,919,875,967" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0032774" alt="">
+<area shape="RECT" coords="633,628,748,708" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0034645" alt="">
+<area shape="RECT" coords="728,1056,883,1104" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0097659" alt="">
+<area shape="RECT" coords="689,1176,799,1224" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0006351" alt="">
+<area shape="RECT" coords="361,101,433,149" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0009987" alt="">
+<area shape="RECT" coords="287,206,369,269" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0044237" alt="">
+<area shape="RECT" coords="1229,774,1355,837" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0051252" alt="">
+<area shape="RECT" coords="1132,911,1273,974" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#2001141" alt="">
+<area shape="RECT" coords="891,343,1005,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0043170" alt="">
+<area shape="RECT" coords="780,637,873,699" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0090304" alt="">
+<area shape="RECT" coords="725,481,840,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0044260" alt="">
+<area shape="RECT" coords="1261,481,1344,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0080090" alt="">
+<area shape="RECT" coords="1327,619,1495,717" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0019219" alt="">
+<area shape="RECT" coords="771,781,883,829" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0016070" alt="">
+<area shape="RECT" coords="395,326,480,423" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0034641" alt="">
+<area shape="RECT" coords="245,473,341,570" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0044271" alt="">
+<area shape="RECT" coords="416,481,571,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0006139" alt="">
+<area shape="RECT" coords="1053,481,1136,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0031323" alt="">
+<area shape="RECT" coords="957,765,1053,845" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0031326" alt="">
+<area shape="RECT" coords="316,628,471,708" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0034654" alt="">
+<area shape="RECT" coords="393,197,479,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0006807" alt="">
+<area shape="RECT" coords="1048,206,1141,269" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0050789" alt="">
+<area shape="RECT" coords="1168,343,1264,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0019222" alt="">
+<area shape="RECT" coords="1053,343,1136,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0050794" alt="">
+<area shape="RECT" coords="503,213,631,261" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0044238" alt="">
+<area shape="RECT" coords="555,335,661,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#1901360" alt="">
+<area shape="RECT" coords="595,481,701,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#1901362" alt="">
+<area shape="RECT" coords="1145,1169,1260,1231" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0006355" alt="">
+<area shape="RECT" coords="1132,1280,1273,1360" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0006357" alt="">
+<area shape="RECT" coords="1041,637,1151,699" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0009889" alt="">
+<area shape="RECT" coords="1077,765,1205,845" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0010556" alt="">
+<area shape="RECT" coords="285,326,371,423" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0006725" alt="">
+<area shape="RECT" coords="125,481,221,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0019438" alt="">
+<area shape="RECT" coords="1368,473,1453,570" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0051171" alt="">
+<area shape="RECT" coords="1175,628,1303,708" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0060255" alt="">
+<area shape="RECT" coords="993,894,1108,991" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#2000112" alt="">
+<area shape="RECT" coords="1148,1040,1257,1120" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#1903506" alt="">
+<area shape="RECT" coords="5,490,101,553" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0018130" alt="">
+<area shape="RECT" coords="165,343,261,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0044249" alt="">
+<area shape="RECT" coords="775,206,905,269" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0071704" alt="">
+<area shape="RECT" coords="736,343,867,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#1901576" alt="">
+<area shape="RECT" coords="1304,1056,1435,1104" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0010468" alt="">
+<area shape="RECT" coords="567,5,454,29" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0008150" alt="">
+<area shape="RECT" coords="525,101,608,149" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0008152" alt="">
+<area shape="RECT" coords="843,101,923,149" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0065007" alt="">
+<area shape="RECT" coords="655,213,751,261" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0009058" alt="">
+<area shape="RECT" coords="48,343,141,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#0046483" alt="">
+</map>
+<p align="center"><img border="0" src="./Results_files/GOPROCESS.png" usemap="#goPathImage" alt=""></p>
+<p>&nbsp;</p>
+<table border="1" width="100%" id="table1">
+	<tbody><tr>
+		<td align="center"><b>GO term</b></td>
+		<td align="center"><b>Description</b></td>
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#p_value_info">P-value</a></b></td> 
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#fdr_info">FDR q-value</a></b></td> 
+		<td width="230" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#enrich_info"> Enrichment (N, B, n, b) </a></b> </td>
+		<td align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/zd33r970/GOResultsPROCESS.html#genes_info"> Genes </a></b></td>
+	</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006351&amp;view=details" target="_blank">GO:0006351</a><a name="0006351"></a></td>
+<td>transcription, DNA-templated</td>
+<td align="center">5.07E-15</td>
+<td align="center">7.75E-11</td>
+<td align="center">7.80 (18319,2348,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0006351" href="javascript:toggle(&#39;elements_GO:0006351&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006351" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZNF215  -  zinc finger protein 215<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0097659&amp;view=details" target="_blank">GO:0097659</a><a name="0097659"></a></td>
+<td>nucleic acid-templated transcription</td>
+<td align="center">5.11E-15</td>
+<td align="center">3.9E-11</td>
+<td align="center">7.80 (18319,2349,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0097659" href="javascript:toggle(&#39;elements_GO:0097659&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0097659" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZNF215  -  zinc finger protein 215<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032774&amp;view=details" target="_blank">GO:0032774</a><a name="0032774"></a></td>
+<td>RNA biosynthetic process</td>
+<td align="center">1.5E-14</td>
+<td align="center">7.64E-11</td>
+<td align="center">7.29 (18319,2512,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0032774" href="javascript:toggle(&#39;elements_GO:0032774&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032774" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZNF215  -  zinc finger protein 215<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006357&amp;view=details" target="_blank">GO:0006357</a><a name="0006357"></a></td>
+<td>regulation of transcription by RNA polymerase II</td>
+<td align="center">2.36E-14</td>
+<td align="center">9.01E-11</td>
+<td align="center">7.09 (18319,2584,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0006357" href="javascript:toggle(&#39;elements_GO:0006357&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006357" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZNF215  -  zinc finger protein 215<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034645&amp;view=details" target="_blank">GO:0034645</a><a name="0034645"></a></td>
+<td>cellular macromolecule biosynthetic process</td>
+<td align="center">1.22E-13</td>
+<td align="center">3.74E-10</td>
+<td align="center">6.40 (18319,2863,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0034645" href="javascript:toggle(&#39;elements_GO:0034645&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034645" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZNF215  -  zinc finger protein 215<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034654&amp;view=details" target="_blank">GO:0034654</a><a name="0034654"></a></td>
+<td>nucleobase-containing compound biosynthetic process</td>
+<td align="center">1.96E-13</td>
+<td align="center">4.98E-10</td>
+<td align="center">6.21 (18319,2948,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0034654" href="javascript:toggle(&#39;elements_GO:0034654&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034654" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZNF215  -  zinc finger protein 215<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0018130&amp;view=details" target="_blank">GO:0018130</a><a name="0018130"></a></td>
+<td>heterocycle biosynthetic process</td>
+<td align="center">2.76E-13</td>
+<td align="center">6.02E-10</td>
+<td align="center">6.08 (18319,3012,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0018130" href="javascript:toggle(&#39;elements_GO:0018130&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0018130" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZNF215  -  zinc finger protein 215<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019438&amp;view=details" target="_blank">GO:0019438</a><a name="0019438"></a></td>
+<td>aromatic compound biosynthetic process</td>
+<td align="center">2.86E-13</td>
+<td align="center">5.47E-10</td>
+<td align="center">6.07 (18319,3019,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0019438" href="javascript:toggle(&#39;elements_GO:0019438&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019438" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZNF215  -  zinc finger protein 215<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009059&amp;view=details" target="_blank">GO:0009059</a><a name="0009059"></a></td>
+<td>macromolecule biosynthetic process</td>
+<td align="center">4.52E-13</td>
+<td align="center">7.67E-10</td>
+<td align="center">5.90 (18319,3106,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0009059" href="javascript:toggle(&#39;elements_GO:0009059&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009059" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901362&amp;view=details" target="_blank">GO:1901362</a><a name="1901362"></a></td>
+<td>organic cyclic compound biosynthetic process</td>
+<td align="center">5.63E-13</td>
+<td align="center">8.6E-10</td>
+<td align="center">5.82 (18319,3149,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:1901362" href="javascript:toggle(&#39;elements_GO:1901362&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901362" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044271&amp;view=details" target="_blank">GO:0044271</a><a name="0044271"></a></td>
+<td>cellular nitrogen compound biosynthetic process</td>
+<td align="center">1.18E-12</td>
+<td align="center">1.64E-9</td>
+<td align="center">5.55 (18319,3298,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0044271" href="javascript:toggle(&#39;elements_GO:0044271&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044271" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0016070&amp;view=details" target="_blank">GO:0016070</a><a name="0016070"></a></td>
+<td>RNA metabolic process</td>
+<td align="center">1.39E-12</td>
+<td align="center">1.77E-9</td>
+<td align="center">5.50 (18319,3332,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0016070" href="javascript:toggle(&#39;elements_GO:0016070&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0016070" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006355&amp;view=details" target="_blank">GO:0006355</a><a name="0006355"></a></td>
+<td>regulation of transcription, DNA-templated</td>
+<td align="center">4.41E-12</td>
+<td align="center">5.18E-9</td>
+<td align="center">5.12 (18319,3580,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0006355" href="javascript:toggle(&#39;elements_GO:0006355&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006355" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903506&amp;view=details" target="_blank">GO:1903506</a><a name="1903506"></a></td>
+<td>regulation of nucleic acid-templated transcription</td>
+<td align="center">4.86E-12</td>
+<td align="center">5.3E-9</td>
+<td align="center">5.09 (18319,3602,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:1903506" href="javascript:toggle(&#39;elements_GO:1903506&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903506" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2001141&amp;view=details" target="_blank">GO:2001141</a><a name="2001141"></a></td>
+<td>regulation of RNA biosynthetic process</td>
+<td align="center">5.04E-12</td>
+<td align="center">5.13E-9</td>
+<td align="center">5.07 (18319,3610,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:2001141" href="javascript:toggle(&#39;elements_GO:2001141&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2001141" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051252&amp;view=details" target="_blank">GO:0051252</a><a name="0051252"></a></td>
+<td>regulation of RNA metabolic process</td>
+<td align="center">1.35E-11</td>
+<td align="center">1.29E-8</td>
+<td align="center">4.77 (18319,3839,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0051252" href="javascript:toggle(&#39;elements_GO:0051252&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051252" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0090304&amp;view=details" target="_blank">GO:0090304</a><a name="0090304"></a></td>
+<td>nucleic acid metabolic process</td>
+<td align="center">1.38E-11</td>
+<td align="center">1.24E-8</td>
+<td align="center">4.77 (18319,3844,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0090304" href="javascript:toggle(&#39;elements_GO:0090304&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0090304" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000112&amp;view=details" target="_blank">GO:2000112</a><a name="2000112"></a></td>
+<td>regulation of cellular macromolecule biosynthetic process</td>
+<td align="center">2.31E-11</td>
+<td align="center">1.96E-8</td>
+<td align="center">4.61 (18319,3970,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:2000112" href="javascript:toggle(&#39;elements_GO:2000112&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000112" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010556&amp;view=details" target="_blank">GO:0010556</a><a name="0010556"></a></td>
+<td>regulation of macromolecule biosynthetic process</td>
+<td align="center">3.35E-11</td>
+<td align="center">2.69E-8</td>
+<td align="center">4.51 (18319,4063,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0010556" href="javascript:toggle(&#39;elements_GO:0010556&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010556" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019219&amp;view=details" target="_blank">GO:0019219</a><a name="0019219"></a></td>
+<td>regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">3.64E-11</td>
+<td align="center">2.78E-8</td>
+<td align="center">4.49 (18319,4084,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0019219" href="javascript:toggle(&#39;elements_GO:0019219&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019219" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044249&amp;view=details" target="_blank">GO:0044249</a><a name="0044249"></a></td>
+<td>cellular biosynthetic process</td>
+<td align="center">4.27E-11</td>
+<td align="center">3.11E-8</td>
+<td align="center">4.44 (18319,4125,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0044249" href="javascript:toggle(&#39;elements_GO:0044249&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044249" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031326&amp;view=details" target="_blank">GO:0031326</a><a name="0031326"></a></td>
+<td>regulation of cellular biosynthetic process</td>
+<td align="center">5.24E-11</td>
+<td align="center">3.64E-8</td>
+<td align="center">4.38 (18319,4178,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0031326" href="javascript:toggle(&#39;elements_GO:0031326&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031326" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901576&amp;view=details" target="_blank">GO:1901576</a><a name="1901576"></a></td>
+<td>organic substance biosynthetic process</td>
+<td align="center">6.51E-11</td>
+<td align="center">4.33E-8</td>
+<td align="center">4.33 (18319,4235,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:1901576" href="javascript:toggle(&#39;elements_GO:1901576&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901576" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009889&amp;view=details" target="_blank">GO:0009889</a><a name="0009889"></a></td>
+<td>regulation of biosynthetic process</td>
+<td align="center">6.79E-11</td>
+<td align="center">4.32E-8</td>
+<td align="center">4.31 (18319,4246,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0009889" href="javascript:toggle(&#39;elements_GO:0009889&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009889" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009058&amp;view=details" target="_blank">GO:0009058</a><a name="0009058"></a></td>
+<td>biosynthetic process</td>
+<td align="center">8.04E-11</td>
+<td align="center">4.91E-8</td>
+<td align="center">4.27 (18319,4291,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0009058" href="javascript:toggle(&#39;elements_GO:0009058&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009058" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006139&amp;view=details" target="_blank">GO:0006139</a><a name="0006139"></a></td>
+<td>nucleobase-containing compound metabolic process</td>
+<td align="center">1.09E-10</td>
+<td align="center">6.42E-8</td>
+<td align="center">4.19 (18319,4374,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0006139" href="javascript:toggle(&#39;elements_GO:0006139&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006139" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010468&amp;view=details" target="_blank">GO:0010468</a><a name="0010468"></a></td>
+<td>regulation of gene expression</td>
+<td align="center">1.7E-10</td>
+<td align="center">9.61E-8</td>
+<td align="center">4.07 (18319,4496,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0010468" href="javascript:toggle(&#39;elements_GO:0010468&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010468" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0046483&amp;view=details" target="_blank">GO:0046483</a><a name="0046483"></a></td>
+<td>heterocycle metabolic process</td>
+<td align="center">1.99E-10</td>
+<td align="center">1.08E-7</td>
+<td align="center">4.04 (18319,4540,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0046483" href="javascript:toggle(&#39;elements_GO:0046483&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0046483" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006725&amp;view=details" target="_blank">GO:0006725</a><a name="0006725"></a></td>
+<td>cellular aromatic compound metabolic process</td>
+<td align="center">2.29E-10</td>
+<td align="center">1.21E-7</td>
+<td align="center">4.00 (18319,4581,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0006725" href="javascript:toggle(&#39;elements_GO:0006725&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006725" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901360&amp;view=details" target="_blank">GO:1901360</a><a name="1901360"></a></td>
+<td>organic cyclic compound metabolic process</td>
+<td align="center">4.62E-10</td>
+<td align="center">2.35E-7</td>
+<td align="center">3.83 (18319,4786,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:1901360" href="javascript:toggle(&#39;elements_GO:1901360&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901360" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034641&amp;view=details" target="_blank">GO:0034641</a><a name="0034641"></a></td>
+<td>cellular nitrogen compound metabolic process</td>
+<td align="center">5.76E-10</td>
+<td align="center">2.84E-7</td>
+<td align="center">3.78 (18319,4852,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0034641" href="javascript:toggle(&#39;elements_GO:0034641&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034641" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051171&amp;view=details" target="_blank">GO:0051171</a><a name="0051171"></a></td>
+<td>regulation of nitrogen compound metabolic process</td>
+<td align="center">9.15E-9</td>
+<td align="center">4.37E-6</td>
+<td align="center">3.18 (18319,5766,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0051171" href="javascript:toggle(&#39;elements_GO:0051171&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051171" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0080090&amp;view=details" target="_blank">GO:0080090</a><a name="0080090"></a></td>
+<td>regulation of primary metabolic process</td>
+<td align="center">1.34E-8</td>
+<td align="center">6.2E-6</td>
+<td align="center">3.10 (18319,5905,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0080090" href="javascript:toggle(&#39;elements_GO:0080090&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0080090" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031323&amp;view=details" target="_blank">GO:0031323</a><a name="0031323"></a></td>
+<td>regulation of cellular metabolic process</td>
+<td align="center">1.55E-8</td>
+<td align="center">6.98E-6</td>
+<td align="center">3.07 (18319,5960,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0031323" href="javascript:toggle(&#39;elements_GO:0031323&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031323" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044260&amp;view=details" target="_blank">GO:0044260</a><a name="0044260"></a></td>
+<td>cellular macromolecule metabolic process</td>
+<td align="center">1.67E-8</td>
+<td align="center">7.29E-6</td>
+<td align="center">3.06 (18319,5987,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0044260" href="javascript:toggle(&#39;elements_GO:0044260&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044260" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0060255&amp;view=details" target="_blank">GO:0060255</a><a name="0060255"></a></td>
+<td>regulation of macromolecule metabolic process</td>
+<td align="center">1.71E-8</td>
+<td align="center">7.26E-6</td>
+<td align="center">3.06 (18319,5996,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0060255" href="javascript:toggle(&#39;elements_GO:0060255&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0060255" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019222&amp;view=details" target="_blank">GO:0019222</a><a name="0019222"></a></td>
+<td>regulation of metabolic process</td>
+<td align="center">5.3E-8</td>
+<td align="center">2.19E-5</td>
+<td align="center">2.85 (18319,6434,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0019222" href="javascript:toggle(&#39;elements_GO:0019222&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019222" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0043170&amp;view=details" target="_blank">GO:0043170</a><a name="0043170"></a></td>
+<td>macromolecule metabolic process</td>
+<td align="center">3.54E-7</td>
+<td align="center">1.42E-4</td>
+<td align="center">2.53 (18319,7244,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0043170" href="javascript:toggle(&#39;elements_GO:0043170&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0043170" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006807&amp;view=details" target="_blank">GO:0006807</a><a name="0006807"></a></td>
+<td>nitrogen compound metabolic process</td>
+<td align="center">1.94E-6</td>
+<td align="center">7.58E-4</td>
+<td align="center">2.27 (18319,8055,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0006807" href="javascript:toggle(&#39;elements_GO:0006807&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006807" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044238&amp;view=details" target="_blank">GO:0044238</a><a name="0044238"></a></td>
+<td>primary metabolic process</td>
+<td align="center">4.47E-6</td>
+<td align="center">1.71E-3</td>
+<td align="center">2.16 (18319,8487,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0044238" href="javascript:toggle(&#39;elements_GO:0044238&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044238" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044237&amp;view=details" target="_blank">GO:0044237</a><a name="0044237"></a></td>
+<td>cellular metabolic process</td>
+<td align="center">4.84E-6</td>
+<td align="center">1.8E-3</td>
+<td align="center">2.15 (18319,8529,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0044237" href="javascript:toggle(&#39;elements_GO:0044237&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044237" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0071704&amp;view=details" target="_blank">GO:0071704</a><a name="0071704"></a></td>
+<td>organic substance metabolic process</td>
+<td align="center">8.74E-6</td>
+<td align="center">3.18E-3</td>
+<td align="center">2.07 (18319,8850,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0071704" href="javascript:toggle(&#39;elements_GO:0071704&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0071704" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0008152&amp;view=details" target="_blank">GO:0008152</a><a name="0008152"></a></td>
+<td>metabolic process</td>
+<td align="center">2.12E-5</td>
+<td align="center">7.51E-3</td>
+<td align="center">1.96 (18319,9352,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0008152" href="javascript:toggle(&#39;elements_GO:0008152&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0008152" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050794&amp;view=details" target="_blank">GO:0050794</a><a name="0050794"></a></td>
+<td>regulation of cellular process</td>
+<td align="center">1.07E-4</td>
+<td align="center">3.71E-2</td>
+<td align="center">1.77 (18319,10348,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0050794" href="javascript:toggle(&#39;elements_GO:0050794&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050794" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050789&amp;view=details" target="_blank">GO:0050789</a><a name="0050789"></a></td>
+<td>regulation of biological process</td>
+<td align="center">2.71E-4</td>
+<td align="center">9.19E-2</td>
+<td align="center">1.67 (18319,10966,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0050789" href="javascript:toggle(&#39;elements_GO:0050789&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050789" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0065007&amp;view=details" target="_blank">GO:0065007</a><a name="0065007"></a></td>
+<td>biological regulation</td>
+<td align="center">6.66E-4</td>
+<td align="center">2.21E-1</td>
+<td align="center">1.58 (18319,11600,16,16)</td>
+<td>
+<a id="ctrl_elements_GO:0065007" href="javascript:toggle(&#39;elements_GO:0065007&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0065007" style="display:none"> <font size="1">
+ZNF781  -  zinc finger protein 781<br>
+ZNF449  -  zinc finger protein 449<br>
+ZNF597  -  zinc finger protein 597<br>
+ZNF233  -  zinc finger protein 233<br>
+ZNF768  -  zinc finger protein 768<br>
+KLF8  -  kruppel-like factor 8<br>
+ZNF554  -  zinc finger protein 554<br>
+ZNF429  -  zinc finger protein 429<br>
+ZNF236  -  zinc finger protein 236<br>
+ZNF536  -  zinc finger protein 536<br>
+ZNF18  -  zinc finger protein 18<br>
+ZSCAN29  -  zinc finger and scan domain containing 29<br>
+ZNF215  -  zinc finger protein 215<br>
+ZNF75D  -  zinc finger protein 75d<br>
+ZNF394  -  zinc finger protein 394<br>
+ZNF319  -  zinc finger protein 319<br>
+</font></div>
+</td>
+</tr>
+</tbody></table>
+<p>Species used: Homo sapiens</p><p>The system has recognized 19364 genes out of 20095 gene terms entered by the user.<br> 19364 genes were recognized by gene symbol and 0 genes by other gene IDs .<br>187 duplicate genes were removed (keeping the highest ranking instance of each gene) leaving  a total of 19177 genes.<br>Only 18319 of these genes are associated with a GO term.<br></p>
+<p> The GOrilla database is periodically updated using the <a href="http://www.geneontology.org/">GO database</a> and other sources.<br>
+The GOrilla database was last updated on Jun 23, 2018</p>
+<p>This results page will be available on this site for one month from now (until 
+Jul 25, 2018
+). You can bookmark this page and come back to it later.
+</p>
+<a name="p_value_info"></a><br><b>'P-value'</b> is the enrichment p-value computed according to the mHG or HG model. This p-value is not corrected for multiple testing of 15276 GO terms.<br>
+<a name="fdr_info"></a><br><b>'FDR q-value'</b> is the correction of the above p-value for multiple testing using the Benjamini and Hochberg (1995) method. <br>Namely, for the i<sup>th</sup> term (ranked according to p-value) the FDR q-value is (p-value * number of GO terms) / i. <br>
+<a name="enrich_info"></a><br><b>Enrichment (N, B, n, b)</b> is defined as follows:<br>N - is the total number of genes<br>B - is the total number of genes associated with a specific GO term<br>n - is the number of genes in the top of the user's input list or in the target set when appropriate<br>b - is the number of genes in the intersection<br>Enrichment = (b/n) / (B/N)<br>
+<a name="genes_info"></a><br><b>Genes:</b> For each GO term you can see the list of associated genes that appear in the optimal top of the list.<br>Each gene name is specified by gene symbol followed by a short description of the gene <br>
+<p>
+<a href="http://cbl-gorilla.cs.technion.ac.il/"> Back to the GOrilla main page </a>
+</p>
+
+
+</body></html>

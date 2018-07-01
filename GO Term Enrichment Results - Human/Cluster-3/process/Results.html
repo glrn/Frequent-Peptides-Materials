@@ -1,0 +1,3072 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0075)http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Results
+</title>
+
+<script type="text/javascript">
+function toggle(item) {
+obj=document.getElementById(item);
+visible=(obj.style.display!="none")
+key=document.getElementById("ctrl_" + item);
+if (visible) {
+    obj.style.display="none";
+key.innerHTML="[+] Show genes";
+}
+else {
+obj.style.display="block";
+key.innerHTML="[-] Hide genes";
+}
+}
+</script>
+</head>
+<body>
+<p></p><center><b>
+
+</b></center><p></p>
+<table border="1" width="80%" id="tab:pval_legend" align="center">
+<caption><em>P-value color scale</em></caption>
+<tbody><tr>
+	<td width="140" align="center"> &gt; 10<sup>-3</sup></td>
+	<td width="140" align="center" bgcolor="#FFFFCC"> 10<sup>-3</sup> to 10<sup>-5</sup></td>
+	<td width="140" align="center" bgcolor="#FFCC66"> 10<sup>-5</sup> to 10<sup>-7</sup></td>
+	<td width="140" align="center" bgcolor="#FF9900"> 10<sup>-7</sup> to 10<sup>-9</sup></td>
+	<td width="140" align="center" bgcolor="#FF3300"> &lt; 10<sup>-9</sup></td>
+</tr>
+</tbody></table>
+<map name="goPathImage">
+<area shape="RECT" coords="3009,529,3140,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0065003" alt="">
+<area shape="RECT" coords="3009,677,3140,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0034622" alt="">
+<area shape="RECT" coords="2433,375,2511,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0033554" alt="">
+<area shape="RECT" coords="2415,513,2529,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0034976" alt="">
+<area shape="RECT" coords="1788,677,1916,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1902903" alt="">
+<area shape="RECT" coords="1715,1182,1832,1245" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0110053" alt="">
+<area shape="RECT" coords="1977,831,2105,911" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1902905" alt="">
+<area shape="RECT" coords="2851,1027,2965,1075" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0000147" alt="">
+<area shape="RECT" coords="1637,367,1731,447" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0048518" alt="">
+<area shape="RECT" coords="1627,513,1709,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0048522" alt="">
+<area shape="RECT" coords="1939,505,2029,602" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0044089" alt="">
+<area shape="RECT" coords="1241,513,1337,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0009893" alt="">
+<area shape="RECT" coords="2412,976,2527,1125" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0070059" alt="">
+<area shape="RECT" coords="2619,245,2760,293" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0030029" alt="">
+<area shape="RECT" coords="2617,684,2748,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0030036" alt="">
+<area shape="RECT" coords="1495,677,1649,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0032970" alt="">
+<area shape="RECT" coords="1724,1019,1871,1082" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0032956" alt="">
+<area shape="RECT" coords="367,651,452,765" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051172" alt="">
+<area shape="RECT" coords="41,813,209,928" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0045934" alt="">
+<area shape="RECT" coords="1673,677,1764,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0033043" alt="">
+<area shape="RECT" coords="1724,839,1839,902" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051493" alt="">
+<area shape="RECT" coords="1863,831,1953,911" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0010638" alt="">
+<area shape="RECT" coords="1491,117,1576,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051179" alt="">
+<area shape="RECT" coords="989,245,1075,293" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051641" alt="">
+<area shape="RECT" coords="4085,375,4216,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1901576" alt="">
+<area shape="RECT" coords="4237,522,4352,585" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0009059" alt="">
+<area shape="RECT" coords="3968,513,4075,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1901362" alt="">
+<area shape="RECT" coords="1828,1319,1983,1382" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0008064" alt="">
+<area shape="RECT" coords="1865,1457,1983,1519" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0030833" alt="">
+<area shape="RECT" coords="220,1011,345,1091" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051253" alt="">
+<area shape="RECT" coords="2720,529,2819,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0007010" alt="">
+<area shape="RECT" coords="2772,677,2871,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0030865" alt="">
+<area shape="RECT" coords="879,1448,993,1528" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0045893" alt="">
+<area shape="RECT" coords="789,1577,931,1674" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0045944" alt="">
+<area shape="RECT" coords="3101,375,3229,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0043933" alt="">
+<area shape="RECT" coords="3171,677,3293,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0071826" alt="">
+<area shape="RECT" coords="3397,375,3491,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0046483" alt="">
+<area shape="RECT" coords="3789,513,3944,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006139" alt="">
+<area shape="RECT" coords="3379,522,3475,585" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0018130" alt="">
+<area shape="RECT" coords="2444,5,2331,29" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0008150" alt="">
+<area shape="RECT" coords="2100,117,2180,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0065007" alt="">
+<area shape="RECT" coords="2211,117,2317,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0032502" alt="">
+<area shape="RECT" coords="2611,117,2683,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0009987" alt="">
+<area shape="RECT" coords="2459,117,2544,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0050896" alt="">
+<area shape="RECT" coords="3705,117,3788,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0008152" alt="">
+<area shape="RECT" coords="2761,101,2860,181" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0071840" alt="">
+<area shape="RECT" coords="2341,117,2435,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0022414" alt="">
+<area shape="RECT" coords="2024,1731,2149,1794" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051127" alt="">
+<area shape="RECT" coords="1945,1851,2076,1949" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#2000601" alt="">
+<area shape="RECT" coords="476,1173,617,1253" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1902679" alt="">
+<area shape="RECT" coords="521,1002,617,1099" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0031327" alt="">
+<area shape="RECT" coords="1872,1601,1997,1649" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051125" alt="">
+<area shape="RECT" coords="1869,1723,2000,1803" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0034315" alt="">
+<area shape="RECT" coords="2093,238,2187,301" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0065008" alt="">
+<area shape="RECT" coords="1581,238,1675,301" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0050789" alt="">
+<area shape="RECT" coords="769,505,855,602" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051171" alt="">
+<area shape="RECT" coords="577,659,745,757" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0019219" alt="">
+<area shape="RECT" coords="1141,651,1227,765" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051173" alt="">
+<area shape="RECT" coords="2821,1739,2933,1787" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0045010" alt="">
+<area shape="RECT" coords="3324,847,3465,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0008154" alt="">
+<area shape="RECT" coords="3333,1027,3440,1075" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0030041" alt="">
+<area shape="RECT" coords="4092,668,4207,748" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0034645" alt="">
+<area shape="RECT" coords="4148,1327,4257,1375" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006351" alt="">
+<area shape="RECT" coords="2459,238,2544,301" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051716" alt="">
+<area shape="RECT" coords="4197,1027,4323,1075" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0032774" alt="">
+<area shape="RECT" coords="4183,1189,4337,1237" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0097659" alt="">
+<area shape="RECT" coords="2213,238,2333,301" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0003006" alt="">
+<area shape="RECT" coords="2089,367,2191,447" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0090066" alt="">
+<area shape="RECT" coords="3169,847,3300,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0022618" alt="">
+<area shape="RECT" coords="3169,1027,3300,1075" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0000245" alt="">
+<area shape="RECT" coords="1939,367,2029,447" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0044087" alt="">
+<area shape="RECT" coords="893,375,989,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0019222" alt="">
+<area shape="RECT" coords="1531,375,1613,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0050794" alt="">
+<area shape="RECT" coords="635,367,728,447" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0048519" alt="">
+<area shape="RECT" coords="3689,668,3844,748" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0034654" alt="">
+<area shape="RECT" coords="492,513,588,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0009892" alt="">
+<area shape="RECT" coords="233,822,361,919" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0010605" alt="">
+<area shape="RECT" coords="260,659,343,757" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0031324" alt="">
+<area shape="RECT" coords="385,831,495,911" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0009890" alt="">
+<area shape="RECT" coords="2819,238,2909,301" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0016043" alt="">
+<area shape="RECT" coords="2260,529,2391,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0007165" alt="">
+<area shape="RECT" coords="3540,238,3623,301" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0044237" alt="">
+<area shape="RECT" coords="2553,513,2644,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0032535" alt="">
+<area shape="RECT" coords="1856,1182,1973,1245" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0030832" alt="">
+<area shape="RECT" coords="1095,822,1223,919" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0010604" alt="">
+<area shape="RECT" coords="1151,1011,1276,1091" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051254" alt="">
+<area shape="RECT" coords="1300,1002,1428,1099" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0010557" alt="">
+<area shape="RECT" coords="996,1019,1127,1082" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0010628" alt="">
+<area shape="RECT" coords="1143,1173,1284,1253" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1902680" alt="">
+<area shape="RECT" coords="2055,677,2185,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0043254" alt="">
+<area shape="RECT" coords="1352,659,1435,757" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0031325" alt="">
+<area shape="RECT" coords="1940,659,2031,757" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051130" alt="">
+<area shape="RECT" coords="4493,1027,4608,1075" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006396" alt="">
+<area shape="RECT" coords="4361,1189,4487,1237" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006397" alt="">
+<area shape="RECT" coords="4511,1189,4607,1237" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0008380" alt="">
+<area shape="RECT" coords="2357,245,2435,293" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006950" alt="">
+<area shape="RECT" coords="2159,1011,2265,1091" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0032273" alt="">
+<area shape="RECT" coords="2040,1585,2157,1665" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0030838" alt="">
+<area shape="RECT" coords="3344,684,3445,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0007015" alt="">
+<area shape="RECT" coords="3253,383,3373,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0097435" alt="">
+<area shape="RECT" coords="2720,383,2811,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006996" alt="">
+<area shape="RECT" coords="2835,383,2963,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0044396" alt="">
+<area shape="RECT" coords="2987,375,3077,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0022607" alt="">
+<area shape="RECT" coords="3876,245,4004,293" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0044238" alt="">
+<area shape="RECT" coords="2740,839,2871,902" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0030866" alt="">
+<area shape="RECT" coords="385,513,468,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0048523" alt="">
+<area shape="RECT" coords="4485,1319,4632,1382" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0000375" alt="">
+<area shape="RECT" coords="3647,229,3732,309" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006807" alt="">
+<area shape="RECT" coords="4065,238,4196,301" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0071704" alt="">
+<area shape="RECT" coords="3756,245,3852,293" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0009058" alt="">
+<area shape="RECT" coords="3499,513,3595,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0019438" alt="">
+<area shape="RECT" coords="3619,505,3715,602" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0044271" alt="">
+<area shape="RECT" coords="369,1002,497,1099" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0010558" alt="">
+<area shape="RECT" coords="4343,677,4436,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0090304" alt="">
+<area shape="RECT" coords="4337,847,4449,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0016070" alt="">
+<area shape="RECT" coords="4240,375,4355,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0043170" alt="">
+<area shape="RECT" coords="4099,513,4213,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0044260" alt="">
+<area shape="RECT" coords="857,1002,972,1099" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#2000112" alt="">
+<area shape="RECT" coords="727,1319,841,1382" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006355" alt="">
+<area shape="RECT" coords="2260,831,2391,911" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0031334" alt="">
+<area shape="RECT" coords="488,383,611,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051666" alt="">
+<area shape="RECT" coords="1439,831,1548,911" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0009891" alt="">
+<area shape="RECT" coords="721,1173,831,1253" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1903506" alt="">
+<area shape="RECT" coords="881,1302,991,1399" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1903508" alt="">
+<area shape="RECT" coords="545,1302,655,1399" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1903507" alt="">
+<area shape="RECT" coords="2215,383,2340,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0007530" alt="">
+<area shape="RECT" coords="2996,847,3145,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051258" alt="">
+<area shape="RECT" coords="2260,684,2391,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0035556" alt="">
+<area shape="RECT" coords="2415,677,2492,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0097190" alt="">
+<area shape="RECT" coords="519,839,644,902" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051252" alt="">
+<area shape="RECT" coords="1247,813,1415,928" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0045935" alt="">
+<area shape="RECT" coords="625,513,708,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0080090" alt="">
+<area shape="RECT" coords="1020,513,1103,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0031323" alt="">
+<area shape="RECT" coords="921,677,1031,739" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0009889" alt="">
+<area shape="RECT" coords="769,668,897,748" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0060255" alt="">
+<area shape="RECT" coords="2415,831,2492,911" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0097193" alt="">
+<area shape="RECT" coords="2129,839,2236,902" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0032271" alt="">
+<area shape="RECT" coords="823,831,951,911" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0010556" alt="">
+<area shape="RECT" coords="692,1019,833,1082" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#2001141" alt="">
+<area shape="RECT" coords="3635,358,3720,455" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006725" alt="">
+<area shape="RECT" coords="1895,1011,2009,1091" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051495" alt="">
+<area shape="RECT" coords="975,831,1071,911" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0031326" alt="">
+<area shape="RECT" coords="1452,1002,1548,1099" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0031328" alt="">
+<area shape="RECT" coords="3515,375,3611,438" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0044249" alt="">
+<area shape="RECT" coords="3744,358,3829,455" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0034641" alt="">
+<area shape="RECT" coords="1807,513,1897,593" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0051128" alt="">
+<area shape="RECT" coords="4347,1027,4469,1075" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0016071" alt="">
+<area shape="RECT" coords="3904,367,4011,447" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#1901360" alt="">
+<area shape="RECT" coords="713,1448,855,1528" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0006357" alt="">
+<area shape="RECT" coords="668,847,799,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#0010468" alt="">
+</map>
+<p align="center"><img border="0" src="./Results_files/GOPROCESS.png" usemap="#goPathImage" alt=""></p>
+<p>&nbsp;</p>
+<table border="1" width="100%" id="table1">
+	<tbody><tr>
+		<td align="center"><b>GO term</b></td>
+		<td align="center"><b>Description</b></td>
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#p_value_info">P-value</a></b></td> 
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#fdr_info">FDR q-value</a></b></td> 
+		<td width="230" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#enrich_info"> Enrichment (N, B, n, b) </a></b> </td>
+		<td align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/hmgn6puf/GOResultsPROCESS.html#genes_info"> Genes </a></b></td>
+	</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019219&amp;view=details" target="_blank">GO:0019219</a><a name="0019219"></a></td>
+<td>regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">5.89E-8</td>
+<td align="center">8.99E-4</td>
+<td align="center">2.05 (18319,4084,107,49)</td>
+<td>
+<a id="ctrl_elements_GO:0019219" href="javascript:toggle(&#39;elements_GO:0019219&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019219" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SP5  -  sp5 transcription factor<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+YLPM1  -  ylp motif containing 1<br>
+SF1  -  splicing factor 1<br>
+SRPK2  -  srsf protein kinase 2<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+FIGN  -  fidgetin<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051252&amp;view=details" target="_blank">GO:0051252</a><a name="0051252"></a></td>
+<td>regulation of RNA metabolic process</td>
+<td align="center">2.15E-7</td>
+<td align="center">1.64E-3</td>
+<td align="center">2.05 (18319,3839,107,46)</td>
+<td>
+<a id="ctrl_elements_GO:0051252" href="javascript:toggle(&#39;elements_GO:0051252&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051252" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SRPK2  -  srsf protein kinase 2<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006355&amp;view=details" target="_blank">GO:0006355</a><a name="0006355"></a></td>
+<td>regulation of transcription, DNA-templated</td>
+<td align="center">6.62E-7</td>
+<td align="center">3.37E-3</td>
+<td align="center">2.06 (18319,3580,107,43)</td>
+<td>
+<a id="ctrl_elements_GO:0006355" href="javascript:toggle(&#39;elements_GO:0006355&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006355" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903506&amp;view=details" target="_blank">GO:1903506</a><a name="1903506"></a></td>
+<td>regulation of nucleic acid-templated transcription</td>
+<td align="center">7.87E-7</td>
+<td align="center">3.01E-3</td>
+<td align="center">2.04 (18319,3602,107,43)</td>
+<td>
+<a id="ctrl_elements_GO:1903506" href="javascript:toggle(&#39;elements_GO:1903506&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903506" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2001141&amp;view=details" target="_blank">GO:2001141</a><a name="2001141"></a></td>
+<td>regulation of RNA biosynthetic process</td>
+<td align="center">8.38E-7</td>
+<td align="center">2.56E-3</td>
+<td align="center">2.04 (18319,3610,107,43)</td>
+<td>
+<a id="ctrl_elements_GO:2001141" href="javascript:toggle(&#39;elements_GO:2001141&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2001141" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000112&amp;view=details" target="_blank">GO:2000112</a><a name="2000112"></a></td>
+<td>regulation of cellular macromolecule biosynthetic process</td>
+<td align="center">1.64E-6</td>
+<td align="center">4.18E-3</td>
+<td align="center">1.94 (18319,3970,107,45)</td>
+<td>
+<a id="ctrl_elements_GO:2000112" href="javascript:toggle(&#39;elements_GO:2000112&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000112" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051127&amp;view=details" target="_blank">GO:0051127</a><a name="0051127"></a></td>
+<td>positive regulation of actin nucleation</td>
+<td align="center">2.47E-6</td>
+<td align="center">5.39E-3</td>
+<td align="center">40.28 (18319,17,107,4)</td>
+<td>
+<a id="ctrl_elements_GO:0051127" href="javascript:toggle(&#39;elements_GO:0051127&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051127" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+WAS  -  wiskott-aldrich syndrome<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010556&amp;view=details" target="_blank">GO:0010556</a><a name="0010556"></a></td>
+<td>regulation of macromolecule biosynthetic process</td>
+<td align="center">3.18E-6</td>
+<td align="center">6.07E-3</td>
+<td align="center">1.90 (18319,4063,107,45)</td>
+<td>
+<a id="ctrl_elements_GO:0010556" href="javascript:toggle(&#39;elements_GO:0010556&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010556" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032774&amp;view=details" target="_blank">GO:0032774</a><a name="0032774"></a></td>
+<td>RNA biosynthetic process</td>
+<td align="center">3.65E-6</td>
+<td align="center">6.19E-3</td>
+<td align="center">2.25 (18319,2512,107,33)</td>
+<td>
+<a id="ctrl_elements_GO:0032774" href="javascript:toggle(&#39;elements_GO:0032774&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032774" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0016070&amp;view=details" target="_blank">GO:0016070</a><a name="0016070"></a></td>
+<td>RNA metabolic process</td>
+<td align="center">5.74E-6</td>
+<td align="center">8.76E-3</td>
+<td align="center">2.00 (18319,3332,107,39)</td>
+<td>
+<a id="ctrl_elements_GO:0016070" href="javascript:toggle(&#39;elements_GO:0016070&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0016070" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+PDCD7  -  programmed cell death 7<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+SRPK2  -  srsf protein kinase 2<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SETD1A  -  set domain containing 1a<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007015&amp;view=details" target="_blank">GO:0007015</a><a name="0007015"></a></td>
+<td>actin filament organization</td>
+<td align="center">6.37E-6</td>
+<td align="center">8.85E-3</td>
+<td align="center">6.91 (18319,223,107,9)</td>
+<td>
+<a id="ctrl_elements_GO:0007015" href="javascript:toggle(&#39;elements_GO:0007015&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007015" style="display:none"> <font size="1">
+CAP2  -  cap, adenylate cyclase-associated protein, 2 (yeast)<br>
+SHROOM3  -  shroom family member 3<br>
+FMN1  -  formin 1<br>
+ESPN  -  espin<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+DBN1  -  drebrin 1<br>
+WAS  -  wiskott-aldrich syndrome<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903508&amp;view=details" target="_blank">GO:1903508</a><a name="1903508"></a></td>
+<td>positive regulation of nucleic acid-templated transcription</td>
+<td align="center">6.42E-6</td>
+<td align="center">8.17E-3</td>
+<td align="center">2.68 (18319,1532,107,24)</td>
+<td>
+<a id="ctrl_elements_GO:1903508" href="javascript:toggle(&#39;elements_GO:1903508&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903508" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+HOXB4  -  homeobox b4<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+ZNF462  -  zinc finger protein 462<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1902680&amp;view=details" target="_blank">GO:1902680</a><a name="1902680"></a></td>
+<td>positive regulation of RNA biosynthetic process</td>
+<td align="center">6.49E-6</td>
+<td align="center">7.62E-3</td>
+<td align="center">2.68 (18319,1533,107,24)</td>
+<td>
+<a id="ctrl_elements_GO:1902680" href="javascript:toggle(&#39;elements_GO:1902680&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1902680" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+HOXB4  -  homeobox b4<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+ZNF462  -  zinc finger protein 462<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031326&amp;view=details" target="_blank">GO:0031326</a><a name="0031326"></a></td>
+<td>regulation of cellular biosynthetic process</td>
+<td align="center">6.94E-6</td>
+<td align="center">7.58E-3</td>
+<td align="center">1.84 (18319,4178,107,45)</td>
+<td>
+<a id="ctrl_elements_GO:0031326" href="javascript:toggle(&#39;elements_GO:0031326&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031326" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006351&amp;view=details" target="_blank">GO:0006351</a><a name="0006351"></a></td>
+<td>transcription, DNA-templated</td>
+<td align="center">7.3E-6</td>
+<td align="center">7.43E-3</td>
+<td align="center">2.26 (18319,2348,107,31)</td>
+<td>
+<a id="ctrl_elements_GO:0006351" href="javascript:toggle(&#39;elements_GO:0006351&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006351" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0008380&amp;view=details" target="_blank">GO:0008380</a><a name="0008380"></a></td>
+<td>RNA splicing</td>
+<td align="center">7.3E-6</td>
+<td align="center">6.97E-3</td>
+<td align="center">5.30 (18319,355,107,11)</td>
+<td>
+<a id="ctrl_elements_GO:0008380" href="javascript:toggle(&#39;elements_GO:0008380&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0008380" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+SF1  -  splicing factor 1<br>
+SRPK2  -  srsf protein kinase 2<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+PDCD7  -  programmed cell death 7<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0097659&amp;view=details" target="_blank">GO:0097659</a><a name="0097659"></a></td>
+<td>nucleic acid-templated transcription</td>
+<td align="center">7.36E-6</td>
+<td align="center">6.61E-3</td>
+<td align="center">2.26 (18319,2349,107,31)</td>
+<td>
+<a id="ctrl_elements_GO:0097659" href="javascript:toggle(&#39;elements_GO:0097659&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0097659" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010557&amp;view=details" target="_blank">GO:0010557</a><a name="0010557"></a></td>
+<td>positive regulation of macromolecule biosynthetic process</td>
+<td align="center">7.58E-6</td>
+<td align="center">6.43E-3</td>
+<td align="center">2.52 (18319,1768,107,26)</td>
+<td>
+<a id="ctrl_elements_GO:0010557" href="javascript:toggle(&#39;elements_GO:0010557&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010557" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HOXB4  -  homeobox b4<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010468&amp;view=details" target="_blank">GO:0010468</a><a name="0010468"></a></td>
+<td>regulation of gene expression</td>
+<td align="center">8.64E-6</td>
+<td align="center">6.95E-3</td>
+<td align="center">1.79 (18319,4496,107,47)</td>
+<td>
+<a id="ctrl_elements_GO:0010468" href="javascript:toggle(&#39;elements_GO:0010468&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010468" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SRPK2  -  srsf protein kinase 2<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045935&amp;view=details" target="_blank">GO:0045935</a><a name="0045935"></a></td>
+<td>positive regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">8.82E-6</td>
+<td align="center">6.74E-3</td>
+<td align="center">2.50 (18319,1783,107,26)</td>
+<td>
+<a id="ctrl_elements_GO:0045935" href="javascript:toggle(&#39;elements_GO:0045935&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045935" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HOXB4  -  homeobox b4<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045893&amp;view=details" target="_blank">GO:0045893</a><a name="0045893"></a></td>
+<td>positive regulation of transcription, DNA-templated</td>
+<td align="center">8.92E-6</td>
+<td align="center">6.49E-3</td>
+<td align="center">2.71 (18319,1454,107,23)</td>
+<td>
+<a id="ctrl_elements_GO:0045893" href="javascript:toggle(&#39;elements_GO:0045893&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045893" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+HOXB4  -  homeobox b4<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+ZNF462  -  zinc finger protein 462<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009889&amp;view=details" target="_blank">GO:0009889</a><a name="0009889"></a></td>
+<td>regulation of biosynthetic process</td>
+<td align="center">1.08E-5</td>
+<td align="center">7.51E-3</td>
+<td align="center">1.81 (18319,4246,107,45)</td>
+<td>
+<a id="ctrl_elements_GO:0009889" href="javascript:toggle(&#39;elements_GO:0009889&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009889" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030838&amp;view=details" target="_blank">GO:0030838</a><a name="0030838"></a></td>
+<td>positive regulation of actin filament polymerization</td>
+<td align="center">1.11E-5</td>
+<td align="center">7.37E-3</td>
+<td align="center">11.94 (18319,86,107,6)</td>
+<td>
+<a id="ctrl_elements_GO:0030838" href="javascript:toggle(&#39;elements_GO:0030838&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030838" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+WAS  -  wiskott-aldrich syndrome<br>
+WASF1  -  was protein family, member 1<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0090304&amp;view=details" target="_blank">GO:0090304</a><a name="0090304"></a></td>
+<td>nucleic acid metabolic process</td>
+<td align="center">1.21E-5</td>
+<td align="center">7.73E-3</td>
+<td align="center">1.87 (18319,3844,107,42)</td>
+<td>
+<a id="ctrl_elements_GO:0090304" href="javascript:toggle(&#39;elements_GO:0090304&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0090304" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+PDCD7  -  programmed cell death 7<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SRPK2  -  srsf protein kinase 2<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SETD1A  -  set domain containing 1a<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0000245&amp;view=details" target="_blank">GO:0000245</a><a name="0000245"></a></td>
+<td>spliceosomal complex assembly</td>
+<td align="center">1.27E-5</td>
+<td align="center">7.74E-3</td>
+<td align="center">27.39 (18319,25,107,4)</td>
+<td>
+<a id="ctrl_elements_GO:0000245" href="javascript:toggle(&#39;elements_GO:0000245&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0000245" style="display:none"> <font size="1">
+SF1  -  splicing factor 1<br>
+SRPK2  -  srsf protein kinase 2<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051254&amp;view=details" target="_blank">GO:0051254</a><a name="0051254"></a></td>
+<td>positive regulation of RNA metabolic process</td>
+<td align="center">1.53E-5</td>
+<td align="center">8.97E-3</td>
+<td align="center">2.55 (18319,1613,107,24)</td>
+<td>
+<a id="ctrl_elements_GO:0051254" href="javascript:toggle(&#39;elements_GO:0051254&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051254" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+HOXB4  -  homeobox b4<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ZNF462  -  zinc finger protein 462<br>
+ONECUT3  -  one cut homeobox 3<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031328&amp;view=details" target="_blank">GO:0031328</a><a name="0031328"></a></td>
+<td>positive regulation of cellular biosynthetic process</td>
+<td align="center">1.67E-5</td>
+<td align="center">9.43E-3</td>
+<td align="center">2.41 (18319,1848,107,26)</td>
+<td>
+<a id="ctrl_elements_GO:0031328" href="javascript:toggle(&#39;elements_GO:0031328&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031328" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HOXB4  -  homeobox b4<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006357&amp;view=details" target="_blank">GO:0006357</a><a name="0006357"></a></td>
+<td>regulation of transcription by RNA polymerase II</td>
+<td align="center">1.87E-5</td>
+<td align="center">1.02E-2</td>
+<td align="center">2.12 (18319,2584,107,32)</td>
+<td>
+<a id="ctrl_elements_GO:0006357" href="javascript:toggle(&#39;elements_GO:0006357&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006357" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+ZNF462  -  zinc finger protein 462<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051125&amp;view=details" target="_blank">GO:0051125</a><a name="0051125"></a></td>
+<td>regulation of actin nucleation</td>
+<td align="center">2.02E-5</td>
+<td align="center">1.07E-2</td>
+<td align="center">24.46 (18319,28,107,4)</td>
+<td>
+<a id="ctrl_elements_GO:0051125" href="javascript:toggle(&#39;elements_GO:0051125&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051125" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+WAS  -  wiskott-aldrich syndrome<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009891&amp;view=details" target="_blank">GO:0009891</a><a name="0009891"></a></td>
+<td>positive regulation of biosynthetic process</td>
+<td align="center">2.17E-5</td>
+<td align="center">1.1E-2</td>
+<td align="center">2.37 (18319,1876,107,26)</td>
+<td>
+<a id="ctrl_elements_GO:0009891" href="javascript:toggle(&#39;elements_GO:0009891&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009891" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HOXB4  -  homeobox b4<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034654&amp;view=details" target="_blank">GO:0034654</a><a name="0034654"></a></td>
+<td>nucleobase-containing compound biosynthetic process</td>
+<td align="center">4.18E-5</td>
+<td align="center">2.06E-2</td>
+<td align="center">1.97 (18319,2948,107,34)</td>
+<td>
+<a id="ctrl_elements_GO:0034654" href="javascript:toggle(&#39;elements_GO:0034654&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034654" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032273&amp;view=details" target="_blank">GO:0032273</a><a name="0032273"></a></td>
+<td>positive regulation of protein polymerization</td>
+<td align="center">6.38E-5</td>
+<td align="center">3.05E-2</td>
+<td align="center">8.78 (18319,117,107,6)</td>
+<td>
+<a id="ctrl_elements_GO:0032273" href="javascript:toggle(&#39;elements_GO:0032273&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032273" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+WAS  -  wiskott-aldrich syndrome<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0018130&amp;view=details" target="_blank">GO:0018130</a><a name="0018130"></a></td>
+<td>heterocycle biosynthetic process</td>
+<td align="center">6.52E-5</td>
+<td align="center">3.02E-2</td>
+<td align="center">1.93 (18319,3012,107,34)</td>
+<td>
+<a id="ctrl_elements_GO:0018130" href="javascript:toggle(&#39;elements_GO:0018130&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0018130" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0080090&amp;view=details" target="_blank">GO:0080090</a><a name="0080090"></a></td>
+<td>regulation of primary metabolic process</td>
+<td align="center">6.65E-5</td>
+<td align="center">2.99E-2</td>
+<td align="center">1.57 (18319,5905,107,54)</td>
+<td>
+<a id="ctrl_elements_GO:0080090" href="javascript:toggle(&#39;elements_GO:0080090&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0080090" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+BAG6  -  bcl2-associated athanogene 6<br>
+RANBP9  -  ran binding protein 9<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SP5  -  sp5 transcription factor<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+YLPM1  -  ylp motif containing 1<br>
+SF1  -  splicing factor 1<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+SRPK2  -  srsf protein kinase 2<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+IRS4  -  insulin receptor substrate 4<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+FIGN  -  fidgetin<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+HTT  -  huntingtin<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019438&amp;view=details" target="_blank">GO:0019438</a><a name="0019438"></a></td>
+<td>aromatic compound biosynthetic process</td>
+<td align="center">6.84E-5</td>
+<td align="center">2.99E-2</td>
+<td align="center">1.93 (18319,3019,107,34)</td>
+<td>
+<a id="ctrl_elements_GO:0019438" href="javascript:toggle(&#39;elements_GO:0019438&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019438" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051171&amp;view=details" target="_blank">GO:0051171</a><a name="0051171"></a></td>
+<td>regulation of nitrogen compound metabolic process</td>
+<td align="center">7.23E-5</td>
+<td align="center">3.07E-2</td>
+<td align="center">1.57 (18319,5766,107,53)</td>
+<td>
+<a id="ctrl_elements_GO:0051171" href="javascript:toggle(&#39;elements_GO:0051171&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051171" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+BAG6  -  bcl2-associated athanogene 6<br>
+RANBP9  -  ran binding protein 9<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SP5  -  sp5 transcription factor<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+YLPM1  -  ylp motif containing 1<br>
+SF1  -  splicing factor 1<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+SRPK2  -  srsf protein kinase 2<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+FIGN  -  fidgetin<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+HTT  -  huntingtin<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031323&amp;view=details" target="_blank">GO:0031323</a><a name="0031323"></a></td>
+<td>regulation of cellular metabolic process</td>
+<td align="center">8.78E-5</td>
+<td align="center">3.62E-2</td>
+<td align="center">1.55 (18319,5960,107,54)</td>
+<td>
+<a id="ctrl_elements_GO:0031323" href="javascript:toggle(&#39;elements_GO:0031323&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031323" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+BAG6  -  bcl2-associated athanogene 6<br>
+RANBP9  -  ran binding protein 9<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+LMTK3  -  lemur tyrosine kinase 3<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SP5  -  sp5 transcription factor<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+YLPM1  -  ylp motif containing 1<br>
+SF1  -  splicing factor 1<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+SRPK2  -  srsf protein kinase 2<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+FIGN  -  fidgetin<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+HTT  -  huntingtin<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0097435&amp;view=details" target="_blank">GO:0097435</a><a name="0097435"></a></td>
+<td>supramolecular fiber organization</td>
+<td align="center">9.16E-5</td>
+<td align="center">3.68E-2</td>
+<td align="center">4.41 (18319,388,107,10)</td>
+<td>
+<a id="ctrl_elements_GO:0097435" href="javascript:toggle(&#39;elements_GO:0097435&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0097435" style="display:none"> <font size="1">
+CAP2  -  cap, adenylate cyclase-associated protein, 2 (yeast)<br>
+FIGN  -  fidgetin<br>
+SHROOM3  -  shroom family member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ESPN  -  espin<br>
+DBN1  -  drebrin 1<br>
+WAS  -  wiskott-aldrich syndrome<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1902905&amp;view=details" target="_blank">GO:1902905</a><a name="1902905"></a></td>
+<td>positive regulation of supramolecular fiber organization</td>
+<td align="center">9.29E-5</td>
+<td align="center">3.64E-2</td>
+<td align="center">6.62 (18319,181,107,7)</td>
+<td>
+<a id="ctrl_elements_GO:1902905" href="javascript:toggle(&#39;elements_GO:1902905&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1902905" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+WAS  -  wiskott-aldrich syndrome<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030036&amp;view=details" target="_blank">GO:0030036</a><a name="0030036"></a></td>
+<td>actin cytoskeleton organization</td>
+<td align="center">9.38E-5</td>
+<td align="center">3.58E-2</td>
+<td align="center">4.91 (18319,314,107,9)</td>
+<td>
+<a id="ctrl_elements_GO:0030036" href="javascript:toggle(&#39;elements_GO:0030036&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030036" style="display:none"> <font size="1">
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+SHROOM3  -  shroom family member 3<br>
+INF2  -  inverted formin, fh2 and wh2 domain containing<br>
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+DAAM2  -  dishevelled associated activator of morphogenesis 2<br>
+FMNL2  -  formin-like 2<br>
+WAS  -  wiskott-aldrich syndrome<br>
+DIAPH3  -  diaphanous-related formin 3<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010638&amp;view=details" target="_blank">GO:0010638</a><a name="0010638"></a></td>
+<td>positive regulation of organelle organization</td>
+<td align="center">1.16E-4</td>
+<td align="center">4.31E-2</td>
+<td align="center">3.63 (18319,566,107,12)</td>
+<td>
+<a id="ctrl_elements_GO:0010638" href="javascript:toggle(&#39;elements_GO:0010638&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010638" style="display:none"> <font size="1">
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+HTT  -  huntingtin<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WAS  -  wiskott-aldrich syndrome<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010628&amp;view=details" target="_blank">GO:0010628</a><a name="0010628"></a></td>
+<td>positive regulation of gene expression</td>
+<td align="center">1.21E-4</td>
+<td align="center">4.41E-2</td>
+<td align="center">2.24 (18319,1835,107,24)</td>
+<td>
+<a id="ctrl_elements_GO:0010628" href="javascript:toggle(&#39;elements_GO:0010628&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010628" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+HOXB4  -  homeobox b4<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+SRPK2  -  srsf protein kinase 2<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ZNF462  -  zinc finger protein 462<br>
+ONECUT3  -  one cut homeobox 3<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006139&amp;view=details" target="_blank">GO:0006139</a><a name="0006139"></a></td>
+<td>nucleobase-containing compound metabolic process</td>
+<td align="center">1.28E-4</td>
+<td align="center">4.56E-2</td>
+<td align="center">1.68 (18319,4374,107,43)</td>
+<td>
+<a id="ctrl_elements_GO:0006139" href="javascript:toggle(&#39;elements_GO:0006139&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006139" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+PDCD7  -  programmed cell death 7<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SRPK2  -  srsf protein kinase 2<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SETD1A  -  set domain containing 1a<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0008154&amp;view=details" target="_blank">GO:0008154</a><a name="0008154"></a></td>
+<td>actin polymerization or depolymerization</td>
+<td align="center">1.49E-4</td>
+<td align="center">5.16E-2</td>
+<td align="center">14.89 (18319,46,107,4)</td>
+<td>
+<a id="ctrl_elements_GO:0008154" href="javascript:toggle(&#39;elements_GO:0008154&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0008154" style="display:none"> <font size="1">
+CAP2  -  cap, adenylate cyclase-associated protein, 2 (yeast)<br>
+WAS  -  wiskott-aldrich syndrome<br>
+WASF1  -  was protein family, member 1<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901362&amp;view=details" target="_blank">GO:1901362</a><a name="1901362"></a></td>
+<td>organic cyclic compound biosynthetic process</td>
+<td align="center">1.6E-4</td>
+<td align="center">5.44E-2</td>
+<td align="center">1.85 (18319,3149,107,34)</td>
+<td>
+<a id="ctrl_elements_GO:1901362" href="javascript:toggle(&#39;elements_GO:1901362&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901362" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051495&amp;view=details" target="_blank">GO:0051495</a><a name="0051495"></a></td>
+<td>positive regulation of cytoskeleton organization</td>
+<td align="center">1.73E-4</td>
+<td align="center">5.74E-2</td>
+<td align="center">5.99 (18319,200,107,7)</td>
+<td>
+<a id="ctrl_elements_GO:0051495" href="javascript:toggle(&#39;elements_GO:0051495&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051495" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+WAS  -  wiskott-aldrich syndrome<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0060255&amp;view=details" target="_blank">GO:0060255</a><a name="0060255"></a></td>
+<td>regulation of macromolecule metabolic process</td>
+<td align="center">2.23E-4</td>
+<td align="center">7.26E-2</td>
+<td align="center">1.51 (18319,5996,107,53)</td>
+<td>
+<a id="ctrl_elements_GO:0060255" href="javascript:toggle(&#39;elements_GO:0060255&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0060255" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+BAG6  -  bcl2-associated athanogene 6<br>
+RANBP9  -  ran binding protein 9<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SP5  -  sp5 transcription factor<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+YLPM1  -  ylp motif containing 1<br>
+SF1  -  splicing factor 1<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+SRPK2  -  srsf protein kinase 2<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+FIGN  -  fidgetin<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+HTT  -  huntingtin<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030029&amp;view=details" target="_blank">GO:0030029</a><a name="0030029"></a></td>
+<td>actin filament-based process</td>
+<td align="center">2.56E-4</td>
+<td align="center">8.14E-2</td>
+<td align="center">4.29 (18319,359,107,9)</td>
+<td>
+<a id="ctrl_elements_GO:0030029" href="javascript:toggle(&#39;elements_GO:0030029&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030029" style="display:none"> <font size="1">
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+SHROOM3  -  shroom family member 3<br>
+INF2  -  inverted formin, fh2 and wh2 domain containing<br>
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+DAAM2  -  dishevelled associated activator of morphogenesis 2<br>
+FMNL2  -  formin-like 2<br>
+WAS  -  wiskott-aldrich syndrome<br>
+DIAPH3  -  diaphanous-related formin 3<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009059&amp;view=details" target="_blank">GO:0009059</a><a name="0009059"></a></td>
+<td>macromolecule biosynthetic process</td>
+<td align="center">2.84E-4</td>
+<td align="center">8.85E-2</td>
+<td align="center">1.82 (18319,3106,107,33)</td>
+<td>
+<a id="ctrl_elements_GO:0009059" href="javascript:toggle(&#39;elements_GO:0009059&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009059" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0046483&amp;view=details" target="_blank">GO:0046483</a><a name="0046483"></a></td>
+<td>heterocycle metabolic process</td>
+<td align="center">3.1E-4</td>
+<td align="center">9.47E-2</td>
+<td align="center">1.62 (18319,4540,107,43)</td>
+<td>
+<a id="ctrl_elements_GO:0046483" href="javascript:toggle(&#39;elements_GO:0046483&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0046483" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+PDCD7  -  programmed cell death 7<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SRPK2  -  srsf protein kinase 2<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SETD1A  -  set domain containing 1a<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045944&amp;view=details" target="_blank">GO:0045944</a><a name="0045944"></a></td>
+<td>positive regulation of transcription by RNA polymerase II</td>
+<td align="center">3.14E-4</td>
+<td align="center">9.39E-2</td>
+<td align="center">2.56 (18319,1139,107,17)</td>
+<td>
+<a id="ctrl_elements_GO:0045944" href="javascript:toggle(&#39;elements_GO:0045944&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045944" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+HOXB4  -  homeobox b4<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+DAB2IP  -  dab2 interacting protein<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+ZNF462  -  zinc finger protein 462<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007530&amp;view=details" target="_blank">GO:0007530</a><a name="0007530"></a></td>
+<td>sex determination</td>
+<td align="center">3.15E-4</td>
+<td align="center">9.26E-2</td>
+<td align="center">22.33 (18319,23,107,3)</td>
+<td>
+<a id="ctrl_elements_GO:0007530" href="javascript:toggle(&#39;elements_GO:0007530&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007530" style="display:none"> <font size="1">
+SF1  -  splicing factor 1<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050794&amp;view=details" target="_blank">GO:0050794</a><a name="0050794"></a></td>
+<td>regulation of cellular process</td>
+<td align="center">3.25E-4</td>
+<td align="center">9.37E-2</td>
+<td align="center">1.29 (18319,10348,107,78)</td>
+<td>
+<a id="ctrl_elements_GO:0050794" href="javascript:toggle(&#39;elements_GO:0050794&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050794" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+MEX3C  -  mex-3 rna binding family member c<br>
+ZNF341  -  zinc finger protein 341<br>
+GRID2IP  -  glutamate receptor, ionotropic, delta 2 (grid2) interacting protein<br>
+PXK  -  px domain containing serine/threonine kinase<br>
+PEG10  -  paternally expressed 10<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+SEMA4G  -  sema domain, immunoglobulin domain (ig), transmembrane domain (tm) and short cytoplasmic domain, (semaphorin) 4g<br>
+SIK2  -  salt-inducible kinase 2<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+DBN1  -  drebrin 1<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+ANTXRL  -  anthrax toxin receptor-like<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+CAP2  -  cap, adenylate cyclase-associated protein, 2 (yeast)<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+PCLO  -  piccolo presynaptic cytomatrix protein<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+DTX3  -  deltex homolog 3 (drosophila)<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+GABBR2  -  gamma-aminobutyric acid (gaba) b receptor, 2<br>
+PRR11  -  proline rich 11<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+BAG6  -  bcl2-associated athanogene 6<br>
+FMN1  -  formin 1<br>
+RANBP9  -  ran binding protein 9<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+WAS  -  wiskott-aldrich syndrome<br>
+SETD1A  -  set domain containing 1a<br>
+LMTK3  -  lemur tyrosine kinase 3<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SHROOM3  -  shroom family member 3<br>
+FMNL2  -  formin-like 2<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+INF2  -  inverted formin, fh2 and wh2 domain containing<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+DAAM2  -  dishevelled associated activator of morphogenesis 2<br>
+SP5  -  sp5 transcription factor<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+YLPM1  -  ylp motif containing 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SRPK2  -  srsf protein kinase 2<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+IRS4  -  insulin receptor substrate 4<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+FIGN  -  fidgetin<br>
+APBB1IP  -  amyloid beta (a4) precursor protein-binding, family b, member 1 interacting protein<br>
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+ZNF462  -  zinc finger protein 462<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+HTT  -  huntingtin<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030833&amp;view=details" target="_blank">GO:0030833</a><a name="0030833"></a></td>
+<td>regulation of actin filament polymerization</td>
+<td align="center">3.3E-4</td>
+<td align="center">9.34E-2</td>
+<td align="center">6.50 (18319,158,107,6)</td>
+<td>
+<a id="ctrl_elements_GO:0030833" href="javascript:toggle(&#39;elements_GO:0030833&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030833" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+WAS  -  wiskott-aldrich syndrome<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034645&amp;view=details" target="_blank">GO:0034645</a><a name="0034645"></a></td>
+<td>cellular macromolecule biosynthetic process</td>
+<td align="center">3.34E-4</td>
+<td align="center">9.29E-2</td>
+<td align="center">1.85 (18319,2863,107,31)</td>
+<td>
+<a id="ctrl_elements_GO:0034645" href="javascript:toggle(&#39;elements_GO:0034645&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034645" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007010&amp;view=details" target="_blank">GO:0007010</a><a name="0007010"></a></td>
+<td>cytoskeleton organization</td>
+<td align="center">3.5E-4</td>
+<td align="center">9.56E-2</td>
+<td align="center">2.87 (18319,834,107,14)</td>
+<td>
+<a id="ctrl_elements_GO:0007010" href="javascript:toggle(&#39;elements_GO:0007010&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007010" style="display:none"> <font size="1">
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+PCLO  -  piccolo presynaptic cytomatrix protein<br>
+SHROOM3  -  shroom family member 3<br>
+FMNL2  -  formin-like 2<br>
+DIAPH3  -  diaphanous-related formin 3<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+FIGN  -  fidgetin<br>
+INF2  -  inverted formin, fh2 and wh2 domain containing<br>
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+DAAM2  -  dishevelled associated activator of morphogenesis 2<br>
+RANBP9  -  ran binding protein 9<br>
+HTT  -  huntingtin<br>
+CCDC6  -  coiled-coil domain containing 6<br>
+WAS  -  wiskott-aldrich syndrome<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006725&amp;view=details" target="_blank">GO:0006725</a><a name="0006725"></a></td>
+<td>cellular aromatic compound metabolic process</td>
+<td align="center">3.81E-4</td>
+<td align="center">1.02E-1</td>
+<td align="center">1.61 (18319,4581,107,43)</td>
+<td>
+<a id="ctrl_elements_GO:0006725" href="javascript:toggle(&#39;elements_GO:0006725&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006725" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+PDCD7  -  programmed cell death 7<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SRPK2  -  srsf protein kinase 2<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SETD1A  -  set domain containing 1a<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0043170&amp;view=details" target="_blank">GO:0043170</a><a name="0043170"></a></td>
+<td>macromolecule metabolic process</td>
+<td align="center">3.83E-4</td>
+<td align="center">1.01E-1</td>
+<td align="center">1.42 (18319,7244,107,60)</td>
+<td>
+<a id="ctrl_elements_GO:0043170" href="javascript:toggle(&#39;elements_GO:0043170&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0043170" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FBXO11  -  f-box protein 11<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+SIK2  -  salt-inducible kinase 2<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+ACR  -  acrosin<br>
+DTX3  -  deltex homolog 3 (drosophila)<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+ALG13  -  alg13, udp-n-acetylglucosaminyltransferase subunit<br>
+FOXK1  -  forkhead box k1<br>
+VCPIP1  -  valosin containing protein (p97)/p47 complex interacting protein 1<br>
+BAG6  -  bcl2-associated athanogene 6<br>
+FMN1  -  formin 1<br>
+RANBP9  -  ran binding protein 9<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+RNF44  -  ring finger protein 44<br>
+LMTK3  -  lemur tyrosine kinase 3<br>
+UBR4  -  ubiquitin protein ligase e3 component n-recognin 4<br>
+PRRG2  -  proline rich gla (g-carboxyglutamic acid) 2<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+PDCD7  -  programmed cell death 7<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+YLPM1  -  ylp motif containing 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+SRPK2  -  srsf protein kinase 2<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+HS3ST4  -  heparan sulfate (glucosamine) 3-o-sulfotransferase 4<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019222&amp;view=details" target="_blank">GO:0019222</a><a name="0019222"></a></td>
+<td>regulation of metabolic process</td>
+<td align="center">3.87E-4</td>
+<td align="center">1E-1</td>
+<td align="center">1.46 (18319,6434,107,55)</td>
+<td>
+<a id="ctrl_elements_GO:0019222" href="javascript:toggle(&#39;elements_GO:0019222&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019222" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+ZNF341  -  zinc finger protein 341<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+FOXB2  -  forkhead box b2<br>
+ONECUT3  -  one cut homeobox 3<br>
+USP51  -  ubiquitin specific peptidase 51<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+WT1  -  wilms tumor 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+PPP3CB  -  protein phosphatase 3, catalytic subunit, beta isozyme<br>
+KDM6B  -  lysine (k)-specific demethylase 6b<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+ZIC5  -  zic family member 5<br>
+BAG6  -  bcl2-associated athanogene 6<br>
+RANBP9  -  ran binding protein 9<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SETD1A  -  set domain containing 1a<br>
+LMTK3  -  lemur tyrosine kinase 3<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+SETBP1  -  set binding protein 1<br>
+DAB2IP  -  dab2 interacting protein<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+MAP3K4  -  mitogen-activated protein kinase kinase kinase 4<br>
+YLPM1  -  ylp motif containing 1<br>
+SF1  -  splicing factor 1<br>
+SRPK2  -  srsf protein kinase 2<br>
+ARHGEF11  -  rho guanine nucleotide exchange factor (gef) 11<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+IRS4  -  insulin receptor substrate 4<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+FIGN  -  fidgetin<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+HTT  -  huntingtin<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044271&amp;view=details" target="_blank">GO:0044271</a><a name="0044271"></a></td>
+<td>cellular nitrogen compound biosynthetic process</td>
+<td align="center">3.93E-4</td>
+<td align="center">1E-1</td>
+<td align="center">1.77 (18319,3298,107,34)</td>
+<td>
+<a id="ctrl_elements_GO:0044271" href="javascript:toggle(&#39;elements_GO:0044271&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044271" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ZNF341  -  zinc finger protein 341<br>
+HOXB4  -  homeobox b4<br>
+TRRAP  -  transformation/transcription domain-associated protein<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ASXL3  -  additional sex combs like 3 (drosophila)<br>
+FOXB2  -  forkhead box b2<br>
+ZBTB12  -  zinc finger and btb domain containing 12<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SMN1  -  survival of motor neuron 1, telomeric<br>
+ONECUT3  -  one cut homeobox 3<br>
+SP5  -  sp5 transcription factor<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+WT1  -  wilms tumor 1<br>
+YLPM1  -  ylp motif containing 1<br>
+TRERF1  -  transcriptional regulating factor 1<br>
+SF1  -  splicing factor 1<br>
+KMT2E  -  lysine (k)-specific methyltransferase 2e<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+TSPYL2  -  tspy-like 2<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+BCL9L  -  b-cell cll/lymphoma 9-like<br>
+FOXK1  -  forkhead box k1<br>
+PDE4D  -  phosphodiesterase 4d, camp-specific<br>
+ZNF462  -  zinc finger protein 462<br>
+DMRTB1  -  dmrt-like family b with proline-rich c-terminal, 1<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SETD1A  -  set domain containing 1a<br>
+ZNF827  -  zinc finger protein 827<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051253&amp;view=details" target="_blank">GO:0051253</a><a name="0051253"></a></td>
+<td>negative regulation of RNA metabolic process</td>
+<td align="center">4.58E-4</td>
+<td align="center">1.15E-1</td>
+<td align="center">2.39 (18319,1289,107,18)</td>
+<td>
+<a id="ctrl_elements_GO:0051253" href="javascript:toggle(&#39;elements_GO:0051253&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051253" style="display:none"> <font size="1">
+SF1  -  splicing factor 1<br>
+HOXB4  -  homeobox b4<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045934&amp;view=details" target="_blank">GO:0045934</a><a name="0045934"></a></td>
+<td>negative regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">4.9E-4</td>
+<td align="center">1.21E-1</td>
+<td align="center">2.31 (18319,1411,107,19)</td>
+<td>
+<a id="ctrl_elements_GO:0045934" href="javascript:toggle(&#39;elements_GO:0045934&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045934" style="display:none"> <font size="1">
+SF1  -  splicing factor 1<br>
+HOXB4  -  homeobox b4<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ZNF318  -  zinc finger protein 318<br>
+TSPYL2  -  tspy-like 2<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044396&amp;view=details" target="_blank">GO:0044396</a><a name="0044396"></a></td>
+<td>actin cortical patch organization</td>
+<td align="center">4.99E-4</td>
+<td align="center">1.21E-1</td>
+<td align="center">57.07 (18319,6,107,2)</td>
+<td>
+<a id="ctrl_elements_GO:0044396" href="javascript:toggle(&#39;elements_GO:0044396&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044396" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+WAS  -  wiskott-aldrich syndrome<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051666&amp;view=details" target="_blank">GO:0051666</a><a name="0051666"></a></td>
+<td>actin cortical patch localization</td>
+<td align="center">4.99E-4</td>
+<td align="center">1.19E-1</td>
+<td align="center">57.07 (18319,6,107,2)</td>
+<td>
+<a id="ctrl_elements_GO:0051666" href="javascript:toggle(&#39;elements_GO:0051666&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051666" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+WAS  -  wiskott-aldrich syndrome<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0000147&amp;view=details" target="_blank">GO:0000147</a><a name="0000147"></a></td>
+<td>actin cortical patch assembly</td>
+<td align="center">4.99E-4</td>
+<td align="center">1.17E-1</td>
+<td align="center">57.07 (18319,6,107,2)</td>
+<td>
+<a id="ctrl_elements_GO:0000147" href="javascript:toggle(&#39;elements_GO:0000147&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0000147" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+WAS  -  wiskott-aldrich syndrome<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030041&amp;view=details" target="_blank">GO:0030041</a><a name="0030041"></a></td>
+<td>actin filament polymerization</td>
+<td align="center">5.12E-4</td>
+<td align="center">1.18E-1</td>
+<td align="center">19.02 (18319,27,107,3)</td>
+<td>
+<a id="ctrl_elements_GO:0030041" href="javascript:toggle(&#39;elements_GO:0030041&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030041" style="display:none"> <font size="1">
+WAS  -  wiskott-aldrich syndrome<br>
+WASF1  -  was protein family, member 1<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903507&amp;view=details" target="_blank">GO:1903507</a><a name="1903507"></a></td>
+<td>negative regulation of nucleic acid-templated transcription</td>
+<td align="center">5.92E-4</td>
+<td align="center">1.35E-1</td>
+<td align="center">2.42 (18319,1204,107,17)</td>
+<td>
+<a id="ctrl_elements_GO:1903507" href="javascript:toggle(&#39;elements_GO:1903507&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903507" style="display:none"> <font size="1">
+SF1  -  splicing factor 1<br>
+HOXB4  -  homeobox b4<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0008064&amp;view=details" target="_blank">GO:0008064</a><a name="0008064"></a></td>
+<td>regulation of actin polymerization or depolymerization</td>
+<td align="center">6.03E-4</td>
+<td align="center">1.35E-1</td>
+<td align="center">5.80 (18319,177,107,6)</td>
+<td>
+<a id="ctrl_elements_GO:0008064" href="javascript:toggle(&#39;elements_GO:0008064&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0008064" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+WAS  -  wiskott-aldrich syndrome<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1902679&amp;view=details" target="_blank">GO:1902679</a><a name="1902679"></a></td>
+<td>negative regulation of RNA biosynthetic process</td>
+<td align="center">6.04E-4</td>
+<td align="center">1.34E-1</td>
+<td align="center">2.41 (18319,1206,107,17)</td>
+<td>
+<a id="ctrl_elements_GO:1902679" href="javascript:toggle(&#39;elements_GO:1902679&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1902679" style="display:none"> <font size="1">
+SF1  -  splicing factor 1<br>
+HOXB4  -  homeobox b4<br>
+SKOR2  -  ski family transcriptional corepressor 2<br>
+ZNF318  -  zinc finger protein 318<br>
+ZC3H4  -  zinc finger ccch-type containing 4<br>
+C11orf95  -  chromosome 11 open reading frame 95<br>
+ZFHX4  -  zinc finger homeobox 4<br>
+DAB2IP  -  dab2 interacting protein<br>
+MYPOP  -  myb-related transcription factor, partner of profilin<br>
+FOXK1  -  forkhead box k1<br>
+ZBTB7B  -  zinc finger and btb domain containing 7b<br>
+SP5  -  sp5 transcription factor<br>
+DOT1L  -  dot1-like histone h3k79 methyltransferase<br>
+FASLG  -  fas ligand (tnf superfamily, member 6)<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+SALL2  -  sal-like 2 (drosophila)<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030832&amp;view=details" target="_blank">GO:0030832</a><a name="0030832"></a></td>
+<td>regulation of actin filament length</td>
+<td align="center">6.21E-4</td>
+<td align="center">1.36E-1</td>
+<td align="center">5.77 (18319,178,107,6)</td>
+<td>
+<a id="ctrl_elements_GO:0030832" href="javascript:toggle(&#39;elements_GO:0030832&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030832" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+WAS  -  wiskott-aldrich syndrome<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045010&amp;view=details" target="_blank">GO:0045010</a><a name="0045010"></a></td>
+<td>actin nucleation</td>
+<td align="center">6.34E-4</td>
+<td align="center">1.36E-1</td>
+<td align="center">17.71 (18319,29,107,3)</td>
+<td>
+<a id="ctrl_elements_GO:0045010" href="javascript:toggle(&#39;elements_GO:0045010&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045010" style="display:none"> <font size="1">
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006396&amp;view=details" target="_blank">GO:0006396</a><a name="0006396"></a></td>
+<td>RNA processing</td>
+<td align="center">6.47E-4</td>
+<td align="center">1.37E-1</td>
+<td align="center">2.84 (18319,784,107,13)</td>
+<td>
+<a id="ctrl_elements_GO:0006396" href="javascript:toggle(&#39;elements_GO:0006396&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006396" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+CDK12  -  cyclin-dependent kinase 12<br>
+SF1  -  splicing factor 1<br>
+SRPK2  -  srsf protein kinase 2<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+PDCD7  -  programmed cell death 7<br>
+PELP1  -  proline, glutamate and leucine rich protein 1<br>
+NAF1  -  nuclear assembly factor 1 ribonucleoprotein<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+WT1  -  wilms tumor 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0110053&amp;view=details" target="_blank">GO:0110053</a><a name="0110053"></a></td>
+<td>regulation of actin filament organization</td>
+<td align="center">6.63E-4</td>
+<td align="center">1.39E-1</td>
+<td align="center">4.79 (18319,250,107,7)</td>
+<td>
+<a id="ctrl_elements_GO:0110053" href="javascript:toggle(&#39;elements_GO:0110053&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0110053" style="display:none"> <font size="1">
+WIPF3  -  was/wasl interacting protein family, member 3<br>
+FMN1  -  formin 1<br>
+JMY  -  junction mediating and regulatory protein, p53 cofactor<br>
+WAS  -  wiskott-aldrich syndrome<br>
+FHOD1  -  formin homology 2 domain containing 1<br>
+LMOD2  -  leiomodin 2 (cardiac)<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000601&amp;view=details" target="_blank">GO:2000601</a><a name="2000601"></a></td>
+<td>positive regulation of Arp2/3 complex-mediated actin nucleation</td>
+<td align="center">6.96E-4</td>
+<td align="center">1.44E-1</td>
+<td align="center">48.92 (18319,7,107,2)</td>
+<td>
+<a id="ctrl_elements_GO:2000601" href="javascript:toggle(&#39;elements_GO:2000601&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000601" style="display:none"> <font size="1">
+WAS  -  wiskott-aldrich syndrome<br>
+WASF1  -  was protein family, member 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0070059&amp;view=details" target="_blank">GO:0070059</a><a name="0070059"></a></td>
+<td>intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress</td>
+<td align="center">7.01E-4</td>
+<td align="center">1.43E-1</td>
+<td align="center">17.12 (18319,30,107,3)</td>
+<td>
+<a id="ctrl_elements_GO:0070059" href="javascript:toggle(&#39;elements_GO:0070059&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0070059" style="display:none"> <font size="1">
+DAB2IP  -  dab2 interacting protein<br>
+BAG6  -  bcl2-associated athanogene 6<br>
+CEBPB  -  ccaat/enhancer binding protein (c/ebp), beta<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006397&amp;view=details" target="_blank">GO:0006397</a><a name="0006397"></a></td>
+<td>mRNA processing</td>
+<td align="center">8.22E-4</td>
+<td align="center">1.65E-1</td>
+<td align="center">3.65 (18319,422,107,9)</td>
+<td>
+<a id="ctrl_elements_GO:0006397" href="javascript:toggle(&#39;elements_GO:0006397&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006397" style="display:none"> <font size="1">
+CDK12  -  cyclin-dependent kinase 12<br>
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+SF1  -  splicing factor 1<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+PDCD7  -  programmed cell death 7<br>
+SCAF1  -  sr-related ctd-associated factor 1<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0000375&amp;view=details" target="_blank">GO:0000375</a><a name="0000375"></a></td>
+<td>RNA splicing, via transesterification reactions</td>
+<td align="center">8.35E-4</td>
+<td align="center">1.66E-1</td>
+<td align="center">4.61 (18319,260,107,7)</td>
+<td>
+<a id="ctrl_elements_GO:0000375" href="javascript:toggle(&#39;elements_GO:0000375&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0000375" style="display:none"> <font size="1">
+HNRNPUL1  -  heterogeneous nuclear ribonucleoprotein u-like 1<br>
+ESRP2  -  epithelial splicing regulatory protein 2<br>
+SF1  -  splicing factor 1<br>
+SCAF11  -  sr-related ctd-associated factor 11<br>
+DDX17  -  dead (asp-glu-ala-asp) box helicase 17<br>
+PDCD7  -  programmed cell death 7<br>
+SF3B2  -  splicing factor 3b, subunit 2, 145kda<br>
+</font></div>
+</td>
+</tr>
+</tbody></table>
+<p>Species used: Homo sapiens</p><p>The system has recognized 19458 genes out of 20192 gene terms entered by the user.<br> 19458 genes were recognized by gene symbol and 0 genes by other gene IDs .<br>281 duplicate genes were removed (keeping the highest ranking instance of each gene) leaving  a total of 19177 genes.<br>Only 18319 of these genes are associated with a GO term.<br></p>
+<p> The GOrilla database is periodically updated using the <a href="http://www.geneontology.org/">GO database</a> and other sources.<br>
+The GOrilla database was last updated on Jun 23, 2018</p>
+<p>This results page will be available on this site for one month from now (until 
+Jul 23, 2018
+). You can bookmark this page and come back to it later.
+</p>
+<a name="p_value_info"></a><br><b>'P-value'</b> is the enrichment p-value computed according to the mHG or HG model. This p-value is not corrected for multiple testing of 15276 GO terms.<br>
+<a name="fdr_info"></a><br><b>'FDR q-value'</b> is the correction of the above p-value for multiple testing using the Benjamini and Hochberg (1995) method. <br>Namely, for the i<sup>th</sup> term (ranked according to p-value) the FDR q-value is (p-value * number of GO terms) / i. <br>
+<a name="enrich_info"></a><br><b>Enrichment (N, B, n, b)</b> is defined as follows:<br>N - is the total number of genes<br>B - is the total number of genes associated with a specific GO term<br>n - is the number of genes in the top of the user's input list or in the target set when appropriate<br>b - is the number of genes in the intersection<br>Enrichment = (b/n) / (B/N)<br>
+<a name="genes_info"></a><br><b>Genes:</b> For each GO term you can see the list of associated genes that appear in the optimal top of the list.<br>Each gene name is specified by gene symbol followed by a short description of the gene <br>
+<p>
+<a href="http://cbl-gorilla.cs.technion.ac.il/"> Back to the GOrilla main page </a>
+</p>
+
+
+</body></html>

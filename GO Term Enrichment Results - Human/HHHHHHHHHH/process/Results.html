@@ -1,0 +1,1806 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0075)http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Results
+</title>
+
+<script type="text/javascript">
+function toggle(item) {
+obj=document.getElementById(item);
+visible=(obj.style.display!="none")
+key=document.getElementById("ctrl_" + item);
+if (visible) {
+    obj.style.display="none";
+key.innerHTML="[+] Show genes";
+}
+else {
+obj.style.display="block";
+key.innerHTML="[-] Hide genes";
+}
+}
+</script>
+</head>
+<body>
+<p></p><center><b>
+
+</b></center><p></p>
+<table border="1" width="80%" id="tab:pval_legend" align="center">
+<caption><em>P-value color scale</em></caption>
+<tbody><tr>
+	<td width="140" align="center"> &gt; 10<sup>-3</sup></td>
+	<td width="140" align="center" bgcolor="#FFFFCC"> 10<sup>-3</sup> to 10<sup>-5</sup></td>
+	<td width="140" align="center" bgcolor="#FFCC66"> 10<sup>-5</sup> to 10<sup>-7</sup></td>
+	<td width="140" align="center" bgcolor="#FF9900"> 10<sup>-7</sup> to 10<sup>-9</sup></td>
+	<td width="140" align="center" bgcolor="#FF3300"> &lt; 10<sup>-9</sup></td>
+</tr>
+</tbody></table>
+<map name="goPathImage">
+<area shape="RECT" coords="2004,815,2100,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0031326" alt="">
+<area shape="RECT" coords="1671,978,1812,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#2001141" alt="">
+<area shape="RECT" coords="1500,961,1596,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0031328" alt="">
+<area shape="RECT" coords="2431,961,2527,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0031327" alt="">
+<area shape="RECT" coords="1991,961,2105,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#2000112" alt="">
+<area shape="RECT" coords="1747,1545,1888,1642" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0000122" alt="">
+<area shape="RECT" coords="2276,797,2444,912" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0045934" alt="">
+<area shape="RECT" coords="2129,969,2255,1049" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0051253" alt="">
+<area shape="RECT" coords="2285,1107,2400,1221" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#2000113" alt="">
+<area shape="RECT" coords="1795,1416,1909,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0045892" alt="">
+<area shape="RECT" coords="153,229,295,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0007389" alt="">
+<area shape="RECT" coords="171,367,275,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0003002" alt="">
+<area shape="RECT" coords="1243,506,1339,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0018130" alt="">
+<area shape="RECT" coords="801,652,956,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0034654" alt="">
+<area shape="RECT" coords="2120,1124,2261,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#1902679" alt="">
+<area shape="RECT" coords="1679,1124,1788,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#1903506" alt="">
+<area shape="RECT" coords="1455,1124,1596,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#1902680" alt="">
+<area shape="RECT" coords="1423,222,1532,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009653" alt="">
+<area shape="RECT" coords="1571,367,1680,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0048598" alt="">
+<area shape="RECT" coords="1408,367,1547,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0035239" alt="">
+<area shape="RECT" coords="445,222,576,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0071704" alt="">
+<area shape="RECT" coords="443,359,573,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#1901576" alt="">
+<area shape="RECT" coords="648,351,755,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#1901360" alt="">
+<area shape="RECT" coords="304,359,419,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0043170" alt="">
+<area shape="RECT" coords="1072,497,1168,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0019438" alt="">
+<area shape="RECT" coords="1643,1287,1757,1350" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0006355" alt="">
+<area shape="RECT" coords="1629,1416,1771,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0006357" alt="">
+<area shape="RECT" coords="1491,1416,1605,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0045893" alt="">
+<area shape="RECT" coords="1836,978,1967,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0010629" alt="">
+<area shape="RECT" coords="1781,1270,1891,1367" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#1903507" alt="">
+<area shape="RECT" coords="1715,643,1883,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0019219" alt="">
+<area shape="RECT" coords="1172,797,1340,912" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0045935" alt="">
+<area shape="RECT" coords="1703,823,1828,886" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0051252" alt="">
+<area shape="RECT" coords="2468,815,2577,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009890" alt="">
+<area shape="RECT" coords="2279,961,2407,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0010558" alt="">
+<area shape="RECT" coords="152,513,291,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009952" alt="">
+<area shape="RECT" coords="2103,497,2199,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009892" alt="">
+<area shape="RECT" coords="2124,806,2252,903" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0010605" alt="">
+<area shape="RECT" coords="2091,635,2176,749" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0051172" alt="">
+<area shape="RECT" coords="2251,643,2333,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0031324" alt="">
+<area shape="RECT" coords="1563,652,1691,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0060255" alt="">
+<area shape="RECT" coords="1548,831,1679,879" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0010468" alt="">
+<area shape="RECT" coords="1852,815,1980,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0010556" alt="">
+<area shape="RECT" coords="1020,806,1148,903" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0010604" alt="">
+<area shape="RECT" coords="1296,635,1381,749" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0051173" alt="">
+<area shape="RECT" coords="813,109,896,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0008152" alt="">
+<area shape="RECT" coords="877,213,963,293" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0006807" alt="">
+<area shape="RECT" coords="987,222,1069,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0044237" alt="">
+<area shape="RECT" coords="605,229,701,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009058" alt="">
+<area shape="RECT" coords="725,229,853,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0044238" alt="">
+<area shape="RECT" coords="1572,497,1655,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0048522" alt="">
+<area shape="RECT" coords="1456,643,1539,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0031325" alt="">
+<area shape="RECT" coords="1907,661,2016,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009889" alt="">
+<area shape="RECT" coords="1364,815,1473,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009891" alt="">
+<area shape="RECT" coords="643,497,749,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#1901362" alt="">
+<area shape="RECT" coords="315,506,429,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009059" alt="">
+<area shape="RECT" coords="1135,222,1241,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0048869" alt="">
+<area shape="RECT" coords="1285,367,1384,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0001709" alt="">
+<area shape="RECT" coords="1081,5,969,29" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0008150" alt="">
+<area shape="RECT" coords="1045,109,1117,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009987" alt="">
+<area shape="RECT" coords="177,102,271,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0032501" alt="">
+<area shape="RECT" coords="1196,109,1303,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0032502" alt="">
+<area shape="RECT" coords="1651,109,1731,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0065007" alt="">
+<area shape="RECT" coords="504,497,619,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0044260" alt="">
+<area shape="RECT" coords="504,652,619,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0034645" alt="">
+<area shape="RECT" coords="829,342,915,439" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0034641" alt="">
+<area shape="RECT" coords="1844,359,1940,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0019222" alt="">
+<area shape="RECT" coords="1729,489,1815,586" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0051171" alt="">
+<area shape="RECT" coords="1839,497,1921,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0080090" alt="">
+<area shape="RECT" coords="1375,497,1471,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0009893" alt="">
+<area shape="RECT" coords="1996,497,2079,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0031323" alt="">
+<area shape="RECT" coords="773,497,928,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0006139" alt="">
+<area shape="RECT" coords="607,1140,761,1188" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0097659" alt="">
+<area shape="RECT" coords="569,1295,679,1343" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0006351" alt="">
+<area shape="RECT" coords="15,229,129,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0003008" alt="">
+<area shape="RECT" coords="13,367,131,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0050877" alt="">
+<area shape="RECT" coords="1348,961,1476,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0010557" alt="">
+<area shape="RECT" coords="1199,969,1324,1049" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0051254" alt="">
+<area shape="RECT" coords="939,342,1024,439" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0006725" alt="">
+<area shape="RECT" coords="1165,359,1261,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0044249" alt="">
+<area shape="RECT" coords="1048,359,1141,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0046483" alt="">
+<area shape="RECT" coords="643,661,736,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0090304" alt="">
+<area shape="RECT" coords="2329,489,2439,586" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0051241" alt="">
+<area shape="RECT" coords="1493,1270,1603,1367" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#1903508" alt="">
+<area shape="RECT" coords="952,489,1048,586" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0044271" alt="">
+<area shape="RECT" coords="632,831,744,879" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0016070" alt="">
+<area shape="RECT" coords="623,985,748,1033" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0032774" alt="">
+<area shape="RECT" coords="1044,978,1175,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0010628" alt="">
+<area shape="RECT" coords="2301,351,2411,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0051239" alt="">
+<area shape="RECT" coords="553,1425,695,1487" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0006366" alt="">
+<area shape="RECT" coords="1265,222,1359,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0048856" alt="">
+<area shape="RECT" coords="5,661,139,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0050885" alt="">
+<area shape="RECT" coords="1907,222,2000,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0050789" alt="">
+<area shape="RECT" coords="1512,1545,1653,1642" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0045944" alt="">
+<area shape="RECT" coords="17,513,127,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0050905" alt="">
+<area shape="RECT" coords="1975,359,2057,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0050794" alt="">
+<area shape="RECT" coords="2223,497,2305,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0048523" alt="">
+<area shape="RECT" coords="1704,351,1797,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0048518" alt="">
+<area shape="RECT" coords="2131,351,2224,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#0048519" alt="">
+</map>
+<p align="center"><img border="0" src="./Results_files/GOPROCESS.png" usemap="#goPathImage" alt=""></p>
+<p>&nbsp;</p>
+<table border="1" width="100%" id="table1">
+	<tbody><tr>
+		<td align="center"><b>GO term</b></td>
+		<td align="center"><b>Description</b></td>
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#p_value_info">P-value</a></b></td> 
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#fdr_info">FDR q-value</a></b></td> 
+		<td width="230" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#enrich_info"> Enrichment (N, B, n, b) </a></b> </td>
+		<td align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ux60x7x1/GOResultsPROCESS.html#genes_info"> Genes </a></b></td>
+	</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045944&amp;view=details" target="_blank">GO:0045944</a><a name="0045944"></a></td>
+<td>positive regulation of transcription by RNA polymerase II</td>
+<td align="center">4.58E-8</td>
+<td align="center">6.99E-4</td>
+<td align="center">8.46 (18319,1139,19,10)</td>
+<td>
+<a id="ctrl_elements_GO:0045944" href="javascript:toggle(&#39;elements_GO:0045944&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045944" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006366&amp;view=details" target="_blank">GO:0006366</a><a name="0006366"></a></td>
+<td>transcription by RNA polymerase II</td>
+<td align="center">7.79E-8</td>
+<td align="center">5.95E-4</td>
+<td align="center">12.67 (18319,609,19,8)</td>
+<td>
+<a id="ctrl_elements_GO:0006366" href="javascript:toggle(&#39;elements_GO:0006366&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006366" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051254&amp;view=details" target="_blank">GO:0051254</a><a name="0051254"></a></td>
+<td>positive regulation of RNA metabolic process</td>
+<td align="center">9.27E-8</td>
+<td align="center">4.72E-4</td>
+<td align="center">6.58 (18319,1613,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0051254" href="javascript:toggle(&#39;elements_GO:0051254&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051254" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045935&amp;view=details" target="_blank">GO:0045935</a><a name="0045935"></a></td>
+<td>positive regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">2.6E-7</td>
+<td align="center">9.93E-4</td>
+<td align="center">5.95 (18319,1783,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0045935" href="javascript:toggle(&#39;elements_GO:0045935&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045935" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010628&amp;view=details" target="_blank">GO:0010628</a><a name="0010628"></a></td>
+<td>positive regulation of gene expression</td>
+<td align="center">3.49E-7</td>
+<td align="center">1.07E-3</td>
+<td align="center">5.78 (18319,1835,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0010628" href="javascript:toggle(&#39;elements_GO:0010628&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010628" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045893&amp;view=details" target="_blank">GO:0045893</a><a name="0045893"></a></td>
+<td>positive regulation of transcription, DNA-templated</td>
+<td align="center">4.57E-7</td>
+<td align="center">1.16E-3</td>
+<td align="center">6.63 (18319,1454,19,10)</td>
+<td>
+<a id="ctrl_elements_GO:0045893" href="javascript:toggle(&#39;elements_GO:0045893&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045893" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903508&amp;view=details" target="_blank">GO:1903508</a><a name="1903508"></a></td>
+<td>positive regulation of nucleic acid-templated transcription</td>
+<td align="center">7.43E-7</td>
+<td align="center">1.62E-3</td>
+<td align="center">6.29 (18319,1532,19,10)</td>
+<td>
+<a id="ctrl_elements_GO:1903508" href="javascript:toggle(&#39;elements_GO:1903508&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903508" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1902680&amp;view=details" target="_blank">GO:1902680</a><a name="1902680"></a></td>
+<td>positive regulation of RNA biosynthetic process</td>
+<td align="center">7.48E-7</td>
+<td align="center">1.43E-3</td>
+<td align="center">6.29 (18319,1533,19,10)</td>
+<td>
+<a id="ctrl_elements_GO:1902680" href="javascript:toggle(&#39;elements_GO:1902680&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1902680" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032774&amp;view=details" target="_blank">GO:0032774</a><a name="0032774"></a></td>
+<td>RNA biosynthetic process</td>
+<td align="center">8.5E-7</td>
+<td align="center">1.44E-3</td>
+<td align="center">4.61 (18319,2512,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0032774" href="javascript:toggle(&#39;elements_GO:0032774&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032774" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006357&amp;view=details" target="_blank">GO:0006357</a><a name="0006357"></a></td>
+<td>regulation of transcription by RNA polymerase II</td>
+<td align="center">1.16E-6</td>
+<td align="center">1.77E-3</td>
+<td align="center">4.48 (18319,2584,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0006357" href="javascript:toggle(&#39;elements_GO:0006357&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006357" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007389&amp;view=details" target="_blank">GO:0007389</a><a name="0007389"></a></td>
+<td>pattern specification process</td>
+<td align="center">1.39E-6</td>
+<td align="center">1.94E-3</td>
+<td align="center">15.68 (18319,369,19,6)</td>
+<td>
+<a id="ctrl_elements_GO:0007389" href="javascript:toggle(&#39;elements_GO:0007389&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007389" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010557&amp;view=details" target="_blank">GO:0010557</a><a name="0010557"></a></td>
+<td>positive regulation of macromolecule biosynthetic process</td>
+<td align="center">2.79E-6</td>
+<td align="center">3.55E-3</td>
+<td align="center">5.45 (18319,1768,19,10)</td>
+<td>
+<a id="ctrl_elements_GO:0010557" href="javascript:toggle(&#39;elements_GO:0010557&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010557" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031328&amp;view=details" target="_blank">GO:0031328</a><a name="0031328"></a></td>
+<td>positive regulation of cellular biosynthetic process</td>
+<td align="center">4.18E-6</td>
+<td align="center">4.91E-3</td>
+<td align="center">5.22 (18319,1848,19,10)</td>
+<td>
+<a id="ctrl_elements_GO:0031328" href="javascript:toggle(&#39;elements_GO:0031328&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031328" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006351&amp;view=details" target="_blank">GO:0006351</a><a name="0006351"></a></td>
+<td>transcription, DNA-templated</td>
+<td align="center">4.21E-6</td>
+<td align="center">4.59E-3</td>
+<td align="center">4.52 (18319,2348,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0006351" href="javascript:toggle(&#39;elements_GO:0006351&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006351" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0097659&amp;view=details" target="_blank">GO:0097659</a><a name="0097659"></a></td>
+<td>nucleic acid-templated transcription</td>
+<td align="center">4.23E-6</td>
+<td align="center">4.31E-3</td>
+<td align="center">4.52 (18319,2349,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0097659" href="javascript:toggle(&#39;elements_GO:0097659&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0097659" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009891&amp;view=details" target="_blank">GO:0009891</a><a name="0009891"></a></td>
+<td>positive regulation of biosynthetic process</td>
+<td align="center">4.8E-6</td>
+<td align="center">4.58E-3</td>
+<td align="center">5.14 (18319,1876,19,10)</td>
+<td>
+<a id="ctrl_elements_GO:0009891" href="javascript:toggle(&#39;elements_GO:0009891&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009891" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034654&amp;view=details" target="_blank">GO:0034654</a><a name="0034654"></a></td>
+<td>nucleobase-containing compound biosynthetic process</td>
+<td align="center">4.88E-6</td>
+<td align="center">4.38E-3</td>
+<td align="center">3.92 (18319,2948,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0034654" href="javascript:toggle(&#39;elements_GO:0034654&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034654" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0018130&amp;view=details" target="_blank">GO:0018130</a><a name="0018130"></a></td>
+<td>heterocycle biosynthetic process</td>
+<td align="center">6.15E-6</td>
+<td align="center">5.22E-3</td>
+<td align="center">3.84 (18319,3012,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0018130" href="javascript:toggle(&#39;elements_GO:0018130&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0018130" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019438&amp;view=details" target="_blank">GO:0019438</a><a name="0019438"></a></td>
+<td>aromatic compound biosynthetic process</td>
+<td align="center">6.31E-6</td>
+<td align="center">5.07E-3</td>
+<td align="center">3.83 (18319,3019,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0019438" href="javascript:toggle(&#39;elements_GO:0019438&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019438" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009059&amp;view=details" target="_blank">GO:0009059</a><a name="0009059"></a></td>
+<td>macromolecule biosynthetic process</td>
+<td align="center">8.56E-6</td>
+<td align="center">6.54E-3</td>
+<td align="center">3.73 (18319,3106,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0009059" href="javascript:toggle(&#39;elements_GO:0009059&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009059" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901362&amp;view=details" target="_blank">GO:1901362</a><a name="1901362"></a></td>
+<td>organic cyclic compound biosynthetic process</td>
+<td align="center">9.92E-6</td>
+<td align="center">7.22E-3</td>
+<td align="center">3.67 (18319,3149,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:1901362" href="javascript:toggle(&#39;elements_GO:1901362&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901362" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051252&amp;view=details" target="_blank">GO:0051252</a><a name="0051252"></a></td>
+<td>regulation of RNA metabolic process</td>
+<td align="center">1.1E-5</td>
+<td align="center">7.67E-3</td>
+<td align="center">3.26 (18319,3839,19,13)</td>
+<td>
+<a id="ctrl_elements_GO:0051252" href="javascript:toggle(&#39;elements_GO:0051252&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051252" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+HOXA1  -  homeobox a1<br>
+CBX4  -  chromobox homolog 4<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044271&amp;view=details" target="_blank">GO:0044271</a><a name="0044271"></a></td>
+<td>cellular nitrogen compound biosynthetic process</td>
+<td align="center">1.62E-5</td>
+<td align="center">1.08E-2</td>
+<td align="center">3.51 (18319,3298,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0044271" href="javascript:toggle(&#39;elements_GO:0044271&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044271" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0016070&amp;view=details" target="_blank">GO:0016070</a><a name="0016070"></a></td>
+<td>RNA metabolic process</td>
+<td align="center">1.81E-5</td>
+<td align="center">1.15E-2</td>
+<td align="center">3.47 (18319,3332,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0016070" href="javascript:toggle(&#39;elements_GO:0016070&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0016070" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019219&amp;view=details" target="_blank">GO:0019219</a><a name="0019219"></a></td>
+<td>regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">2.25E-5</td>
+<td align="center">1.38E-2</td>
+<td align="center">3.07 (18319,4084,19,13)</td>
+<td>
+<a id="ctrl_elements_GO:0019219" href="javascript:toggle(&#39;elements_GO:0019219&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019219" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+HOXA1  -  homeobox a1<br>
+CBX4  -  chromobox homolog 4<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034645&amp;view=details" target="_blank">GO:0034645</a><a name="0034645"></a></td>
+<td>cellular macromolecule biosynthetic process</td>
+<td align="center">2.96E-5</td>
+<td align="center">1.74E-2</td>
+<td align="center">3.70 (18319,2863,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0034645" href="javascript:toggle(&#39;elements_GO:0034645&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034645" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009653&amp;view=details" target="_blank">GO:0009653</a><a name="0009653"></a></td>
+<td>anatomical structure morphogenesis</td>
+<td align="center">3.03E-5</td>
+<td align="center">1.72E-2</td>
+<td align="center">5.73 (18319,1347,19,8)</td>
+<td>
+<a id="ctrl_elements_GO:0009653" href="javascript:toggle(&#39;elements_GO:0009653&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009653" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+YY1  -  yy1 transcription factor<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006355&amp;view=details" target="_blank">GO:0006355</a><a name="0006355"></a></td>
+<td>regulation of transcription, DNA-templated</td>
+<td align="center">3.87E-5</td>
+<td align="center">2.11E-2</td>
+<td align="center">3.23 (18319,3580,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0006355" href="javascript:toggle(&#39;elements_GO:0006355&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006355" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051173&amp;view=details" target="_blank">GO:0051173</a><a name="0051173"></a></td>
+<td>positive regulation of nitrogen compound metabolic process</td>
+<td align="center">4.1E-5</td>
+<td align="center">2.16E-2</td>
+<td align="center">3.58 (18319,2961,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0051173" href="javascript:toggle(&#39;elements_GO:0051173&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051173" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903506&amp;view=details" target="_blank">GO:1903506</a><a name="1903506"></a></td>
+<td>regulation of nucleic acid-templated transcription</td>
+<td align="center">4.12E-5</td>
+<td align="center">2.1E-2</td>
+<td align="center">3.21 (18319,3602,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:1903506" href="javascript:toggle(&#39;elements_GO:1903506&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903506" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048598&amp;view=details" target="_blank">GO:0048598</a><a name="0048598"></a></td>
+<td>embryonic morphogenesis</td>
+<td align="center">4.22E-5</td>
+<td align="center">2.08E-2</td>
+<td align="center">12.14 (18319,397,19,5)</td>
+<td>
+<a id="ctrl_elements_GO:0048598" href="javascript:toggle(&#39;elements_GO:0048598&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048598" style="display:none"> <font size="1">
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2001141&amp;view=details" target="_blank">GO:2001141</a><a name="2001141"></a></td>
+<td>regulation of RNA biosynthetic process</td>
+<td align="center">4.22E-5</td>
+<td align="center">2.01E-2</td>
+<td align="center">3.20 (18319,3610,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:2001141" href="javascript:toggle(&#39;elements_GO:2001141&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2001141" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031325&amp;view=details" target="_blank">GO:0031325</a><a name="0031325"></a></td>
+<td>positive regulation of cellular metabolic process</td>
+<td align="center">5.7E-5</td>
+<td align="center">2.64E-2</td>
+<td align="center">3.46 (18319,3064,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0031325" href="javascript:toggle(&#39;elements_GO:0031325&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031325" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010604&amp;view=details" target="_blank">GO:0010604</a><a name="0010604"></a></td>
+<td>positive regulation of macromolecule metabolic process</td>
+<td align="center">6.12E-5</td>
+<td align="center">2.75E-2</td>
+<td align="center">3.44 (18319,3087,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0010604" href="javascript:toggle(&#39;elements_GO:0010604&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010604" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050905&amp;view=details" target="_blank">GO:0050905</a><a name="0050905"></a></td>
+<td>neuromuscular process</td>
+<td align="center">6.34E-5</td>
+<td align="center">2.77E-2</td>
+<td align="center">38.06 (18319,76,19,3)</td>
+<td>
+<a id="ctrl_elements_GO:0050905" href="javascript:toggle(&#39;elements_GO:0050905&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050905" style="display:none"> <font size="1">
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010468&amp;view=details" target="_blank">GO:0010468</a><a name="0010468"></a></td>
+<td>regulation of gene expression</td>
+<td align="center">6.72E-5</td>
+<td align="center">2.85E-2</td>
+<td align="center">2.79 (18319,4496,19,13)</td>
+<td>
+<a id="ctrl_elements_GO:0010468" href="javascript:toggle(&#39;elements_GO:0010468&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010468" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+HOXA1  -  homeobox a1<br>
+CBX4  -  chromobox homolog 4<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0090304&amp;view=details" target="_blank">GO:0090304</a><a name="0090304"></a></td>
+<td>nucleic acid metabolic process</td>
+<td align="center">8.12E-5</td>
+<td align="center">3.35E-2</td>
+<td align="center">3.01 (18319,3844,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0090304" href="javascript:toggle(&#39;elements_GO:0090304&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0090304" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048856&amp;view=details" target="_blank">GO:0048856</a><a name="0048856"></a></td>
+<td>anatomical structure development</td>
+<td align="center">8.55E-5</td>
+<td align="center">3.44E-2</td>
+<td align="center">3.32 (18319,3197,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0048856" href="javascript:toggle(&#39;elements_GO:0048856&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048856" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0003002&amp;view=details" target="_blank">GO:0003002</a><a name="0003002"></a></td>
+<td>regionalization</td>
+<td align="center">9.54E-5</td>
+<td align="center">3.74E-2</td>
+<td align="center">16.07 (18319,240,19,4)</td>
+<td>
+<a id="ctrl_elements_GO:0003002" href="javascript:toggle(&#39;elements_GO:0003002&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0003002" style="display:none"> <font size="1">
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009893&amp;view=details" target="_blank">GO:0009893</a><a name="0009893"></a></td>
+<td>positive regulation of metabolic process</td>
+<td align="center">1.09E-4</td>
+<td align="center">4.16E-2</td>
+<td align="center">3.23 (18319,3280,19,11)</td>
+<td>
+<a id="ctrl_elements_GO:0009893" href="javascript:toggle(&#39;elements_GO:0009893&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009893" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032502&amp;view=details" target="_blank">GO:0032502</a><a name="0032502"></a></td>
+<td>developmental process</td>
+<td align="center">1.11E-4</td>
+<td align="center">4.15E-2</td>
+<td align="center">2.67 (18319,4703,19,13)</td>
+<td>
+<a id="ctrl_elements_GO:0032502" href="javascript:toggle(&#39;elements_GO:0032502&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032502" style="display:none"> <font size="1">
+SORBS2  -  sorbin and sh3 domain containing 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000112&amp;view=details" target="_blank">GO:2000112</a><a name="2000112"></a></td>
+<td>regulation of cellular macromolecule biosynthetic process</td>
+<td align="center">1.13E-4</td>
+<td align="center">4.12E-2</td>
+<td align="center">2.91 (18319,3970,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:2000112" href="javascript:toggle(&#39;elements_GO:2000112&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000112" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0000122&amp;view=details" target="_blank">GO:0000122</a><a name="0000122"></a></td>
+<td>negative regulation of transcription by RNA polymerase II</td>
+<td align="center">1.2E-4</td>
+<td align="center">4.25E-2</td>
+<td align="center">7.16 (18319,808,19,6)</td>
+<td>
+<a id="ctrl_elements_GO:0000122" href="javascript:toggle(&#39;elements_GO:0000122&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0000122" style="display:none"> <font size="1">
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0035239&amp;view=details" target="_blank">GO:0035239</a><a name="0035239"></a></td>
+<td>tube morphogenesis</td>
+<td align="center">1.38E-4</td>
+<td align="center">4.78E-2</td>
+<td align="center">14.61 (18319,264,19,4)</td>
+<td>
+<a id="ctrl_elements_GO:0035239" href="javascript:toggle(&#39;elements_GO:0035239&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0035239" style="display:none"> <font size="1">
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010556&amp;view=details" target="_blank">GO:0010556</a><a name="0010556"></a></td>
+<td>regulation of macromolecule biosynthetic process</td>
+<td align="center">1.44E-4</td>
+<td align="center">4.88E-2</td>
+<td align="center">2.85 (18319,4063,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0010556" href="javascript:toggle(&#39;elements_GO:0010556&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010556" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034641&amp;view=details" target="_blank">GO:0034641</a><a name="0034641"></a></td>
+<td>cellular nitrogen compound metabolic process</td>
+<td align="center">1.58E-4</td>
+<td align="center">5.23E-2</td>
+<td align="center">2.58 (18319,4852,19,13)</td>
+<td>
+<a id="ctrl_elements_GO:0034641" href="javascript:toggle(&#39;elements_GO:0034641&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034641" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+HOXA1  -  homeobox a1<br>
+CBX4  -  chromobox homolog 4<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044249&amp;view=details" target="_blank">GO:0044249</a><a name="0044249"></a></td>
+<td>cellular biosynthetic process</td>
+<td align="center">1.68E-4</td>
+<td align="center">5.45E-2</td>
+<td align="center">2.80 (18319,4125,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0044249" href="javascript:toggle(&#39;elements_GO:0044249&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044249" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031326&amp;view=details" target="_blank">GO:0031326</a><a name="0031326"></a></td>
+<td>regulation of cellular biosynthetic process</td>
+<td align="center">1.91E-4</td>
+<td align="center">6.08E-2</td>
+<td align="center">2.77 (18319,4178,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0031326" href="javascript:toggle(&#39;elements_GO:0031326&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031326" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051171&amp;view=details" target="_blank">GO:0051171</a><a name="0051171"></a></td>
+<td>regulation of nitrogen compound metabolic process</td>
+<td align="center">1.91E-4</td>
+<td align="center">5.97E-2</td>
+<td align="center">2.34 (18319,5766,19,14)</td>
+<td>
+<a id="ctrl_elements_GO:0051171" href="javascript:toggle(&#39;elements_GO:0051171&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051171" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048522&amp;view=details" target="_blank">GO:0048522</a><a name="0048522"></a></td>
+<td>positive regulation of cellular process</td>
+<td align="center">1.99E-4</td>
+<td align="center">6.08E-2</td>
+<td align="center">2.53 (18319,4956,19,13)</td>
+<td>
+<a id="ctrl_elements_GO:0048522" href="javascript:toggle(&#39;elements_GO:0048522&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048522" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+USP34  -  ubiquitin specific peptidase 34<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051253&amp;view=details" target="_blank">GO:0051253</a><a name="0051253"></a></td>
+<td>negative regulation of RNA metabolic process</td>
+<td align="center">1.99E-4</td>
+<td align="center">5.97E-2</td>
+<td align="center">5.24 (18319,1289,19,7)</td>
+<td>
+<a id="ctrl_elements_GO:0051253" href="javascript:toggle(&#39;elements_GO:0051253&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051253" style="display:none"> <font size="1">
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901576&amp;view=details" target="_blank">GO:1901576</a><a name="1901576"></a></td>
+<td>organic substance biosynthetic process</td>
+<td align="center">2.19E-4</td>
+<td align="center">6.44E-2</td>
+<td align="center">2.73 (18319,4235,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:1901576" href="javascript:toggle(&#39;elements_GO:1901576&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901576" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009889&amp;view=details" target="_blank">GO:0009889</a><a name="0009889"></a></td>
+<td>regulation of biosynthetic process</td>
+<td align="center">2.25E-4</td>
+<td align="center">6.48E-2</td>
+<td align="center">2.72 (18319,4246,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0009889" href="javascript:toggle(&#39;elements_GO:0009889&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009889" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009058&amp;view=details" target="_blank">GO:0009058</a><a name="0009058"></a></td>
+<td>biosynthetic process</td>
+<td align="center">2.5E-4</td>
+<td align="center">7.08E-2</td>
+<td align="center">2.70 (18319,4291,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0009058" href="javascript:toggle(&#39;elements_GO:0009058&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009058" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0080090&amp;view=details" target="_blank">GO:0080090</a><a name="0080090"></a></td>
+<td>regulation of primary metabolic process</td>
+<td align="center">2.54E-4</td>
+<td align="center">7.06E-2</td>
+<td align="center">2.29 (18319,5905,19,14)</td>
+<td>
+<a id="ctrl_elements_GO:0080090" href="javascript:toggle(&#39;elements_GO:0080090&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0080090" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031323&amp;view=details" target="_blank">GO:0031323</a><a name="0031323"></a></td>
+<td>regulation of cellular metabolic process</td>
+<td align="center">2.84E-4</td>
+<td align="center">7.75E-2</td>
+<td align="center">2.26 (18319,5960,19,14)</td>
+<td>
+<a id="ctrl_elements_GO:0031323" href="javascript:toggle(&#39;elements_GO:0031323&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031323" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044260&amp;view=details" target="_blank">GO:0044260</a><a name="0044260"></a></td>
+<td>cellular macromolecule metabolic process</td>
+<td align="center">3E-4</td>
+<td align="center">8.03E-2</td>
+<td align="center">2.25 (18319,5987,19,14)</td>
+<td>
+<a id="ctrl_elements_GO:0044260" href="javascript:toggle(&#39;elements_GO:0044260&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044260" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+HOXA1  -  homeobox a1<br>
+CBX4  -  chromobox homolog 4<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+USP34  -  ubiquitin specific peptidase 34<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006139&amp;view=details" target="_blank">GO:0006139</a><a name="0006139"></a></td>
+<td>nucleobase-containing compound metabolic process</td>
+<td align="center">3.04E-4</td>
+<td align="center">8E-2</td>
+<td align="center">2.65 (18319,4374,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0006139" href="javascript:toggle(&#39;elements_GO:0006139&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006139" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0060255&amp;view=details" target="_blank">GO:0060255</a><a name="0060255"></a></td>
+<td>regulation of macromolecule metabolic process</td>
+<td align="center">3.05E-4</td>
+<td align="center">7.9E-2</td>
+<td align="center">2.25 (18319,5996,19,14)</td>
+<td>
+<a id="ctrl_elements_GO:0060255" href="javascript:toggle(&#39;elements_GO:0060255&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0060255" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045934&amp;view=details" target="_blank">GO:0045934</a><a name="0045934"></a></td>
+<td>negative regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">3.49E-4</td>
+<td align="center">8.89E-2</td>
+<td align="center">4.78 (18319,1411,19,7)</td>
+<td>
+<a id="ctrl_elements_GO:0045934" href="javascript:toggle(&#39;elements_GO:0045934&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045934" style="display:none"> <font size="1">
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0046483&amp;view=details" target="_blank">GO:0046483</a><a name="0046483"></a></td>
+<td>heterocycle metabolic process</td>
+<td align="center">4.41E-4</td>
+<td align="center">1.1E-1</td>
+<td align="center">2.55 (18319,4540,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0046483" href="javascript:toggle(&#39;elements_GO:0046483&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0046483" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006725&amp;view=details" target="_blank">GO:0006725</a><a name="0006725"></a></td>
+<td>cellular aromatic compound metabolic process</td>
+<td align="center">4.82E-4</td>
+<td align="center">1.19E-1</td>
+<td align="center">2.53 (18319,4581,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:0006725" href="javascript:toggle(&#39;elements_GO:0006725&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006725" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009952&amp;view=details" target="_blank">GO:0009952</a><a name="0009952"></a></td>
+<td>anterior/posterior pattern specification</td>
+<td align="center">5.02E-4</td>
+<td align="center">1.22E-1</td>
+<td align="center">18.91 (18319,153,19,3)</td>
+<td>
+<a id="ctrl_elements_GO:0009952" href="javascript:toggle(&#39;elements_GO:0009952&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009952" style="display:none"> <font size="1">
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+ZIC3  -  zic family member 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051241&amp;view=details" target="_blank">GO:0051241</a><a name="0051241"></a></td>
+<td>negative regulation of multicellular organismal process</td>
+<td align="center">5.05E-4</td>
+<td align="center">1.2E-1</td>
+<td align="center">5.49 (18319,1053,19,6)</td>
+<td>
+<a id="ctrl_elements_GO:0051241" href="javascript:toggle(&#39;elements_GO:0051241&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051241" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+YY1  -  yy1 transcription factor<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0043170&amp;view=details" target="_blank">GO:0043170</a><a name="0043170"></a></td>
+<td>macromolecule metabolic process</td>
+<td align="center">5.51E-4</td>
+<td align="center">1.29E-1</td>
+<td align="center">2.00 (18319,7244,19,15)</td>
+<td>
+<a id="ctrl_elements_GO:0043170" href="javascript:toggle(&#39;elements_GO:0043170&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0043170" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+USP34  -  ubiquitin specific peptidase 34<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019222&amp;view=details" target="_blank">GO:0019222</a><a name="0019222"></a></td>
+<td>regulation of metabolic process</td>
+<td align="center">6.97E-4</td>
+<td align="center">1.61E-1</td>
+<td align="center">2.10 (18319,6434,19,14)</td>
+<td>
+<a id="ctrl_elements_GO:0019222" href="javascript:toggle(&#39;elements_GO:0019222&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019222" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032501&amp;view=details" target="_blank">GO:0032501</a><a name="0032501"></a></td>
+<td>multicellular organismal process</td>
+<td align="center">7.24E-4</td>
+<td align="center">1.65E-1</td>
+<td align="center">2.89 (18319,3332,19,10)</td>
+<td>
+<a id="ctrl_elements_GO:0032501" href="javascript:toggle(&#39;elements_GO:0032501&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032501" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+SYNGAP1  -  synaptic ras gtpase activating protein 1<br>
+YY1  -  yy1 transcription factor<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048518&amp;view=details" target="_blank">GO:0048518</a><a name="0048518"></a></td>
+<td>positive regulation of biological process</td>
+<td align="center">7.26E-4</td>
+<td align="center">1.63E-1</td>
+<td align="center">2.25 (18319,5583,19,13)</td>
+<td>
+<a id="ctrl_elements_GO:0048518" href="javascript:toggle(&#39;elements_GO:0048518&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048518" style="display:none"> <font size="1">
+ONECUT1  -  one cut homeobox 1<br>
+MEOX2  -  mesenchyme homeobox 2<br>
+GATA6  -  gata binding protein 6<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+HOXA1  -  homeobox a1<br>
+OTX1  -  orthodenticle homeobox 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+USP34  -  ubiquitin specific peptidase 34<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+YY1  -  yy1 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901360&amp;view=details" target="_blank">GO:1901360</a><a name="1901360"></a></td>
+<td>organic cyclic compound metabolic process</td>
+<td align="center">7.43E-4</td>
+<td align="center">1.65E-1</td>
+<td align="center">2.42 (18319,4786,19,12)</td>
+<td>
+<a id="ctrl_elements_GO:1901360" href="javascript:toggle(&#39;elements_GO:1901360&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901360" style="display:none"> <font size="1">
+MEOX2  -  mesenchyme homeobox 2<br>
+ONECUT1  -  one cut homeobox 1<br>
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+HOXA1  -  homeobox a1<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+OTX1  -  orthodenticle homeobox 1<br>
+YY1  -  yy1 transcription factor<br>
+MAFA  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog a<br>
+ZIC3  -  zic family member 3<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0001709&amp;view=details" target="_blank">GO:0001709</a><a name="0001709"></a></td>
+<td>cell fate determination</td>
+<td align="center">8.16E-4</td>
+<td align="center">1.78E-1</td>
+<td align="center">47.03 (18319,41,19,2)</td>
+<td>
+<a id="ctrl_elements_GO:0001709" href="javascript:toggle(&#39;elements_GO:0001709&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0001709" style="display:none"> <font size="1">
+GATA6  -  gata binding protein 6<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050885&amp;view=details" target="_blank">GO:0050885</a><a name="0050885"></a></td>
+<td>neuromuscular process controlling balance</td>
+<td align="center">8.16E-4</td>
+<td align="center">1.76E-1</td>
+<td align="center">47.03 (18319,41,19,2)</td>
+<td>
+<a id="ctrl_elements_GO:0050885" href="javascript:toggle(&#39;elements_GO:0050885&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050885" style="display:none"> <font size="1">
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045892&amp;view=details" target="_blank">GO:0045892</a><a name="0045892"></a></td>
+<td>negative regulation of transcription, DNA-templated</td>
+<td align="center">8.63E-4</td>
+<td align="center">1.83E-1</td>
+<td align="center">4.97 (18319,1165,19,6)</td>
+<td>
+<a id="ctrl_elements_GO:0045892" href="javascript:toggle(&#39;elements_GO:0045892&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045892" style="display:none"> <font size="1">
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YY1  -  yy1 transcription factor<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010629&amp;view=details" target="_blank">GO:0010629</a><a name="0010629"></a></td>
+<td>negative regulation of gene expression</td>
+<td align="center">8.76E-4</td>
+<td align="center">1.83E-1</td>
+<td align="center">4.11 (18319,1641,19,7)</td>
+<td>
+<a id="ctrl_elements_GO:0010629" href="javascript:toggle(&#39;elements_GO:0010629&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010629" style="display:none"> <font size="1">
+GATA6  -  gata binding protein 6<br>
+CBX4  -  chromobox homolog 4<br>
+NR4A3  -  nuclear receptor subfamily 4, group a, member 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+DYRK1A  -  dual-specificity tyrosine-(y)-phosphorylation regulated kinase 1a<br>
+YY1  -  yy1 transcription factor<br>
+FOXG1  -  forkhead box g1<br>
+</font></div>
+</td>
+</tr>
+</tbody></table>
+<p>Species used: Homo sapiens</p><p>The system has recognized 19368 genes out of 20099 gene terms entered by the user.<br> 19368 genes were recognized by gene symbol and 0 genes by other gene IDs .<br>191 duplicate genes were removed (keeping the highest ranking instance of each gene) leaving  a total of 19177 genes.<br>Only 18319 of these genes are associated with a GO term.<br></p>
+<p> The GOrilla database is periodically updated using the <a href="http://www.geneontology.org/">GO database</a> and other sources.<br>
+The GOrilla database was last updated on Jun 16, 2018</p>
+<p>This results page will be available on this site for one month from now (until 
+Jul 22, 2018
+). You can bookmark this page and come back to it later.
+</p>
+<a name="p_value_info"></a><br><b>'P-value'</b> is the enrichment p-value computed according to the mHG or HG model. This p-value is not corrected for multiple testing of 15276 GO terms.<br>
+<a name="fdr_info"></a><br><b>'FDR q-value'</b> is the correction of the above p-value for multiple testing using the Benjamini and Hochberg (1995) method. <br>Namely, for the i<sup>th</sup> term (ranked according to p-value) the FDR q-value is (p-value * number of GO terms) / i. <br>
+<a name="enrich_info"></a><br><b>Enrichment (N, B, n, b)</b> is defined as follows:<br>N - is the total number of genes<br>B - is the total number of genes associated with a specific GO term<br>n - is the number of genes in the top of the user's input list or in the target set when appropriate<br>b - is the number of genes in the intersection<br>Enrichment = (b/n) / (B/N)<br>
+<a name="genes_info"></a><br><b>Genes:</b> For each GO term you can see the list of associated genes that appear in the optimal top of the list.<br>Each gene name is specified by gene symbol followed by a short description of the gene <br>
+<p>
+<a href="http://cbl-gorilla.cs.technion.ac.il/"> Back to the GOrilla main page </a>
+</p>
+
+
+</body></html>

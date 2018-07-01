@@ -1,0 +1,3696 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0075)http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Results
+</title>
+
+<script type="text/javascript">
+function toggle(item) {
+obj=document.getElementById(item);
+visible=(obj.style.display!="none")
+key=document.getElementById("ctrl_" + item);
+if (visible) {
+    obj.style.display="none";
+key.innerHTML="[+] Show genes";
+}
+else {
+obj.style.display="block";
+key.innerHTML="[-] Hide genes";
+}
+}
+</script>
+</head>
+<body>
+<p></p><center><b>
+
+</b></center><p></p>
+<table border="1" width="80%" id="tab:pval_legend" align="center">
+<caption><em>P-value color scale</em></caption>
+<tbody><tr>
+	<td width="140" align="center"> &gt; 10<sup>-3</sup></td>
+	<td width="140" align="center" bgcolor="#FFFFCC"> 10<sup>-3</sup> to 10<sup>-5</sup></td>
+	<td width="140" align="center" bgcolor="#FFCC66"> 10<sup>-5</sup> to 10<sup>-7</sup></td>
+	<td width="140" align="center" bgcolor="#FF9900"> 10<sup>-7</sup> to 10<sup>-9</sup></td>
+	<td width="140" align="center" bgcolor="#FF3300"> &lt; 10<sup>-9</sup></td>
+</tr>
+</tbody></table>
+<map name="goPathImage">
+<area shape="RECT" coords="759,359,841,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0050794" alt="">
+<area shape="RECT" coords="527,497,609,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048523" alt="">
+<area shape="RECT" coords="345,513,481,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0045595" alt="">
+<area shape="RECT" coords="764,497,847,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0031323" alt="">
+<area shape="RECT" coords="1236,497,1319,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048522" alt="">
+<area shape="RECT" coords="928,497,1011,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0080090" alt="">
+<area shape="RECT" coords="973,643,1141,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0019219" alt="">
+<area shape="RECT" coords="1949,985,2075,1033" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0032774" alt="">
+<area shape="RECT" coords="1927,1140,2081,1188" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0097659" alt="">
+<area shape="RECT" coords="1539,969,1664,1049" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051254" alt="">
+<area shape="RECT" coords="1267,1124,1408,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#1902680" alt="">
+<area shape="RECT" coords="601,1124,743,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#1902679" alt="">
+<area shape="RECT" coords="816,1270,925,1367" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#1903507" alt="">
+<area shape="RECT" coords="2629,506,2725,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0018130" alt="">
+<area shape="RECT" coords="2199,652,2353,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0034654" alt="">
+<area shape="RECT" coords="1184,831,1315,879" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0010468" alt="">
+<area shape="RECT" coords="896,978,1027,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0010629" alt="">
+<area shape="RECT" coords="1059,1287,1173,1350" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0006355" alt="">
+<area shape="RECT" coords="1688,978,1819,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0010628" alt="">
+<area shape="RECT" coords="2503,359,2599,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0044249" alt="">
+<area shape="RECT" coords="2339,489,2435,586" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0044271" alt="">
+<area shape="RECT" coords="2057,652,2172,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0034645" alt="">
+<area shape="RECT" coords="2459,497,2555,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0019438" alt="">
+<area shape="RECT" coords="1539,513,1677,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009952" alt="">
+<area shape="RECT" coords="1317,643,1400,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0031325" alt="">
+<area shape="RECT" coords="1267,961,1363,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0031328" alt="">
+<area shape="RECT" coords="1523,797,1691,912" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0045935" alt="">
+<area shape="RECT" coords="3288,367,3387,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048513" alt="">
+<area shape="RECT" coords="3427,513,3555,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048732" alt="">
+<area shape="RECT" coords="3272,506,3403,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048534" alt="">
+<area shape="RECT" coords="608,969,733,1049" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051253" alt="">
+<area shape="RECT" coords="352,359,475,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0050793" alt="">
+<area shape="RECT" coords="212,497,321,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#2000026" alt="">
+<area shape="RECT" coords="1715,806,1843,903" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0010604" alt="">
+<area shape="RECT" coords="1387,961,1515,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0010557" alt="">
+<area shape="RECT" coords="216,351,325,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051239" alt="">
+<area shape="RECT" coords="59,831,171,879" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0050767" alt="">
+<area shape="RECT" coords="2749,513,2891,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0030182" alt="">
+<area shape="RECT" coords="2747,661,2859,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0021953" alt="">
+<area shape="RECT" coords="4044,513,4183,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0035108" alt="">
+<area shape="RECT" coords="1035,489,1120,586" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051171" alt="">
+<area shape="RECT" coords="1475,635,1560,749" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051173" alt="">
+<area shape="RECT" coords="629,635,715,749" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051172" alt="">
+<area shape="RECT" coords="1212,1270,1321,1367" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#1903508" alt="">
+<area shape="RECT" coords="1209,1416,1324,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0045893" alt="">
+<area shape="RECT" coords="2861,367,2984,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0030154" alt="">
+<area shape="RECT" coords="2883,661,3008,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0021515" alt="">
+<area shape="RECT" coords="2965,513,3088,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048333" alt="">
+<area shape="RECT" coords="635,351,728,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048519" alt="">
+<area shape="RECT" coords="633,497,729,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009892" alt="">
+<area shape="RECT" coords="463,1107,577,1221" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#2000113" alt="">
+<area shape="RECT" coords="905,1416,1020,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0045892" alt="">
+<area shape="RECT" coords="1873,222,2004,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0071704" alt="">
+<area shape="RECT" coords="1749,359,1864,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0043170" alt="">
+<area shape="RECT" coords="2093,351,2200,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#1901360" alt="">
+<area shape="RECT" coords="1888,359,2019,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#1901576" alt="">
+<area shape="RECT" coords="3597,367,3707,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009887" alt="">
+<area shape="RECT" coords="3579,513,3725,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048562" alt="">
+<area shape="RECT" coords="2007,1295,2116,1343" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0006351" alt="">
+<area shape="RECT" coords="1991,1425,2132,1487" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0006366" alt="">
+<area shape="RECT" coords="1160,109,1240,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0065007" alt="">
+<area shape="RECT" coords="753,222,847,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0050789" alt="">
+<area shape="RECT" coords="5,661,147,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051960" alt="">
+<area shape="RECT" coords="472,643,555,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0031324" alt="">
+<area shape="RECT" coords="1063,1124,1172,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#1903506" alt="">
+<area shape="RECT" coords="1867,831,1979,879" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0016070" alt="">
+<area shape="RECT" coords="2803,823,2944,886" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0021527" alt="">
+<area shape="RECT" coords="2028,229,2124,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009058" alt="">
+<area shape="RECT" coords="2409,222,2492,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0044237" alt="">
+<area shape="RECT" coords="1891,497,2005,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0044260" alt="">
+<area shape="RECT" coords="2284,342,2369,439" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0034641" alt="">
+<area shape="RECT" coords="2393,342,2479,439" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0006725" alt="">
+<area shape="RECT" coords="2623,359,2716,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0046483" alt="">
+<area shape="RECT" coords="3112,661,3248,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048935" alt="">
+<area shape="RECT" coords="1035,823,1160,886" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051252" alt="">
+<area shape="RECT" coords="1051,978,1192,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#2001141" alt="">
+<area shape="RECT" coords="3731,367,3880,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048729" alt="">
+<area shape="RECT" coords="3749,513,3864,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0002009" alt="">
+<area shape="RECT" coords="171,661,293,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0051147" alt="">
+<area shape="RECT" coords="317,668,448,716" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0060284" alt="">
+<area shape="RECT" coords="883,815,1011,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0010556" alt="">
+<area shape="RECT" coords="456,961,584,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0010558" alt="">
+<area shape="RECT" coords="757,961,872,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#2000112" alt="">
+<area shape="RECT" coords="3903,513,4020,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0003208" alt="">
+<area shape="RECT" coords="3907,661,4016,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0003214" alt="">
+<area shape="RECT" coords="763,815,859,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0031326" alt="">
+<area shape="RECT" coords="285,815,395,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009890" alt="">
+<area shape="RECT" coords="336,961,432,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0031327" alt="">
+<area shape="RECT" coords="2300,213,2385,293" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0006807" alt="">
+<area shape="RECT" coords="419,797,587,912" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0045934" alt="">
+<area shape="RECT" coords="3001,222,3108,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048869" alt="">
+<area shape="RECT" coords="3125,367,3243,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048468" alt="">
+<area shape="RECT" coords="3008,367,3101,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0045165" alt="">
+<area shape="RECT" coords="1859,102,1952,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0032501" alt="">
+<area shape="RECT" coords="1639,229,1780,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0007389" alt="">
+<area shape="RECT" coords="1161,1545,1303,1642" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0045944" alt="">
+<area shape="RECT" coords="1588,367,1692,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0003002" alt="">
+<area shape="RECT" coords="1044,1416,1185,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0006357" alt="">
+<area shape="RECT" coords="2148,229,2276,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0044238" alt="">
+<area shape="RECT" coords="2160,497,2315,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0006139" alt="">
+<area shape="RECT" coords="961,1545,1103,1642" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0000122" alt="">
+<area shape="RECT" coords="840,661,949,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009889" alt="">
+<area shape="RECT" coords="1389,815,1499,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009891" alt="">
+<area shape="RECT" coords="3904,367,4027,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0003206" alt="">
+<area shape="RECT" coords="893,359,989,422" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0019222" alt="">
+<area shape="RECT" coords="1165,652,1293,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0060255" alt="">
+<area shape="RECT" coords="1345,497,1441,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009893" alt="">
+<area shape="RECT" coords="3291,668,3384,716" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0030097" alt="">
+<area shape="RECT" coords="3291,831,3384,879" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0060216" alt="">
+<area shape="RECT" coords="3749,661,3864,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0060571" alt="">
+<area shape="RECT" coords="3464,367,3573,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048598" alt="">
+<area shape="RECT" coords="611,806,739,903" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0010605" alt="">
+<area shape="RECT" coords="1231,351,1324,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048518" alt="">
+<area shape="RECT" coords="1876,661,1969,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0090304" alt="">
+<area shape="RECT" coords="1752,506,1867,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009059" alt="">
+<area shape="RECT" coords="2415,109,2487,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009987" alt="">
+<area shape="RECT" coords="3673,222,3783,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0009653" alt="">
+<area shape="RECT" coords="4056,367,4165,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0035107" alt="">
+<area shape="RECT" coords="3137,222,3231,285" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048856" alt="">
+<area shape="RECT" coords="2029,497,2136,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#1901362" alt="">
+<area shape="RECT" coords="2171,109,2253,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0008152" alt="">
+<area shape="RECT" coords="2212,5,2099,29" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0008150" alt="">
+<area shape="RECT" coords="3065,109,3172,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0032502" alt="">
+<area shape="RECT" coords="3112,513,3248,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#0048666" alt="">
+</map>
+<p align="center"><img border="0" src="./Results_files/GOPROCESS.png" usemap="#goPathImage" alt=""></p>
+<p>&nbsp;</p>
+<table border="1" width="100%" id="table1">
+	<tbody><tr>
+		<td align="center"><b>GO term</b></td>
+		<td align="center"><b>Description</b></td>
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#p_value_info">P-value</a></b></td> 
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#fdr_info">FDR q-value</a></b></td> 
+		<td width="230" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#enrich_info"> Enrichment (N, B, n, b) </a></b> </td>
+		<td align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/2al3ya8m/GOResultsPROCESS.html#genes_info"> Genes </a></b></td>
+	</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051254&amp;view=details" target="_blank">GO:0051254</a><a name="0051254"></a></td>
+<td>positive regulation of RNA metabolic process</td>
+<td align="center">4.81E-12</td>
+<td align="center">7.34E-8</td>
+<td align="center">5.22 (18319,1613,50,23)</td>
+<td>
+<a id="ctrl_elements_GO:0051254" href="javascript:toggle(&#39;elements_GO:0051254&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051254" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+FUS  -  fused in sarcoma<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006357&amp;view=details" target="_blank">GO:0006357</a><a name="0006357"></a></td>
+<td>regulation of transcription by RNA polymerase II</td>
+<td align="center">4.94E-12</td>
+<td align="center">3.77E-8</td>
+<td align="center">3.97 (18319,2584,50,28)</td>
+<td>
+<a id="ctrl_elements_GO:0006357" href="javascript:toggle(&#39;elements_GO:0006357&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006357" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+EVX2  -  even-skipped homeobox 2<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+GDF7  -  growth differentiation factor 7<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019219&amp;view=details" target="_blank">GO:0019219</a><a name="0019219"></a></td>
+<td>regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">6.36E-12</td>
+<td align="center">3.24E-8</td>
+<td align="center">3.05 (18319,4084,50,34)</td>
+<td>
+<a id="ctrl_elements_GO:0019219" href="javascript:toggle(&#39;elements_GO:0019219&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019219" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051252&amp;view=details" target="_blank">GO:0051252</a><a name="0051252"></a></td>
+<td>regulation of RNA metabolic process</td>
+<td align="center">7.69E-12</td>
+<td align="center">2.94E-8</td>
+<td align="center">3.15 (18319,3839,50,33)</td>
+<td>
+<a id="ctrl_elements_GO:0051252" href="javascript:toggle(&#39;elements_GO:0051252&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051252" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000112&amp;view=details" target="_blank">GO:2000112</a><a name="2000112"></a></td>
+<td>regulation of cellular macromolecule biosynthetic process</td>
+<td align="center">2.02E-11</td>
+<td align="center">6.16E-8</td>
+<td align="center">3.05 (18319,3970,50,33)</td>
+<td>
+<a id="ctrl_elements_GO:2000112" href="javascript:toggle(&#39;elements_GO:2000112&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000112" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045935&amp;view=details" target="_blank">GO:0045935</a><a name="0045935"></a></td>
+<td>positive regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">3.76E-11</td>
+<td align="center">9.58E-8</td>
+<td align="center">4.73 (18319,1783,50,23)</td>
+<td>
+<a id="ctrl_elements_GO:0045935" href="javascript:toggle(&#39;elements_GO:0045935&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045935" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+FUS  -  fused in sarcoma<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010556&amp;view=details" target="_blank">GO:0010556</a><a name="0010556"></a></td>
+<td>regulation of macromolecule biosynthetic process</td>
+<td align="center">3.91E-11</td>
+<td align="center">8.52E-8</td>
+<td align="center">2.98 (18319,4063,50,33)</td>
+<td>
+<a id="ctrl_elements_GO:0010556" href="javascript:toggle(&#39;elements_GO:0010556&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010556" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006355&amp;view=details" target="_blank">GO:0006355</a><a name="0006355"></a></td>
+<td>regulation of transcription, DNA-templated</td>
+<td align="center">5.53E-11</td>
+<td align="center">1.06E-7</td>
+<td align="center">3.17 (18319,3580,50,31)</td>
+<td>
+<a id="ctrl_elements_GO:0006355" href="javascript:toggle(&#39;elements_GO:0006355&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006355" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903506&amp;view=details" target="_blank">GO:1903506</a><a name="1903506"></a></td>
+<td>regulation of nucleic acid-templated transcription</td>
+<td align="center">6.51E-11</td>
+<td align="center">1.11E-7</td>
+<td align="center">3.15 (18319,3602,50,31)</td>
+<td>
+<a id="ctrl_elements_GO:1903506" href="javascript:toggle(&#39;elements_GO:1903506&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903506" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2001141&amp;view=details" target="_blank">GO:2001141</a><a name="2001141"></a></td>
+<td>regulation of RNA biosynthetic process</td>
+<td align="center">6.91E-11</td>
+<td align="center">1.06E-7</td>
+<td align="center">3.15 (18319,3610,50,31)</td>
+<td>
+<a id="ctrl_elements_GO:2001141" href="javascript:toggle(&#39;elements_GO:2001141&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2001141" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031326&amp;view=details" target="_blank">GO:0031326</a><a name="0031326"></a></td>
+<td>regulation of cellular biosynthetic process</td>
+<td align="center">8.63E-11</td>
+<td align="center">1.2E-7</td>
+<td align="center">2.89 (18319,4178,50,33)</td>
+<td>
+<a id="ctrl_elements_GO:0031326" href="javascript:toggle(&#39;elements_GO:0031326&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031326" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903508&amp;view=details" target="_blank">GO:1903508</a><a name="1903508"></a></td>
+<td>positive regulation of nucleic acid-templated transcription</td>
+<td align="center">1.29E-10</td>
+<td align="center">1.64E-7</td>
+<td align="center">5.02 (18319,1532,50,21)</td>
+<td>
+<a id="ctrl_elements_GO:1903508" href="javascript:toggle(&#39;elements_GO:1903508&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903508" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+HOXD9  -  homeobox d9<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1902680&amp;view=details" target="_blank">GO:1902680</a><a name="1902680"></a></td>
+<td>positive regulation of RNA biosynthetic process</td>
+<td align="center">1.31E-10</td>
+<td align="center">1.54E-7</td>
+<td align="center">5.02 (18319,1533,50,21)</td>
+<td>
+<a id="ctrl_elements_GO:1902680" href="javascript:toggle(&#39;elements_GO:1902680&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1902680" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+HOXD9  -  homeobox d9<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009889&amp;view=details" target="_blank">GO:0009889</a><a name="0009889"></a></td>
+<td>regulation of biosynthetic process</td>
+<td align="center">1.36E-10</td>
+<td align="center">1.49E-7</td>
+<td align="center">2.85 (18319,4246,50,33)</td>
+<td>
+<a id="ctrl_elements_GO:0009889" href="javascript:toggle(&#39;elements_GO:0009889&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009889" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0016070&amp;view=details" target="_blank">GO:0016070</a><a name="0016070"></a></td>
+<td>RNA metabolic process</td>
+<td align="center">3.74E-10</td>
+<td align="center">3.81E-7</td>
+<td align="center">3.19 (18319,3332,50,29)</td>
+<td>
+<a id="ctrl_elements_GO:0016070" href="javascript:toggle(&#39;elements_GO:0016070&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0016070" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+HOXC13  -  homeobox c13<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045893&amp;view=details" target="_blank">GO:0045893</a><a name="0045893"></a></td>
+<td>positive regulation of transcription, DNA-templated</td>
+<td align="center">4.03E-10</td>
+<td align="center">3.85E-7</td>
+<td align="center">5.04 (18319,1454,50,20)</td>
+<td>
+<a id="ctrl_elements_GO:0045893" href="javascript:toggle(&#39;elements_GO:0045893&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045893" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+HOXD9  -  homeobox d9<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010628&amp;view=details" target="_blank">GO:0010628</a><a name="0010628"></a></td>
+<td>positive regulation of gene expression</td>
+<td align="center">5.09E-10</td>
+<td align="center">4.57E-7</td>
+<td align="center">4.39 (18319,1835,50,22)</td>
+<td>
+<a id="ctrl_elements_GO:0010628" href="javascript:toggle(&#39;elements_GO:0010628&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010628" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010468&amp;view=details" target="_blank">GO:0010468</a><a name="0010468"></a></td>
+<td>regulation of gene expression</td>
+<td align="center">6.77E-10</td>
+<td align="center">5.75E-7</td>
+<td align="center">2.69 (18319,4496,50,33)</td>
+<td>
+<a id="ctrl_elements_GO:0010468" href="javascript:toggle(&#39;elements_GO:0010468&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010468" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006351&amp;view=details" target="_blank">GO:0006351</a><a name="0006351"></a></td>
+<td>transcription, DNA-templated</td>
+<td align="center">1.45E-9</td>
+<td align="center">1.17E-6</td>
+<td align="center">3.74 (18319,2348,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0006351" href="javascript:toggle(&#39;elements_GO:0006351&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006351" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0097659&amp;view=details" target="_blank">GO:0097659</a><a name="0097659"></a></td>
+<td>nucleic acid-templated transcription</td>
+<td align="center">1.47E-9</td>
+<td align="center">1.12E-6</td>
+<td align="center">3.74 (18319,2349,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0097659" href="javascript:toggle(&#39;elements_GO:0097659&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0097659" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010557&amp;view=details" target="_blank">GO:0010557</a><a name="0010557"></a></td>
+<td>positive regulation of macromolecule biosynthetic process</td>
+<td align="center">1.81E-9</td>
+<td align="center">1.31E-6</td>
+<td align="center">4.35 (18319,1768,50,21)</td>
+<td>
+<a id="ctrl_elements_GO:0010557" href="javascript:toggle(&#39;elements_GO:0010557&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010557" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+FUS  -  fused in sarcoma<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045944&amp;view=details" target="_blank">GO:0045944</a><a name="0045944"></a></td>
+<td>positive regulation of transcription by RNA polymerase II</td>
+<td align="center">3.83E-9</td>
+<td align="center">2.66E-6</td>
+<td align="center">5.47 (18319,1139,50,17)</td>
+<td>
+<a id="ctrl_elements_GO:0045944" href="javascript:toggle(&#39;elements_GO:0045944&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045944" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031328&amp;view=details" target="_blank">GO:0031328</a><a name="0031328"></a></td>
+<td>positive regulation of cellular biosynthetic process</td>
+<td align="center">4.03E-9</td>
+<td align="center">2.68E-6</td>
+<td align="center">4.16 (18319,1848,50,21)</td>
+<td>
+<a id="ctrl_elements_GO:0031328" href="javascript:toggle(&#39;elements_GO:0031328&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031328" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+FUS  -  fused in sarcoma<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009891&amp;view=details" target="_blank">GO:0009891</a><a name="0009891"></a></td>
+<td>positive regulation of biosynthetic process</td>
+<td align="center">5.29E-9</td>
+<td align="center">3.36E-6</td>
+<td align="center">4.10 (18319,1876,50,21)</td>
+<td>
+<a id="ctrl_elements_GO:0009891" href="javascript:toggle(&#39;elements_GO:0009891&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009891" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+FUS  -  fused in sarcoma<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032774&amp;view=details" target="_blank">GO:0032774</a><a name="0032774"></a></td>
+<td>RNA biosynthetic process</td>
+<td align="center">5.74E-9</td>
+<td align="center">3.51E-6</td>
+<td align="center">3.50 (18319,2512,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0032774" href="javascript:toggle(&#39;elements_GO:0032774&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032774" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0090304&amp;view=details" target="_blank">GO:0090304</a><a name="0090304"></a></td>
+<td>nucleic acid metabolic process</td>
+<td align="center">1.2E-8</td>
+<td align="center">7.04E-6</td>
+<td align="center">2.76 (18319,3844,50,29)</td>
+<td>
+<a id="ctrl_elements_GO:0090304" href="javascript:toggle(&#39;elements_GO:0090304&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0090304" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+HOXC13  -  homeobox c13<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031323&amp;view=details" target="_blank">GO:0031323</a><a name="0031323"></a></td>
+<td>regulation of cellular metabolic process</td>
+<td align="center">1.23E-8</td>
+<td align="center">6.94E-6</td>
+<td align="center">2.21 (18319,5960,50,36)</td>
+<td>
+<a id="ctrl_elements_GO:0031323" href="javascript:toggle(&#39;elements_GO:0031323&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031323" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+EVX2  -  even-skipped homeobox 2<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034645&amp;view=details" target="_blank">GO:0034645</a><a name="0034645"></a></td>
+<td>cellular macromolecule biosynthetic process</td>
+<td align="center">1.45E-8</td>
+<td align="center">7.94E-6</td>
+<td align="center">3.20 (18319,2863,50,25)</td>
+<td>
+<a id="ctrl_elements_GO:0034645" href="javascript:toggle(&#39;elements_GO:0034645&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034645" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+HOXC13  -  homeobox c13<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0000122&amp;view=details" target="_blank">GO:0000122</a><a name="0000122"></a></td>
+<td>negative regulation of transcription by RNA polymerase II</td>
+<td align="center">2.01E-8</td>
+<td align="center">1.06E-5</td>
+<td align="center">6.35 (18319,808,50,14)</td>
+<td>
+<a id="ctrl_elements_GO:0000122" href="javascript:toggle(&#39;elements_GO:0000122&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0000122" style="display:none"> <font size="1">
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051171&amp;view=details" target="_blank">GO:0051171</a><a name="0051171"></a></td>
+<td>regulation of nitrogen compound metabolic process</td>
+<td align="center">2.45E-8</td>
+<td align="center">1.25E-5</td>
+<td align="center">2.22 (18319,5766,50,35)</td>
+<td>
+<a id="ctrl_elements_GO:0051171" href="javascript:toggle(&#39;elements_GO:0051171&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051171" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000113&amp;view=details" target="_blank">GO:2000113</a><a name="2000113"></a></td>
+<td>negative regulation of cellular macromolecule biosynthetic process</td>
+<td align="center">4.54E-8</td>
+<td align="center">2.24E-5</td>
+<td align="center">4.63 (18319,1345,50,17)</td>
+<td>
+<a id="ctrl_elements_GO:2000113" href="javascript:toggle(&#39;elements_GO:2000113&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000113" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0080090&amp;view=details" target="_blank">GO:0080090</a><a name="0080090"></a></td>
+<td>regulation of primary metabolic process</td>
+<td align="center">4.82E-8</td>
+<td align="center">2.3E-5</td>
+<td align="center">2.17 (18319,5905,50,35)</td>
+<td>
+<a id="ctrl_elements_GO:0080090" href="javascript:toggle(&#39;elements_GO:0080090&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0080090" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006139&amp;view=details" target="_blank">GO:0006139</a><a name="0006139"></a></td>
+<td>nucleobase-containing compound metabolic process</td>
+<td align="center">5.23E-8</td>
+<td align="center">2.42E-5</td>
+<td align="center">2.51 (18319,4374,50,30)</td>
+<td>
+<a id="ctrl_elements_GO:0006139" href="javascript:toggle(&#39;elements_GO:0006139&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006139" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006366&amp;view=details" target="_blank">GO:0006366</a><a name="0006366"></a></td>
+<td>transcription by RNA polymerase II</td>
+<td align="center">6.25E-8</td>
+<td align="center">2.81E-5</td>
+<td align="center">7.22 (18319,609,50,12)</td>
+<td>
+<a id="ctrl_elements_GO:0006366" href="javascript:toggle(&#39;elements_GO:0006366&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006366" style="display:none"> <font size="1">
+FOXC1  -  forkhead box c1<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010604&amp;view=details" target="_blank">GO:0010604</a><a name="0010604"></a></td>
+<td>positive regulation of macromolecule metabolic process</td>
+<td align="center">6.82E-8</td>
+<td align="center">2.98E-5</td>
+<td align="center">2.97 (18319,3087,50,25)</td>
+<td>
+<a id="ctrl_elements_GO:0010604" href="javascript:toggle(&#39;elements_GO:0010604&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010604" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FUS  -  fused in sarcoma<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0060255&amp;view=details" target="_blank">GO:0060255</a><a name="0060255"></a></td>
+<td>regulation of macromolecule metabolic process</td>
+<td align="center">7.43E-8</td>
+<td align="center">3.15E-5</td>
+<td align="center">2.14 (18319,5996,50,35)</td>
+<td>
+<a id="ctrl_elements_GO:0060255" href="javascript:toggle(&#39;elements_GO:0060255&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0060255" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009059&amp;view=details" target="_blank">GO:0009059</a><a name="0009059"></a></td>
+<td>macromolecule biosynthetic process</td>
+<td align="center">7.73E-8</td>
+<td align="center">3.19E-5</td>
+<td align="center">2.95 (18319,3106,50,25)</td>
+<td>
+<a id="ctrl_elements_GO:0009059" href="javascript:toggle(&#39;elements_GO:0009059&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009059" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+HOXC13  -  homeobox c13<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010558&amp;view=details" target="_blank">GO:0010558</a><a name="0010558"></a></td>
+<td>negative regulation of macromolecule biosynthetic process</td>
+<td align="center">9.05E-8</td>
+<td align="center">3.64E-5</td>
+<td align="center">4.42 (18319,1410,50,17)</td>
+<td>
+<a id="ctrl_elements_GO:0010558" href="javascript:toggle(&#39;elements_GO:0010558&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010558" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045934&amp;view=details" target="_blank">GO:0045934</a><a name="0045934"></a></td>
+<td>negative regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">9.14E-8</td>
+<td align="center">3.58E-5</td>
+<td align="center">4.41 (18319,1411,50,17)</td>
+<td>
+<a id="ctrl_elements_GO:0045934" href="javascript:toggle(&#39;elements_GO:0045934&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045934" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019222&amp;view=details" target="_blank">GO:0019222</a><a name="0019222"></a></td>
+<td>regulation of metabolic process</td>
+<td align="center">1.15E-7</td>
+<td align="center">4.4E-5</td>
+<td align="center">2.05 (18319,6434,50,36)</td>
+<td>
+<a id="ctrl_elements_GO:0019222" href="javascript:toggle(&#39;elements_GO:0019222&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019222" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0046483&amp;view=details" target="_blank">GO:0046483</a><a name="0046483"></a></td>
+<td>heterocycle metabolic process</td>
+<td align="center">1.28E-7</td>
+<td align="center">4.76E-5</td>
+<td align="center">2.42 (18319,4540,50,30)</td>
+<td>
+<a id="ctrl_elements_GO:0046483" href="javascript:toggle(&#39;elements_GO:0046483&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0046483" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034654&amp;view=details" target="_blank">GO:0034654</a><a name="0034654"></a></td>
+<td>nucleobase-containing compound biosynthetic process</td>
+<td align="center">1.37E-7</td>
+<td align="center">4.97E-5</td>
+<td align="center">2.98 (18319,2948,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0034654" href="javascript:toggle(&#39;elements_GO:0034654&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034654" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010629&amp;view=details" target="_blank">GO:0010629</a><a name="0010629"></a></td>
+<td>negative regulation of gene expression</td>
+<td align="center">1.39E-7</td>
+<td align="center">4.95E-5</td>
+<td align="center">4.02 (18319,1641,50,18)</td>
+<td>
+<a id="ctrl_elements_GO:0010629" href="javascript:toggle(&#39;elements_GO:0010629&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010629" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051173&amp;view=details" target="_blank">GO:0051173</a><a name="0051173"></a></td>
+<td>positive regulation of nitrogen compound metabolic process</td>
+<td align="center">1.49E-7</td>
+<td align="center">5.17E-5</td>
+<td align="center">2.97 (18319,2961,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0051173" href="javascript:toggle(&#39;elements_GO:0051173&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051173" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+FUS  -  fused in sarcoma<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031327&amp;view=details" target="_blank">GO:0031327</a><a name="0031327"></a></td>
+<td>negative regulation of cellular biosynthetic process</td>
+<td align="center">1.53E-7</td>
+<td align="center">5.19E-5</td>
+<td align="center">4.26 (18319,1462,50,17)</td>
+<td>
+<a id="ctrl_elements_GO:0031327" href="javascript:toggle(&#39;elements_GO:0031327&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031327" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006725&amp;view=details" target="_blank">GO:0006725</a><a name="0006725"></a></td>
+<td>cellular aromatic compound metabolic process</td>
+<td align="center">1.58E-7</td>
+<td align="center">5.26E-5</td>
+<td align="center">2.40 (18319,4581,50,30)</td>
+<td>
+<a id="ctrl_elements_GO:0006725" href="javascript:toggle(&#39;elements_GO:0006725&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006725" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051253&amp;view=details" target="_blank">GO:0051253</a><a name="0051253"></a></td>
+<td>negative regulation of RNA metabolic process</td>
+<td align="center">1.64E-7</td>
+<td align="center">5.35E-5</td>
+<td align="center">4.55 (18319,1289,50,16)</td>
+<td>
+<a id="ctrl_elements_GO:0051253" href="javascript:toggle(&#39;elements_GO:0051253&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051253" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009890&amp;view=details" target="_blank">GO:0009890</a><a name="0009890"></a></td>
+<td>negative regulation of biosynthetic process</td>
+<td align="center">1.88E-7</td>
+<td align="center">5.97E-5</td>
+<td align="center">4.20 (18319,1483,50,17)</td>
+<td>
+<a id="ctrl_elements_GO:0009890" href="javascript:toggle(&#39;elements_GO:0009890&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009890" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0018130&amp;view=details" target="_blank">GO:0018130</a><a name="0018130"></a></td>
+<td>heterocycle biosynthetic process</td>
+<td align="center">2.07E-7</td>
+<td align="center">6.45E-5</td>
+<td align="center">2.92 (18319,3012,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0018130" href="javascript:toggle(&#39;elements_GO:0018130&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0018130" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019438&amp;view=details" target="_blank">GO:0019438</a><a name="0019438"></a></td>
+<td>aromatic compound biosynthetic process</td>
+<td align="center">2.16E-7</td>
+<td align="center">6.61E-5</td>
+<td align="center">2.91 (18319,3019,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0019438" href="javascript:toggle(&#39;elements_GO:0019438&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019438" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009893&amp;view=details" target="_blank">GO:0009893</a><a name="0009893"></a></td>
+<td>positive regulation of metabolic process</td>
+<td align="center">2.31E-7</td>
+<td align="center">6.92E-5</td>
+<td align="center">2.79 (18319,3280,50,25)</td>
+<td>
+<a id="ctrl_elements_GO:0009893" href="javascript:toggle(&#39;elements_GO:0009893&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009893" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FUS  -  fused in sarcoma<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045892&amp;view=details" target="_blank">GO:0045892</a><a name="0045892"></a></td>
+<td>negative regulation of transcription, DNA-templated</td>
+<td align="center">2.8E-7</td>
+<td align="center">8.23E-5</td>
+<td align="center">4.72 (18319,1165,50,15)</td>
+<td>
+<a id="ctrl_elements_GO:0045892" href="javascript:toggle(&#39;elements_GO:0045892&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045892" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031325&amp;view=details" target="_blank">GO:0031325</a><a name="0031325"></a></td>
+<td>positive regulation of cellular metabolic process</td>
+<td align="center">2.88E-7</td>
+<td align="center">8.29E-5</td>
+<td align="center">2.87 (18319,3064,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0031325" href="javascript:toggle(&#39;elements_GO:0031325&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031325" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+FUS  -  fused in sarcoma<br>
+HOXD9  -  homeobox d9<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903507&amp;view=details" target="_blank">GO:1903507</a><a name="1903507"></a></td>
+<td>negative regulation of nucleic acid-templated transcription</td>
+<td align="center">4.28E-7</td>
+<td align="center">1.21E-4</td>
+<td align="center">4.56 (18319,1204,50,15)</td>
+<td>
+<a id="ctrl_elements_GO:1903507" href="javascript:toggle(&#39;elements_GO:1903507&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903507" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1902679&amp;view=details" target="_blank">GO:1902679</a><a name="1902679"></a></td>
+<td>negative regulation of RNA biosynthetic process</td>
+<td align="center">4.37E-7</td>
+<td align="center">1.21E-4</td>
+<td align="center">4.56 (18319,1206,50,15)</td>
+<td>
+<a id="ctrl_elements_GO:1902679" href="javascript:toggle(&#39;elements_GO:1902679&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1902679" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+YEATS2  -  yeats domain containing 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901360&amp;view=details" target="_blank">GO:1901360</a><a name="1901360"></a></td>
+<td>organic cyclic compound metabolic process</td>
+<td align="center">4.44E-7</td>
+<td align="center">1.21E-4</td>
+<td align="center">2.30 (18319,4786,50,30)</td>
+<td>
+<a id="ctrl_elements_GO:1901360" href="javascript:toggle(&#39;elements_GO:1901360&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901360" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901362&amp;view=details" target="_blank">GO:1901362</a><a name="1901362"></a></td>
+<td>organic cyclic compound biosynthetic process</td>
+<td align="center">4.85E-7</td>
+<td align="center">1.3E-4</td>
+<td align="center">2.79 (18319,3149,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:1901362" href="javascript:toggle(&#39;elements_GO:1901362&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901362" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+HOXD9  -  homeobox d9<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034641&amp;view=details" target="_blank">GO:0034641</a><a name="0034641"></a></td>
+<td>cellular nitrogen compound metabolic process</td>
+<td align="center">6.12E-7</td>
+<td align="center">1.61E-4</td>
+<td align="center">2.27 (18319,4852,50,30)</td>
+<td>
+<a id="ctrl_elements_GO:0034641" href="javascript:toggle(&#39;elements_GO:0034641&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034641" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044271&amp;view=details" target="_blank">GO:0044271</a><a name="0044271"></a></td>
+<td>cellular nitrogen compound biosynthetic process</td>
+<td align="center">1.16E-6</td>
+<td align="center">3E-4</td>
+<td align="center">2.67 (18319,3298,50,24)</td>
+<td>
+<a id="ctrl_elements_GO:0044271" href="javascript:toggle(&#39;elements_GO:0044271&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044271" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+HOXD9  -  homeobox d9<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044249&amp;view=details" target="_blank">GO:0044249</a><a name="0044249"></a></td>
+<td>cellular biosynthetic process</td>
+<td align="center">1.27E-6</td>
+<td align="center">3.22E-4</td>
+<td align="center">2.40 (18319,4125,50,27)</td>
+<td>
+<a id="ctrl_elements_GO:0044249" href="javascript:toggle(&#39;elements_GO:0044249&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044249" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+HOXC13  -  homeobox c13<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901576&amp;view=details" target="_blank">GO:1901576</a><a name="1901576"></a></td>
+<td>organic substance biosynthetic process</td>
+<td align="center">2.18E-6</td>
+<td align="center">5.46E-4</td>
+<td align="center">2.34 (18319,4235,50,27)</td>
+<td>
+<a id="ctrl_elements_GO:1901576" href="javascript:toggle(&#39;elements_GO:1901576&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901576" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+HOXC13  -  homeobox c13<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010605&amp;view=details" target="_blank">GO:0010605</a><a name="0010605"></a></td>
+<td>negative regulation of macromolecule metabolic process</td>
+<td align="center">2.78E-6</td>
+<td align="center">6.85E-4</td>
+<td align="center">2.98 (18319,2460,50,20)</td>
+<td>
+<a id="ctrl_elements_GO:0010605" href="javascript:toggle(&#39;elements_GO:0010605&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010605" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009058&amp;view=details" target="_blank">GO:0009058</a><a name="0009058"></a></td>
+<td>biosynthetic process</td>
+<td align="center">2.86E-6</td>
+<td align="center">6.92E-4</td>
+<td align="center">2.31 (18319,4291,50,27)</td>
+<td>
+<a id="ctrl_elements_GO:0009058" href="javascript:toggle(&#39;elements_GO:0009058&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009058" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+FEZF2  -  fez family zinc finger 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+HOXC13  -  homeobox c13<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0043170&amp;view=details" target="_blank">GO:0043170</a><a name="0043170"></a></td>
+<td>macromolecule metabolic process</td>
+<td align="center">3.26E-6</td>
+<td align="center">7.79E-4</td>
+<td align="center">1.82 (18319,7244,50,36)</td>
+<td>
+<a id="ctrl_elements_GO:0043170" href="javascript:toggle(&#39;elements_GO:0043170&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0043170" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+FBXL17  -  f-box and leucine-rich repeat protein 17<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009952&amp;view=details" target="_blank">GO:0009952</a><a name="0009952"></a></td>
+<td>anterior/posterior pattern specification</td>
+<td align="center">3.61E-6</td>
+<td align="center">8.48E-4</td>
+<td align="center">14.37 (18319,153,50,6)</td>
+<td>
+<a id="ctrl_elements_GO:0009952" href="javascript:toggle(&#39;elements_GO:0009952&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009952" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+HOXC13  -  homeobox c13<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0003002&amp;view=details" target="_blank">GO:0003002</a><a name="0003002"></a></td>
+<td>regionalization</td>
+<td align="center">3.75E-6</td>
+<td align="center">8.69E-4</td>
+<td align="center">10.69 (18319,240,50,7)</td>
+<td>
+<a id="ctrl_elements_GO:0003002" href="javascript:toggle(&#39;elements_GO:0003002&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0003002" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+HOXC13  -  homeobox c13<br>
+SP8  -  sp8 transcription factor<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048522&amp;view=details" target="_blank">GO:0048522</a><a name="0048522"></a></td>
+<td>positive regulation of cellular process</td>
+<td align="center">3.97E-6</td>
+<td align="center">9.05E-4</td>
+<td align="center">2.14 (18319,4956,50,29)</td>
+<td>
+<a id="ctrl_elements_GO:0048522" href="javascript:toggle(&#39;elements_GO:0048522&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048522" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+CAPNS1  -  calpain, small subunit 1<br>
+HOXB3  -  homeobox b3<br>
+LURAP1L  -  leucine rich adaptor protein 1-like<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FUS  -  fused in sarcoma<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+WIPF1  -  was/wasl interacting protein family, member 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009887&amp;view=details" target="_blank">GO:0009887</a><a name="0009887"></a></td>
+<td>animal organ morphogenesis</td>
+<td align="center">4.47E-6</td>
+<td align="center">1E-3</td>
+<td align="center">7.00 (18319,471,50,9)</td>
+<td>
+<a id="ctrl_elements_GO:0009887" href="javascript:toggle(&#39;elements_GO:0009887&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009887" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+GDF7  -  growth differentiation factor 7<br>
+HOXC13  -  homeobox c13<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SHOX2  -  short stature homeobox 2<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048468&amp;view=details" target="_blank">GO:0048468</a><a name="0048468"></a></td>
+<td>cell development</td>
+<td align="center">6.94E-6</td>
+<td align="center">1.54E-3</td>
+<td align="center">5.76 (18319,636,50,10)</td>
+<td>
+<a id="ctrl_elements_GO:0048468" href="javascript:toggle(&#39;elements_GO:0048468&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048468" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+FOXC1  -  forkhead box c1<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+HCN1  -  hyperpolarization activated cyclic nucleotide-gated potassium channel 1<br>
+GDF7  -  growth differentiation factor 7<br>
+ONECUT2  -  one cut homeobox 2<br>
+SHOX2  -  short stature homeobox 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009892&amp;view=details" target="_blank">GO:0009892</a><a name="0009892"></a></td>
+<td>negative regulation of metabolic process</td>
+<td align="center">9.1E-6</td>
+<td align="center">1.99E-3</td>
+<td align="center">2.76 (18319,2655,50,20)</td>
+<td>
+<a id="ctrl_elements_GO:0009892" href="javascript:toggle(&#39;elements_GO:0009892&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009892" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051172&amp;view=details" target="_blank">GO:0051172</a><a name="0051172"></a></td>
+<td>negative regulation of nitrogen compound metabolic process</td>
+<td align="center">1.19E-5</td>
+<td align="center">2.57E-3</td>
+<td align="center">2.96 (18319,2226,50,18)</td>
+<td>
+<a id="ctrl_elements_GO:0051172" href="javascript:toggle(&#39;elements_GO:0051172&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051172" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048518&amp;view=details" target="_blank">GO:0048518</a><a name="0048518"></a></td>
+<td>positive regulation of biological process</td>
+<td align="center">1.45E-5</td>
+<td align="center">3.08E-3</td>
+<td align="center">1.97 (18319,5583,50,30)</td>
+<td>
+<a id="ctrl_elements_GO:0048518" href="javascript:toggle(&#39;elements_GO:0048518&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048518" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+HOXB3  -  homeobox b3<br>
+LURAP1L  -  leucine rich adaptor protein 1-like<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FUS  -  fused in sarcoma<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+WIPF1  -  was/wasl interacting protein family, member 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044238&amp;view=details" target="_blank">GO:0044238</a><a name="0044238"></a></td>
+<td>primary metabolic process</td>
+<td align="center">1.83E-5</td>
+<td align="center">3.82E-3</td>
+<td align="center">1.64 (18319,8487,50,38)</td>
+<td>
+<a id="ctrl_elements_GO:0044238" href="javascript:toggle(&#39;elements_GO:0044238&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044238" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+FBXL17  -  f-box and leucine-rich repeat protein 17<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044260&amp;view=details" target="_blank">GO:0044260</a><a name="0044260"></a></td>
+<td>cellular macromolecule metabolic process</td>
+<td align="center">1.96E-5</td>
+<td align="center">4.04E-3</td>
+<td align="center">1.90 (18319,5987,50,31)</td>
+<td>
+<a id="ctrl_elements_GO:0044260" href="javascript:toggle(&#39;elements_GO:0044260&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044260" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+FBXL17  -  f-box and leucine-rich repeat protein 17<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031324&amp;view=details" target="_blank">GO:0031324</a><a name="0031324"></a></td>
+<td>negative regulation of cellular metabolic process</td>
+<td align="center">2.94E-5</td>
+<td align="center">5.98E-3</td>
+<td align="center">2.78 (18319,2376,50,18)</td>
+<td>
+<a id="ctrl_elements_GO:0031324" href="javascript:toggle(&#39;elements_GO:0031324&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031324" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+AEBP2  -  ae binding protein 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048666&amp;view=details" target="_blank">GO:0048666</a><a name="0048666"></a></td>
+<td>neuron development</td>
+<td align="center">4.17E-5</td>
+<td align="center">8.39E-3</td>
+<td align="center">12.90 (18319,142,50,5)</td>
+<td>
+<a id="ctrl_elements_GO:0048666" href="javascript:toggle(&#39;elements_GO:0048666&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048666" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+HCN1  -  hyperpolarization activated cyclic nucleotide-gated potassium channel 1<br>
+ONECUT2  -  one cut homeobox 2<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045165&amp;view=details" target="_blank">GO:0045165</a><a name="0045165"></a></td>
+<td>cell fate commitment</td>
+<td align="center">4.61E-5</td>
+<td align="center">9.15E-3</td>
+<td align="center">12.63 (18319,145,50,5)</td>
+<td>
+<a id="ctrl_elements_GO:0045165" href="javascript:toggle(&#39;elements_GO:0045165&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045165" style="display:none"> <font size="1">
+POU3F2  -  pou class 3 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009653&amp;view=details" target="_blank">GO:0009653</a><a name="0009653"></a></td>
+<td>anatomical structure morphogenesis</td>
+<td align="center">4.7E-5</td>
+<td align="center">9.21E-3</td>
+<td align="center">3.54 (18319,1347,50,13)</td>
+<td>
+<a id="ctrl_elements_GO:0009653" href="javascript:toggle(&#39;elements_GO:0009653&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009653" style="display:none"> <font size="1">
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+EVX2  -  even-skipped homeobox 2<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+HOXC13  -  homeobox c13<br>
+GDF7  -  growth differentiation factor 7<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048732&amp;view=details" target="_blank">GO:0048732</a><a name="0048732"></a></td>
+<td>gland development</td>
+<td align="center">5.23E-5</td>
+<td align="center">1.01E-2</td>
+<td align="center">8.97 (18319,245,50,6)</td>
+<td>
+<a id="ctrl_elements_GO:0048732" href="javascript:toggle(&#39;elements_GO:0048732&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048732" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006807&amp;view=details" target="_blank">GO:0006807</a><a name="0006807"></a></td>
+<td>nitrogen compound metabolic process</td>
+<td align="center">5.51E-5</td>
+<td align="center">1.05E-2</td>
+<td align="center">1.64 (18319,8055,50,36)</td>
+<td>
+<a id="ctrl_elements_GO:0006807" href="javascript:toggle(&#39;elements_GO:0006807&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006807" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+FBXL17  -  f-box and leucine-rich repeat protein 17<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0071704&amp;view=details" target="_blank">GO:0071704</a><a name="0071704"></a></td>
+<td>organic substance metabolic process</td>
+<td align="center">5.89E-5</td>
+<td align="center">1.11E-2</td>
+<td align="center">1.57 (18319,8850,50,38)</td>
+<td>
+<a id="ctrl_elements_GO:0071704" href="javascript:toggle(&#39;elements_GO:0071704&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0071704" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+FBXL17  -  f-box and leucine-rich repeat protein 17<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007389&amp;view=details" target="_blank">GO:0007389</a><a name="0007389"></a></td>
+<td>pattern specification process</td>
+<td align="center">6.02E-5</td>
+<td align="center">1.12E-2</td>
+<td align="center">6.95 (18319,369,50,7)</td>
+<td>
+<a id="ctrl_elements_GO:0007389" href="javascript:toggle(&#39;elements_GO:0007389&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007389" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+HOXC13  -  homeobox c13<br>
+SP8  -  sp8 transcription factor<br>
+FEZF2  -  fez family zinc finger 2<br>
+FOXF1  -  forkhead box f1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032502&amp;view=details" target="_blank">GO:0032502</a><a name="0032502"></a></td>
+<td>developmental process</td>
+<td align="center">6.05E-5</td>
+<td align="center">1.11E-2</td>
+<td align="center">2.03 (18319,4703,50,26)</td>
+<td>
+<a id="ctrl_elements_GO:0032502" href="javascript:toggle(&#39;elements_GO:0032502&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032502" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+HCN1  -  hyperpolarization activated cyclic nucleotide-gated potassium channel 1<br>
+ONECUT2  -  one cut homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030154&amp;view=details" target="_blank">GO:0030154</a><a name="0030154"></a></td>
+<td>cell differentiation</td>
+<td align="center">6.53E-5</td>
+<td align="center">1.19E-2</td>
+<td align="center">3.02 (18319,1817,50,15)</td>
+<td>
+<a id="ctrl_elements_GO:0030154" href="javascript:toggle(&#39;elements_GO:0030154&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030154" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+FBL  -  fibrillarin<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044237&amp;view=details" target="_blank">GO:0044237</a><a name="0044237"></a></td>
+<td>cellular metabolic process</td>
+<td align="center">7.35E-5</td>
+<td align="center">1.32E-2</td>
+<td align="center">1.59 (18319,8529,50,37)</td>
+<td>
+<a id="ctrl_elements_GO:0044237" href="javascript:toggle(&#39;elements_GO:0044237&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044237" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+FBXL17  -  f-box and leucine-rich repeat protein 17<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045595&amp;view=details" target="_blank">GO:0045595</a><a name="0045595"></a></td>
+<td>regulation of cell differentiation</td>
+<td align="center">8.65E-5</td>
+<td align="center">1.54E-2</td>
+<td align="center">3.13 (18319,1641,50,14)</td>
+<td>
+<a id="ctrl_elements_GO:0045595" href="javascript:toggle(&#39;elements_GO:0045595&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045595" style="display:none"> <font size="1">
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+GDF7  -  growth differentiation factor 7<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0003206&amp;view=details" target="_blank">GO:0003206</a><a name="0003206"></a></td>
+<td>cardiac chamber morphogenesis</td>
+<td align="center">9.85E-5</td>
+<td align="center">1.73E-2</td>
+<td align="center">33.31 (18319,33,50,3)</td>
+<td>
+<a id="ctrl_elements_GO:0003206" href="javascript:toggle(&#39;elements_GO:0003206&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0003206" style="display:none"> <font size="1">
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+FOXF1  -  forkhead box f1<br>
+SHOX2  -  short stature homeobox 2<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0035107&amp;view=details" target="_blank">GO:0035107</a><a name="0035107"></a></td>
+<td>appendage morphogenesis</td>
+<td align="center">1.2E-4</td>
+<td align="center">2.08E-2</td>
+<td align="center">15.76 (18319,93,50,4)</td>
+<td>
+<a id="ctrl_elements_GO:0035107" href="javascript:toggle(&#39;elements_GO:0035107&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0035107" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+EVX2  -  even-skipped homeobox 2<br>
+SHOX2  -  short stature homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0035108&amp;view=details" target="_blank">GO:0035108</a><a name="0035108"></a></td>
+<td>limb morphogenesis</td>
+<td align="center">1.2E-4</td>
+<td align="center">2.06E-2</td>
+<td align="center">15.76 (18319,93,50,4)</td>
+<td>
+<a id="ctrl_elements_GO:0035108" href="javascript:toggle(&#39;elements_GO:0035108&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0035108" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+EVX2  -  even-skipped homeobox 2<br>
+SHOX2  -  short stature homeobox 2<br>
+SP8  -  sp8 transcription factor<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048869&amp;view=details" target="_blank">GO:0048869</a><a name="0048869"></a></td>
+<td>cellular developmental process</td>
+<td align="center">1.32E-4</td>
+<td align="center">2.24E-2</td>
+<td align="center">2.48 (18319,2659,50,18)</td>
+<td>
+<a id="ctrl_elements_GO:0048869" href="javascript:toggle(&#39;elements_GO:0048869&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048869" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+FBL  -  fibrillarin<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+HCN1  -  hyperpolarization activated cyclic nucleotide-gated potassium channel 1<br>
+ONECUT2  -  one cut homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0008152&amp;view=details" target="_blank">GO:0008152</a><a name="0008152"></a></td>
+<td>metabolic process</td>
+<td align="center">2.61E-4</td>
+<td align="center">4.39E-2</td>
+<td align="center">1.49 (18319,9352,50,38)</td>
+<td>
+<a id="ctrl_elements_GO:0008152" href="javascript:toggle(&#39;elements_GO:0008152&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0008152" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+SRSF11  -  serine/arginine-rich splicing factor 11<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+U2AF1  -  u2 small nuclear rna auxiliary factor 1<br>
+HOXB3  -  homeobox b3<br>
+FBL  -  fibrillarin<br>
+FEZF2  -  fez family zinc finger 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+FBXL17  -  f-box and leucine-rich repeat protein 17<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+XYLT1  -  xylosyltransferase i<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+YEATS2  -  yeats domain containing 2<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048562&amp;view=details" target="_blank">GO:0048562</a><a name="0048562"></a></td>
+<td>embryonic organ morphogenesis</td>
+<td align="center">3.2E-4</td>
+<td align="center">5.31E-2</td>
+<td align="center">12.21 (18319,120,50,4)</td>
+<td>
+<a id="ctrl_elements_GO:0048562" href="javascript:toggle(&#39;elements_GO:0048562&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048562" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+HOXB3  -  homeobox b3<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0003214&amp;view=details" target="_blank">GO:0003214</a><a name="0003214"></a></td>
+<td>cardiac left ventricle morphogenesis</td>
+<td align="center">3.24E-4</td>
+<td align="center">5.32E-2</td>
+<td align="center">73.28 (18319,10,50,2)</td>
+<td>
+<a id="ctrl_elements_GO:0003214" href="javascript:toggle(&#39;elements_GO:0003214&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0003214" style="display:none"> <font size="1">
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+FOXF1  -  forkhead box f1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048935&amp;view=details" target="_blank">GO:0048935</a><a name="0048935"></a></td>
+<td>peripheral nervous system neuron development</td>
+<td align="center">3.24E-4</td>
+<td align="center">5.27E-2</td>
+<td align="center">73.28 (18319,10,50,2)</td>
+<td>
+<a id="ctrl_elements_GO:0048935" href="javascript:toggle(&#39;elements_GO:0048935&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048935" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+ONECUT2  -  one cut homeobox 2<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048513&amp;view=details" target="_blank">GO:0048513</a><a name="0048513"></a></td>
+<td>animal organ development</td>
+<td align="center">3.39E-4</td>
+<td align="center">5.45E-2</td>
+<td align="center">3.33 (18319,1209,50,11)</td>
+<td>
+<a id="ctrl_elements_GO:0048513" href="javascript:toggle(&#39;elements_GO:0048513&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048513" style="display:none"> <font size="1">
+HOXD9  -  homeobox d9<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SHOX2  -  short stature homeobox 2<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050794&amp;view=details" target="_blank">GO:0050794</a><a name="0050794"></a></td>
+<td>regulation of cellular process</td>
+<td align="center">4.22E-4</td>
+<td align="center">6.71E-2</td>
+<td align="center">1.42 (18319,10348,50,40)</td>
+<td>
+<a id="ctrl_elements_GO:0050794" href="javascript:toggle(&#39;elements_GO:0050794&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050794" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+HOXB3  -  homeobox b3<br>
+LURAP1L  -  leucine rich adaptor protein 1-like<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+YEATS2  -  yeats domain containing 2<br>
+WIPF1  -  was/wasl interacting protein family, member 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030182&amp;view=details" target="_blank">GO:0030182</a><a name="0030182"></a></td>
+<td>neuron differentiation</td>
+<td align="center">4.24E-4</td>
+<td align="center">6.67E-2</td>
+<td align="center">7.86 (18319,233,50,5)</td>
+<td>
+<a id="ctrl_elements_GO:0030182" href="javascript:toggle(&#39;elements_GO:0030182&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030182" style="display:none"> <font size="1">
+POU4F2  -  pou class 4 homeobox 2<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048856&amp;view=details" target="_blank">GO:0048856</a><a name="0048856"></a></td>
+<td>anatomical structure development</td>
+<td align="center">4.5E-4</td>
+<td align="center">7.01E-2</td>
+<td align="center">2.18 (18319,3197,50,19)</td>
+<td>
+<a id="ctrl_elements_GO:0048856" href="javascript:toggle(&#39;elements_GO:0048856&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048856" style="display:none"> <font size="1">
+PURA  -  purine-rich element binding protein a<br>
+FOXC1  -  forkhead box c1<br>
+HOXB3  -  homeobox b3<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+HCN1  -  hyperpolarization activated cyclic nucleotide-gated potassium channel 1<br>
+ONECUT2  -  one cut homeobox 2<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+FEZF2  -  fez family zinc finger 2<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+HOXD9  -  homeobox d9<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+HOXC13  -  homeobox c13<br>
+GDF7  -  growth differentiation factor 7<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0021527&amp;view=details" target="_blank">GO:0021527</a><a name="0021527"></a></td>
+<td>spinal cord association neuron differentiation</td>
+<td align="center">5.59E-4</td>
+<td align="center">8.62E-2</td>
+<td align="center">56.37 (18319,13,50,2)</td>
+<td>
+<a id="ctrl_elements_GO:0021527" href="javascript:toggle(&#39;elements_GO:0021527&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0021527" style="display:none"> <font size="1">
+GDF7  -  growth differentiation factor 7<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051147&amp;view=details" target="_blank">GO:0051147</a><a name="0051147"></a></td>
+<td>regulation of muscle cell differentiation</td>
+<td align="center">5.88E-4</td>
+<td align="center">8.99E-2</td>
+<td align="center">10.39 (18319,141,50,4)</td>
+<td>
+<a id="ctrl_elements_GO:0051147" href="javascript:toggle(&#39;elements_GO:0051147&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051147" style="display:none"> <font size="1">
+ANKRD17  -  ankyrin repeat domain 17<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+SHOX2  -  short stature homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048333&amp;view=details" target="_blank">GO:0048333</a><a name="0048333"></a></td>
+<td>mesodermal cell differentiation</td>
+<td align="center">6.51E-4</td>
+<td align="center">9.84E-2</td>
+<td align="center">52.34 (18319,14,50,2)</td>
+<td>
+<a id="ctrl_elements_GO:0048333" href="javascript:toggle(&#39;elements_GO:0048333&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048333" style="display:none"> <font size="1">
+FOXF1  -  forkhead box f1<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050789&amp;view=details" target="_blank">GO:0050789</a><a name="0050789"></a></td>
+<td>regulation of biological process</td>
+<td align="center">6.99E-4</td>
+<td align="center">1.05E-1</td>
+<td align="center">1.37 (18319,10966,50,41)</td>
+<td>
+<a id="ctrl_elements_GO:0050789" href="javascript:toggle(&#39;elements_GO:0050789&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050789" style="display:none"> <font size="1">
+DHX36  -  deah (asp-glu-ala-his) box polypeptide 36<br>
+PURA  -  purine-rich element binding protein a<br>
+FUBP1  -  far upstream element (fuse) binding protein 1<br>
+CAPNS1  -  calpain, small subunit 1<br>
+HOXB3  -  homeobox b3<br>
+LURAP1L  -  leucine rich adaptor protein 1-like<br>
+FEZF2  -  fez family zinc finger 2<br>
+SHOX2  -  short stature homeobox 2<br>
+PI4KA  -  phosphatidylinositol 4-kinase, catalytic, alpha<br>
+FUS  -  fused in sarcoma<br>
+RFX1  -  regulatory factor x, 1 (influences hla class ii expression)<br>
+ARID1B  -  at rich interactive domain 1b (swi1-like)<br>
+NPAS3  -  neuronal pas domain protein 3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+EVX2  -  even-skipped homeobox 2<br>
+TRA2A  -  transformer 2 alpha homolog (drosophila)<br>
+TCF7L1  -  transcription factor 7-like 1 (t-cell specific, hmg-box)<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+FOXC1  -  forkhead box c1<br>
+ZNF503  -  zinc finger protein 503<br>
+AR  -  androgen receptor<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+HCN1  -  hyperpolarization activated cyclic nucleotide-gated potassium channel 1<br>
+AEBP2  -  ae binding protein 2<br>
+ONECUT2  -  one cut homeobox 2<br>
+FOXF1  -  forkhead box f1<br>
+SP8  -  sp8 transcription factor<br>
+SOX1  -  sry (sex determining region y)-box 1<br>
+HOXD9  -  homeobox d9<br>
+DACH1  -  dachshund homolog 1 (drosophila)<br>
+ANKRD17  -  ankyrin repeat domain 17<br>
+MEX3D  -  mex-3 rna binding family member d<br>
+ARIH1  -  ariadne homolog, ubiquitin-conjugating enzyme e2 binding protein, 1 (drosophila)<br>
+HOXC13  -  homeobox c13<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+GDF7  -  growth differentiation factor 7<br>
+PITPNM2  -  phosphatidylinositol transfer protein, membrane-associated 2<br>
+YEATS2  -  yeats domain containing 2<br>
+WIPF1  -  was/wasl interacting protein family, member 1<br>
+MAF  -  v-maf avian musculoaponeurotic fibrosarcoma oncogene homolog<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0060571&amp;view=details" target="_blank">GO:0060571</a><a name="0060571"></a></td>
+<td>morphogenesis of an epithelial fold</td>
+<td align="center">7.49E-4</td>
+<td align="center">1.11E-1</td>
+<td align="center">48.85 (18319,15,50,2)</td>
+<td>
+<a id="ctrl_elements_GO:0060571" href="javascript:toggle(&#39;elements_GO:0060571&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0060571" style="display:none"> <font size="1">
+AR  -  androgen receptor<br>
+GDF7  -  growth differentiation factor 7<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050767&amp;view=details" target="_blank">GO:0050767</a><a name="0050767"></a></td>
+<td>regulation of neurogenesis</td>
+<td align="center">8E-4</td>
+<td align="center">1.18E-1</td>
+<td align="center">3.97 (18319,738,50,8)</td>
+<td>
+<a id="ctrl_elements_GO:0050767" href="javascript:toggle(&#39;elements_GO:0050767&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050767" style="display:none"> <font size="1">
+HOXB3  -  homeobox b3<br>
+POU4F2  -  pou class 4 homeobox 2<br>
+POU3F2  -  pou class 3 homeobox 2<br>
+GDF7  -  growth differentiation factor 7<br>
+GSK3A  -  glycogen synthase kinase 3 alpha<br>
+SHOX2  -  short stature homeobox 2<br>
+FEZF2  -  fez family zinc finger 2<br>
+ZFHX3  -  zinc finger homeobox 3<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0060216&amp;view=details" target="_blank">GO:0060216</a><a name="0060216"></a></td>
+<td>definitive hemopoiesis</td>
+<td align="center">8.55E-4</td>
+<td align="center">1.24E-1</td>
+<td align="center">45.80 (18319,16,50,2)</td>
+<td>
+<a id="ctrl_elements_GO:0060216" href="javascript:toggle(&#39;elements_GO:0060216&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0060216" style="display:none"> <font size="1">
+HOXB3  -  homeobox b3<br>
+TAL1  -  t-cell acute lymphocytic leukemia 1<br>
+</font></div>
+</td>
+</tr>
+</tbody></table>
+<p>Species used: Homo sapiens</p><p>The system has recognized 19398 genes out of 20129 gene terms entered by the user.<br> 19398 genes were recognized by gene symbol and 0 genes by other gene IDs .<br>221 duplicate genes were removed (keeping the highest ranking instance of each gene) leaving  a total of 19177 genes.<br>Only 18319 of these genes are associated with a GO term.<br></p>
+<p> The GOrilla database is periodically updated using the <a href="http://www.geneontology.org/">GO database</a> and other sources.<br>
+The GOrilla database was last updated on Jun 16, 2018</p>
+<p>This results page will be available on this site for one month from now (until 
+Jul 22, 2018
+). You can bookmark this page and come back to it later.
+</p>
+<a name="p_value_info"></a><br><b>'P-value'</b> is the enrichment p-value computed according to the mHG or HG model. This p-value is not corrected for multiple testing of 15276 GO terms.<br>
+<a name="fdr_info"></a><br><b>'FDR q-value'</b> is the correction of the above p-value for multiple testing using the Benjamini and Hochberg (1995) method. <br>Namely, for the i<sup>th</sup> term (ranked according to p-value) the FDR q-value is (p-value * number of GO terms) / i. <br>
+<a name="enrich_info"></a><br><b>Enrichment (N, B, n, b)</b> is defined as follows:<br>N - is the total number of genes<br>B - is the total number of genes associated with a specific GO term<br>n - is the number of genes in the top of the user's input list or in the target set when appropriate<br>b - is the number of genes in the intersection<br>Enrichment = (b/n) / (B/N)<br>
+<a name="genes_info"></a><br><b>Genes:</b> For each GO term you can see the list of associated genes that appear in the optimal top of the list.<br>Each gene name is specified by gene symbol followed by a short description of the gene <br>
+<p>
+<a href="http://cbl-gorilla.cs.technion.ac.il/"> Back to the GOrilla main page </a>
+</p>
+
+
+</body></html>
