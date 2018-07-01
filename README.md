@@ -1,10 +1,10 @@
 # Frequent Peptides Across the Tree of Life
 Supplemental materials for TAU Thesis, including results, tables and graphs.
 
-## Abstract
+### Abstract
 Put here the abstract of the thesis.
 
-## Materials
+### Materials
 A list of materials (by directory), with links:
 
 - One
