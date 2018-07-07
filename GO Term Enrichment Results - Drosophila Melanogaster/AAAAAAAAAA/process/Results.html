@@ -1,0 +1,3753 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0075)http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Results
+</title>
+
+<script type="text/javascript">
+function toggle(item) {
+obj=document.getElementById(item);
+visible=(obj.style.display!="none")
+key=document.getElementById("ctrl_" + item);
+if (visible) {
+    obj.style.display="none";
+key.innerHTML="[+] Show genes";
+}
+else {
+obj.style.display="block";
+key.innerHTML="[-] Hide genes";
+}
+}
+</script>
+</head>
+<body>
+<p></p><center><b>
+
+</b></center><p></p>
+<table border="1" width="80%" id="tab:pval_legend" align="center">
+<caption><em>P-value color scale</em></caption>
+<tbody><tr>
+	<td width="140" align="center"> &gt; 10<sup>-3</sup></td>
+	<td width="140" align="center" bgcolor="#FFFFCC"> 10<sup>-3</sup> to 10<sup>-5</sup></td>
+	<td width="140" align="center" bgcolor="#FFCC66"> 10<sup>-5</sup> to 10<sup>-7</sup></td>
+	<td width="140" align="center" bgcolor="#FF9900"> 10<sup>-7</sup> to 10<sup>-9</sup></td>
+	<td width="140" align="center" bgcolor="#FF3300"> &lt; 10<sup>-9</sup></td>
+</tr>
+</tbody></table>
+<map name="goPathImage">
+<area shape="RECT" coords="5,513,131,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048867" alt="">
+<area shape="RECT" coords="5,668,131,716" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007400" alt="">
+<area shape="RECT" coords="3495,652,3623,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0060255" alt="">
+<area shape="RECT" coords="3009,806,3137,903" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010605" alt="">
+<area shape="RECT" coords="3433,823,3559,886" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0051252" alt="">
+<area shape="RECT" coords="4113,806,4241,903" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010604" alt="">
+<area shape="RECT" coords="3583,831,3713,879" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010468" alt="">
+<area shape="RECT" coords="3281,815,3409,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010556" alt="">
+<area shape="RECT" coords="2735,961,2831,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0031327" alt="">
+<area shape="RECT" coords="2861,1107,2976,1221" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#2000113" alt="">
+<area shape="RECT" coords="3000,1124,3141,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#1902679" alt="">
+<area shape="RECT" coords="3445,1416,3587,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0006357" alt="">
+<area shape="RECT" coords="3363,1545,3504,1642" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0000122" alt="">
+<area shape="RECT" coords="3563,1545,3704,1642" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0045944" alt="">
+<area shape="RECT" coords="1912,376,2011,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048513" alt="">
+<area shape="RECT" coords="1915,513,2019,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007517" alt="">
+<area shape="RECT" coords="2175,102,2268,165" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0032501" alt="">
+<area shape="RECT" coords="2200,239,2341,287" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007389" alt="">
+<area shape="RECT" coords="1375,109,1481,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0032502" alt="">
+<area shape="RECT" coords="297,231,404,294" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048869" alt="">
+<area shape="RECT" coords="1077,231,1187,294" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009653" alt="">
+<area shape="RECT" coords="523,214,645,311" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048646" alt="">
+<area shape="RECT" coords="2013,239,2120,287" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048589" alt="">
+<area shape="RECT" coords="1677,231,1771,294" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048856" alt="">
+<area shape="RECT" coords="2717,513,2853,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0045595" alt="">
+<area shape="RECT" coords="2648,661,2741,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010453" alt="">
+<area shape="RECT" coords="1056,497,1165,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0008586" alt="">
+<area shape="RECT" coords="2485,652,2576,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007366" alt="">
+<area shape="RECT" coords="3161,815,3257,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0031326" alt="">
+<area shape="RECT" coords="3665,961,3761,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0031328" alt="">
+<area shape="RECT" coords="3449,978,3591,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#2001141" alt="">
+<area shape="RECT" coords="3156,961,3271,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#2000112" alt="">
+<area shape="RECT" coords="2031,109,2103,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0040007" alt="">
+<area shape="RECT" coords="1775,513,1868,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007398" alt="">
+<area shape="RECT" coords="3460,1287,3575,1350" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0006355" alt="">
+<area shape="RECT" coords="3307,1416,3421,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0045892" alt="">
+<area shape="RECT" coords="3611,1416,3725,1496" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0045893" alt="">
+<area shape="RECT" coords="2852,643,2935,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0031324" alt="">
+<area shape="RECT" coords="2817,797,2985,912" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0045934" alt="">
+<area shape="RECT" coords="2855,961,2983,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010558" alt="">
+<area shape="RECT" coords="3007,969,3132,1049" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0051253" alt="">
+<area shape="RECT" coords="3295,978,3425,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010629" alt="">
+<area shape="RECT" coords="3613,1270,3723,1367" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#1903508" alt="">
+<area shape="RECT" coords="1443,376,1584,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048731" alt="">
+<area shape="RECT" coords="1461,513,1579,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007399" alt="">
+<area shape="RECT" coords="1603,513,1744,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007417" alt="">
+<area shape="RECT" coords="2067,5,1954,29" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0008150" alt="">
+<area shape="RECT" coords="2633,109,2713,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0065007" alt="">
+<area shape="RECT" coords="315,109,387,157" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009987" alt="">
+<area shape="RECT" coords="917,506,1032,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048563" alt="">
+<area shape="RECT" coords="828,831,967,879" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007560" alt="">
+<area shape="RECT" coords="2328,506,2421,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007447" alt="">
+<area shape="RECT" coords="2332,668,2449,716" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0035222" alt="">
+<area shape="RECT" coords="2183,652,2308,732" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007450" alt="">
+<area shape="RECT" coords="2968,231,3061,294" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0050789" alt="">
+<area shape="RECT" coords="3596,360,3689,440" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048518" alt="">
+<area shape="RECT" coords="2912,360,3005,440" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048519" alt="">
+<area shape="RECT" coords="3216,369,3312,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0019222" alt="">
+<area shape="RECT" coords="3029,369,3112,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0050794" alt="">
+<area shape="RECT" coords="2765,369,2888,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0050793" alt="">
+<area shape="RECT" coords="3665,1124,3807,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#1902680" alt="">
+<area shape="RECT" coords="157,376,280,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0030154" alt="">
+<area shape="RECT" coords="155,513,296,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0030182" alt="">
+<area shape="RECT" coords="3937,969,4063,1049" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0051254" alt="">
+<area shape="RECT" coords="3753,635,3839,749" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0051173" alt="">
+<area shape="RECT" coords="3921,797,4089,912" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0045935" alt="">
+<area shape="RECT" coords="779,513,893,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0002009" alt="">
+<area shape="RECT" coords="767,668,905,716" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0060562" alt="">
+<area shape="RECT" coords="2984,497,3080,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009892" alt="">
+<area shape="RECT" coords="2959,635,3044,749" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0051172" alt="">
+<area shape="RECT" coords="2684,815,2793,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009890" alt="">
+<area shape="RECT" coords="2187,513,2304,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009953" alt="">
+<area shape="RECT" coords="2516,823,2609,886" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0042659" alt="">
+<area shape="RECT" coords="1249,661,1380,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007480" alt="">
+<area shape="RECT" coords="4087,978,4217,1041" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010628" alt="">
+<area shape="RECT" coords="3728,497,3824,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009893" alt="">
+<area shape="RECT" coords="3788,815,3897,895" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009891" alt="">
+<area shape="RECT" coords="3647,643,3729,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0031325" alt="">
+<area shape="RECT" coords="1133,376,1285,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009886" alt="">
+<area shape="RECT" coords="1189,506,1304,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0035120" alt="">
+<area shape="RECT" coords="3601,497,3684,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048522" alt="">
+<area shape="RECT" coords="185,223,273,303" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0006928" alt="">
+<area shape="RECT" coords="2035,376,2157,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0061061" alt="">
+<area shape="RECT" coords="2445,513,2584,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009952" alt="">
+<area shape="RECT" coords="3371,497,3453,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0080090" alt="">
+<area shape="RECT" coords="3303,643,3471,741" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0019219" alt="">
+<area shape="RECT" coords="2181,369,2304,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0060560" alt="">
+<area shape="RECT" coords="2053,506,2163,569" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048526" alt="">
+<area shape="RECT" coords="2259,823,2376,886" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048190" alt="">
+<area shape="RECT" coords="1608,376,1731,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048098" alt="">
+<area shape="RECT" coords="164,668,287,716" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0046530" alt="">
+<area shape="RECT" coords="2877,497,2960,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048523" alt="">
+<area shape="RECT" coords="3217,1270,3327,1367" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#1903507" alt="">
+<area shape="RECT" coords="528,376,640,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007376" alt="">
+<area shape="RECT" coords="843,985,952,1033" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007483" alt="">
+<area shape="RECT" coords="3464,1124,3573,1204" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#1903506" alt="">
+<area shape="RECT" coords="304,376,397,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0001708" alt="">
+<area shape="RECT" coords="3169,661,3279,723" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009889" alt="">
+<area shape="RECT" coords="1309,376,1419,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0035107" alt="">
+<area shape="RECT" coords="1328,497,1437,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0035114" alt="">
+<area shape="RECT" coords="2608,513,2693,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0007365" alt="">
+<area shape="RECT" coords="3104,497,3187,577" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0031323" alt="">
+<area shape="RECT" coords="3261,489,3347,586" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0051171" alt="">
+<area shape="RECT" coords="3785,961,3913,1058" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0010557" alt="">
+<area shape="RECT" coords="2328,376,2432,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0003002" alt="">
+<area shape="RECT" coords="29,376,128,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0001709" alt="">
+<area shape="RECT" coords="827,376,976,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0048729" alt="">
+<area shape="RECT" coords="1755,376,1888,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009888" alt="">
+<area shape="RECT" coords="664,376,803,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0035239" alt="">
+<area shape="RECT" coords="421,513,504,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0001706" alt="">
+<area shape="RECT" coords="1000,376,1109,424" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0009887" alt="">
+<area shape="RECT" coords="421,369,504,431" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#0001704" alt="">
+</map>
+<p align="center"><img border="0" src="./Results_files/GOPROCESS.png" usemap="#goPathImage" alt=""></p>
+<p>&nbsp;</p>
+<table border="1" width="100%" id="table1">
+	<tbody><tr>
+		<td align="center"><b>GO term</b></td>
+		<td align="center"><b>Description</b></td>
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#p_value_info">P-value</a></b></td> 
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#fdr_info">FDR q-value</a></b></td> 
+		<td width="230" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#enrich_info"> Enrichment (N, B, n, b) </a></b> </td>
+		<td align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/ytm49m2q/GOResultsPROCESS.html#genes_info"> Genes </a></b></td>
+	</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051252&amp;view=details" target="_blank">GO:0051252</a><a name="0051252"></a></td>
+<td>regulation of RNA metabolic process</td>
+<td align="center">2E-14</td>
+<td align="center">1.23E-10</td>
+<td align="center">2.90 (3114,565,93,49)</td>
+<td>
+<a id="ctrl_elements_GO:0051252" href="javascript:toggle(&#39;elements_GO:0051252&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051252" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+Bx  -  beadex<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+B-H1  -  barh1<br>
+Psi  -  p-element somatic inhibitor<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006355&amp;view=details" target="_blank">GO:0006355</a><a name="0006355"></a></td>
+<td>regulation of transcription, DNA-templated</td>
+<td align="center">2.03E-14</td>
+<td align="center">6.22E-11</td>
+<td align="center">3.03 (3114,520,93,47)</td>
+<td>
+<a id="ctrl_elements_GO:0006355" href="javascript:toggle(&#39;elements_GO:0006355&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006355" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+tara  -  taranis<br>
+sens-2  -  senseless-2<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2001141&amp;view=details" target="_blank">GO:2001141</a><a name="2001141"></a></td>
+<td>regulation of RNA biosynthetic process</td>
+<td align="center">2.03E-14</td>
+<td align="center">4.14E-11</td>
+<td align="center">3.03 (3114,520,93,47)</td>
+<td>
+<a id="ctrl_elements_GO:2001141" href="javascript:toggle(&#39;elements_GO:2001141&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2001141" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+tara  -  taranis<br>
+sens-2  -  senseless-2<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903506&amp;view=details" target="_blank">GO:1903506</a><a name="1903506"></a></td>
+<td>regulation of nucleic acid-templated transcription</td>
+<td align="center">2.03E-14</td>
+<td align="center">3.11E-11</td>
+<td align="center">3.03 (3114,520,93,47)</td>
+<td>
+<a id="ctrl_elements_GO:1903506" href="javascript:toggle(&#39;elements_GO:1903506&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903506" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+tara  -  taranis<br>
+sens-2  -  senseless-2<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019219&amp;view=details" target="_blank">GO:0019219</a><a name="0019219"></a></td>
+<td>regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">9.08E-14</td>
+<td align="center">1.11E-10</td>
+<td align="center">2.80 (3114,586,93,49)</td>
+<td>
+<a id="ctrl_elements_GO:0019219" href="javascript:toggle(&#39;elements_GO:0019219&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019219" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+Bx  -  beadex<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+B-H1  -  barh1<br>
+Psi  -  p-element somatic inhibitor<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010468&amp;view=details" target="_blank">GO:0010468</a><a name="0010468"></a></td>
+<td>regulation of gene expression</td>
+<td align="center">3.44E-13</td>
+<td align="center">3.51E-10</td>
+<td align="center">2.61 (3114,654,93,51)</td>
+<td>
+<a id="ctrl_elements_GO:0010468" href="javascript:toggle(&#39;elements_GO:0010468&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010468" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+noc  -  no ocelli<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+Bx  -  beadex<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+B-H1  -  barh1<br>
+Psi  -  p-element somatic inhibitor<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+pzg  -  putzig<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Alh  -  alhambra<br>
+mbl  -  muscleblind<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000112&amp;view=details" target="_blank">GO:2000112</a><a name="2000112"></a></td>
+<td>regulation of cellular macromolecule biosynthetic process</td>
+<td align="center">1.41E-12</td>
+<td align="center">1.23E-9</td>
+<td align="center">2.72 (3114,579,93,47)</td>
+<td>
+<a id="ctrl_elements_GO:2000112" href="javascript:toggle(&#39;elements_GO:2000112&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000112" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+tara  -  taranis<br>
+sens-2  -  senseless-2<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010556&amp;view=details" target="_blank">GO:0010556</a><a name="0010556"></a></td>
+<td>regulation of macromolecule biosynthetic process</td>
+<td align="center">1.61E-12</td>
+<td align="center">1.23E-9</td>
+<td align="center">2.71 (3114,581,93,47)</td>
+<td>
+<a id="ctrl_elements_GO:0010556" href="javascript:toggle(&#39;elements_GO:0010556&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010556" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+tara  -  taranis<br>
+sens-2  -  senseless-2<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031326&amp;view=details" target="_blank">GO:0031326</a><a name="0031326"></a></td>
+<td>regulation of cellular biosynthetic process</td>
+<td align="center">6.3E-12</td>
+<td align="center">4.29E-9</td>
+<td align="center">2.61 (3114,602,93,47)</td>
+<td>
+<a id="ctrl_elements_GO:0031326" href="javascript:toggle(&#39;elements_GO:0031326&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031326" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+tara  -  taranis<br>
+sens-2  -  senseless-2<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009889&amp;view=details" target="_blank">GO:0009889</a><a name="0009889"></a></td>
+<td>regulation of biosynthetic process</td>
+<td align="center">6.71E-12</td>
+<td align="center">4.11E-9</td>
+<td align="center">2.61 (3114,603,93,47)</td>
+<td>
+<a id="ctrl_elements_GO:0009889" href="javascript:toggle(&#39;elements_GO:0009889&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009889" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+tara  -  taranis<br>
+sens-2  -  senseless-2<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006357&amp;view=details" target="_blank">GO:0006357</a><a name="0006357"></a></td>
+<td>regulation of transcription by RNA polymerase II</td>
+<td align="center">2.05E-10</td>
+<td align="center">1.14E-7</td>
+<td align="center">3.21 (3114,344,93,33)</td>
+<td>
+<a id="ctrl_elements_GO:0006357" href="javascript:toggle(&#39;elements_GO:0006357&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006357" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Hr51  -  hormone receptor 51<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031323&amp;view=details" target="_blank">GO:0031323</a><a name="0031323"></a></td>
+<td>regulation of cellular metabolic process</td>
+<td align="center">2.48E-10</td>
+<td align="center">1.27E-7</td>
+<td align="center">2.16 (3114,823,93,53)</td>
+<td>
+<a id="ctrl_elements_GO:0031323" href="javascript:toggle(&#39;elements_GO:0031323&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031323" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051171&amp;view=details" target="_blank">GO:0051171</a><a name="0051171"></a></td>
+<td>regulation of nitrogen compound metabolic process</td>
+<td align="center">3.25E-10</td>
+<td align="center">1.53E-7</td>
+<td align="center">2.17 (3114,801,93,52)</td>
+<td>
+<a id="ctrl_elements_GO:0051171" href="javascript:toggle(&#39;elements_GO:0051171&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051171" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0060255&amp;view=details" target="_blank">GO:0060255</a><a name="0060255"></a></td>
+<td>regulation of macromolecule metabolic process</td>
+<td align="center">4.05E-10</td>
+<td align="center">1.77E-7</td>
+<td align="center">2.13 (3114,833,93,53)</td>
+<td>
+<a id="ctrl_elements_GO:0060255" href="javascript:toggle(&#39;elements_GO:0060255&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0060255" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+noc  -  no ocelli<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0080090&amp;view=details" target="_blank">GO:0080090</a><a name="0080090"></a></td>
+<td>regulation of primary metabolic process</td>
+<td align="center">4.17E-10</td>
+<td align="center">1.7E-7</td>
+<td align="center">2.16 (3114,806,93,52)</td>
+<td>
+<a id="ctrl_elements_GO:0080090" href="javascript:toggle(&#39;elements_GO:0080090&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0080090" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048523&amp;view=details" target="_blank">GO:0048523</a><a name="0048523"></a></td>
+<td>negative regulation of cellular process</td>
+<td align="center">6.05E-10</td>
+<td align="center">2.31E-7</td>
+<td align="center">2.48 (3114,581,93,43)</td>
+<td>
+<a id="ctrl_elements_GO:0048523" href="javascript:toggle(&#39;elements_GO:0048523&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048523" style="display:none"> <font size="1">
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pzg  -  putzig<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+dysc  -  dyschronic<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+H  -  hairless<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+disco-r  -  disco-related<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+mnb  -  minibrain<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+slo  -  slowpoke<br>
+Ubx  -  ultrabithorax<br>
+Spn  -  spinophilin<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Dl  -  delta<br>
+srp  -  serpent<br>
+wapl  -  wings apart-like<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0000122&amp;view=details" target="_blank">GO:0000122</a><a name="0000122"></a></td>
+<td>negative regulation of transcription by RNA polymerase II</td>
+<td align="center">9.29E-10</td>
+<td align="center">3.35E-7</td>
+<td align="center">5.63 (3114,107,93,18)</td>
+<td>
+<a id="ctrl_elements_GO:0000122" href="javascript:toggle(&#39;elements_GO:0000122&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0000122" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019222&amp;view=details" target="_blank">GO:0019222</a><a name="0019222"></a></td>
+<td>regulation of metabolic process</td>
+<td align="center">1.31E-9</td>
+<td align="center">4.45E-7</td>
+<td align="center">2.04 (3114,886,93,54)</td>
+<td>
+<a id="ctrl_elements_GO:0019222" href="javascript:toggle(&#39;elements_GO:0019222&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019222" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+noc  -  no ocelli<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051253&amp;view=details" target="_blank">GO:0051253</a><a name="0051253"></a></td>
+<td>negative regulation of RNA metabolic process</td>
+<td align="center">1.7E-9</td>
+<td align="center">5.47E-7</td>
+<td align="center">3.98 (3114,202,93,24)</td>
+<td>
+<a id="ctrl_elements_GO:0051253" href="javascript:toggle(&#39;elements_GO:0051253&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051253" style="display:none"> <font size="1">
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048519&amp;view=details" target="_blank">GO:0048519</a><a name="0048519"></a></td>
+<td>negative regulation of biological process</td>
+<td align="center">1.96E-9</td>
+<td align="center">6.01E-7</td>
+<td align="center">2.31 (3114,652,93,45)</td>
+<td>
+<a id="ctrl_elements_GO:0048519" href="javascript:toggle(&#39;elements_GO:0048519&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048519" style="display:none"> <font size="1">
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+noc  -  no ocelli<br>
+pzg  -  putzig<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+dysc  -  dyschronic<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+H  -  hairless<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+disco-r  -  disco-related<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+mnb  -  minibrain<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+slo  -  slowpoke<br>
+Ubx  -  ultrabithorax<br>
+Spn  -  spinophilin<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Dl  -  delta<br>
+srp  -  serpent<br>
+wapl  -  wings apart-like<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1902679&amp;view=details" target="_blank">GO:1902679</a><a name="1902679"></a></td>
+<td>negative regulation of RNA biosynthetic process</td>
+<td align="center">2.49E-9</td>
+<td align="center">7.26E-7</td>
+<td align="center">4.07 (3114,189,93,23)</td>
+<td>
+<a id="ctrl_elements_GO:1902679" href="javascript:toggle(&#39;elements_GO:1902679&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1902679" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045892&amp;view=details" target="_blank">GO:0045892</a><a name="0045892"></a></td>
+<td>negative regulation of transcription, DNA-templated</td>
+<td align="center">2.49E-9</td>
+<td align="center">6.93E-7</td>
+<td align="center">4.07 (3114,189,93,23)</td>
+<td>
+<a id="ctrl_elements_GO:0045892" href="javascript:toggle(&#39;elements_GO:0045892&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045892" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903507&amp;view=details" target="_blank">GO:1903507</a><a name="1903507"></a></td>
+<td>negative regulation of nucleic acid-templated transcription</td>
+<td align="center">2.49E-9</td>
+<td align="center">6.63E-7</td>
+<td align="center">4.07 (3114,189,93,23)</td>
+<td>
+<a id="ctrl_elements_GO:1903507" href="javascript:toggle(&#39;elements_GO:1903507&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903507" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045934&amp;view=details" target="_blank">GO:0045934</a><a name="0045934"></a></td>
+<td>negative regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">6.16E-9</td>
+<td align="center">1.57E-6</td>
+<td align="center">3.74 (3114,215,93,24)</td>
+<td>
+<a id="ctrl_elements_GO:0045934" href="javascript:toggle(&#39;elements_GO:0045934&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045934" style="display:none"> <font size="1">
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051254&amp;view=details" target="_blank">GO:0051254</a><a name="0051254"></a></td>
+<td>positive regulation of RNA metabolic process</td>
+<td align="center">6.21E-9</td>
+<td align="center">1.52E-6</td>
+<td align="center">3.47 (3114,251,93,26)</td>
+<td>
+<a id="ctrl_elements_GO:0051254" href="javascript:toggle(&#39;elements_GO:0051254&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051254" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048731&amp;view=details" target="_blank">GO:0048731</a><a name="0048731"></a></td>
+<td>system development</td>
+<td align="center">7.56E-9</td>
+<td align="center">1.78E-6</td>
+<td align="center">4.03 (3114,183,93,22)</td>
+<td>
+<a id="ctrl_elements_GO:0048731" href="javascript:toggle(&#39;elements_GO:0048731&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048731" style="display:none"> <font size="1">
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+tou  -  toutatis<br>
+B-H1  -  barh1<br>
+mam  -  mastermind<br>
+ct  -  cut<br>
+sr  -  stripe<br>
+CG15765  -  cg15765 gene product from transcript cg15765-ra<br>
+fru  -  fruitless<br>
+noc  -  no ocelli<br>
+abd-A  -  abdominal a<br>
+mnb  -  minibrain<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+CG13001  -  cg13001 gene product from transcript cg13001-ra<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+ind  -  intermediate neuroblasts defective<br>
+shn  -  schnurri<br>
+Dl  -  delta<br>
+mbl  -  muscleblind<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045935&amp;view=details" target="_blank">GO:0045935</a><a name="0045935"></a></td>
+<td>positive regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">1.13E-8</td>
+<td align="center">2.55E-6</td>
+<td align="center">3.37 (3114,258,93,26)</td>
+<td>
+<a id="ctrl_elements_GO:0045935" href="javascript:toggle(&#39;elements_GO:0045935&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045935" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1902680&amp;view=details" target="_blank">GO:1902680</a><a name="1902680"></a></td>
+<td>positive regulation of RNA biosynthetic process</td>
+<td align="center">1.28E-8</td>
+<td align="center">2.81E-6</td>
+<td align="center">3.47 (3114,241,93,25)</td>
+<td>
+<a id="ctrl_elements_GO:1902680" href="javascript:toggle(&#39;elements_GO:1902680&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1902680" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045893&amp;view=details" target="_blank">GO:0045893</a><a name="0045893"></a></td>
+<td>positive regulation of transcription, DNA-templated</td>
+<td align="center">1.28E-8</td>
+<td align="center">2.71E-6</td>
+<td align="center">3.47 (3114,241,93,25)</td>
+<td>
+<a id="ctrl_elements_GO:0045893" href="javascript:toggle(&#39;elements_GO:0045893&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045893" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903508&amp;view=details" target="_blank">GO:1903508</a><a name="1903508"></a></td>
+<td>positive regulation of nucleic acid-templated transcription</td>
+<td align="center">1.28E-8</td>
+<td align="center">2.62E-6</td>
+<td align="center">3.47 (3114,241,93,25)</td>
+<td>
+<a id="ctrl_elements_GO:1903508" href="javascript:toggle(&#39;elements_GO:1903508&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903508" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010628&amp;view=details" target="_blank">GO:0010628</a><a name="0010628"></a></td>
+<td>positive regulation of gene expression</td>
+<td align="center">1.96E-8</td>
+<td align="center">3.87E-6</td>
+<td align="center">3.18 (3114,284,93,27)</td>
+<td>
+<a id="ctrl_elements_GO:0010628" href="javascript:toggle(&#39;elements_GO:0010628&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010628" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010557&amp;view=details" target="_blank">GO:0010557</a><a name="0010557"></a></td>
+<td>positive regulation of macromolecule biosynthetic process</td>
+<td align="center">2.17E-8</td>
+<td align="center">4.14E-6</td>
+<td align="center">3.27 (3114,266,93,26)</td>
+<td>
+<a id="ctrl_elements_GO:0010557" href="javascript:toggle(&#39;elements_GO:0010557&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010557" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010629&amp;view=details" target="_blank">GO:0010629</a><a name="0010629"></a></td>
+<td>negative regulation of gene expression</td>
+<td align="center">4.72E-8</td>
+<td align="center">8.77E-6</td>
+<td align="center">3.15 (3114,276,93,26)</td>
+<td>
+<a id="ctrl_elements_GO:0010629" href="javascript:toggle(&#39;elements_GO:0010629&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010629" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+Psi  -  p-element somatic inhibitor<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+noc  -  no ocelli<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010558&amp;view=details" target="_blank">GO:0010558</a><a name="0010558"></a></td>
+<td>negative regulation of macromolecule biosynthetic process</td>
+<td align="center">4.91E-8</td>
+<td align="center">8.85E-6</td>
+<td align="center">3.50 (3114,220,93,23)</td>
+<td>
+<a id="ctrl_elements_GO:0010558" href="javascript:toggle(&#39;elements_GO:0010558&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010558" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000113&amp;view=details" target="_blank">GO:2000113</a><a name="2000113"></a></td>
+<td>negative regulation of cellular macromolecule biosynthetic process</td>
+<td align="center">4.91E-8</td>
+<td align="center">8.6E-6</td>
+<td align="center">3.50 (3114,220,93,23)</td>
+<td>
+<a id="ctrl_elements_GO:2000113" href="javascript:toggle(&#39;elements_GO:2000113&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000113" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009890&amp;view=details" target="_blank">GO:0009890</a><a name="0009890"></a></td>
+<td>negative regulation of biosynthetic process</td>
+<td align="center">7.54E-8</td>
+<td align="center">1.28E-5</td>
+<td align="center">3.42 (3114,225,93,23)</td>
+<td>
+<a id="ctrl_elements_GO:0009890" href="javascript:toggle(&#39;elements_GO:0009890&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009890" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031327&amp;view=details" target="_blank">GO:0031327</a><a name="0031327"></a></td>
+<td>negative regulation of cellular biosynthetic process</td>
+<td align="center">7.54E-8</td>
+<td align="center">1.25E-5</td>
+<td align="center">3.42 (3114,225,93,23)</td>
+<td>
+<a id="ctrl_elements_GO:0031327" href="javascript:toggle(&#39;elements_GO:0031327&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031327" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009891&amp;view=details" target="_blank">GO:0009891</a><a name="0009891"></a></td>
+<td>positive regulation of biosynthetic process</td>
+<td align="center">8.58E-8</td>
+<td align="center">1.38E-5</td>
+<td align="center">3.07 (3114,284,93,26)</td>
+<td>
+<a id="ctrl_elements_GO:0009891" href="javascript:toggle(&#39;elements_GO:0009891&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009891" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031328&amp;view=details" target="_blank">GO:0031328</a><a name="0031328"></a></td>
+<td>positive regulation of cellular biosynthetic process</td>
+<td align="center">8.58E-8</td>
+<td align="center">1.35E-5</td>
+<td align="center">3.07 (3114,284,93,26)</td>
+<td>
+<a id="ctrl_elements_GO:0031328" href="javascript:toggle(&#39;elements_GO:0031328&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031328" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+en  -  engrailed<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009653&amp;view=details" target="_blank">GO:0009653</a><a name="0009653"></a></td>
+<td>anatomical structure morphogenesis</td>
+<td align="center">8.98E-8</td>
+<td align="center">1.38E-5</td>
+<td align="center">2.44 (3114,480,93,35)</td>
+<td>
+<a id="ctrl_elements_GO:0009653" href="javascript:toggle(&#39;elements_GO:0009653&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009653" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+sr  -  stripe<br>
+ct  -  cut<br>
+nvy  -  nervy<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+noc  -  no ocelli<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+shn  -  schnurri<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+H  -  hairless<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+disco-r  -  disco-related<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+srp  -  serpent<br>
+Dl  -  delta<br>
+yrt  -  yurt<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0003002&amp;view=details" target="_blank">GO:0003002</a><a name="0003002"></a></td>
+<td>regionalization</td>
+<td align="center">3.63E-7</td>
+<td align="center">5.42E-5</td>
+<td align="center">3.54 (3114,189,93,20)</td>
+<td>
+<a id="ctrl_elements_GO:0003002" href="javascript:toggle(&#39;elements_GO:0003002&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0003002" style="display:none"> <font size="1">
+Bx  -  beadex<br>
+B-H1  -  barh1<br>
+en  -  engrailed<br>
+tara  -  taranis<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+run  -  runt<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+ind  -  intermediate neuroblasts defective<br>
+shn  -  schnurri<br>
+dac  -  dachshund<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+SoxN  -  soxneuro<br>
+H  -  hairless<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009886&amp;view=details" target="_blank">GO:0009886</a><a name="0009886"></a></td>
+<td>post-embryonic animal morphogenesis</td>
+<td align="center">3.63E-7</td>
+<td align="center">5.29E-5</td>
+<td align="center">3.54 (3114,189,93,20)</td>
+<td>
+<a id="ctrl_elements_GO:0009886" href="javascript:toggle(&#39;elements_GO:0009886&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009886" style="display:none"> <font size="1">
+Bx  -  beadex<br>
+B-H1  -  barh1<br>
+mam  -  mastermind<br>
+ct  -  cut<br>
+disco-r  -  disco-related<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+Poxn  -  pox neuro<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+H  -  hairless<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050794&amp;view=details" target="_blank">GO:0050794</a><a name="0050794"></a></td>
+<td>regulation of cellular process</td>
+<td align="center">9.1E-7</td>
+<td align="center">1.3E-4</td>
+<td align="center">1.53 (3114,1442,93,66)</td>
+<td>
+<a id="ctrl_elements_GO:0050794" href="javascript:toggle(&#39;elements_GO:0050794&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050794" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+CG18130  -  cg18130 gene product from transcript cg18130-ra<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+sens-2  -  senseless-2<br>
+CG8786  -  cg8786 gene product from transcript cg8786-rb<br>
+ind  -  intermediate neuroblasts defective<br>
+CG32683  -  cg32683 gene product from transcript cg32683-ra<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+slo  -  slowpoke<br>
+Spn  -  spinophilin<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+wapl  -  wings apart-like<br>
+B-H1  -  barh1<br>
+Psi  -  p-element somatic inhibitor<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+tara  -  taranis<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+dysc  -  dyschronic<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+H  -  hairless<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+abd-A  -  abdominal a<br>
+disco-r  -  disco-related<br>
+mnb  -  minibrain<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+hang  -  hangover<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Dl  -  delta<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048856&amp;view=details" target="_blank">GO:0048856</a><a name="0048856"></a></td>
+<td>anatomical structure development</td>
+<td align="center">1.29E-6</td>
+<td align="center">1.79E-4</td>
+<td align="center">1.92 (3114,769,93,44)</td>
+<td>
+<a id="ctrl_elements_GO:0048856" href="javascript:toggle(&#39;elements_GO:0048856&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048856" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+B-H1  -  barh1<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+sr  -  stripe<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+pum  -  pumilio<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+noc  -  no ocelli<br>
+sens-2  -  senseless-2<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+pygo  -  pygopus<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+CG15765  -  cg15765 gene product from transcript cg15765-ra<br>
+abd-A  -  abdominal a<br>
+mnb  -  minibrain<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+CG13001  -  cg13001 gene product from transcript cg13001-ra<br>
+eve  -  even skipped<br>
+Msi  -  male-specific insect derived growth factor<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Hr51  -  hormone receptor 51<br>
+Dl  -  delta<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+yrt  -  yurt<br>
+mbl  -  muscleblind<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007389&amp;view=details" target="_blank">GO:0007389</a><a name="0007389"></a></td>
+<td>pattern specification process</td>
+<td align="center">1.69E-6</td>
+<td align="center">2.3E-4</td>
+<td align="center">2.80 (3114,287,93,24)</td>
+<td>
+<a id="ctrl_elements_GO:0007389" href="javascript:toggle(&#39;elements_GO:0007389&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007389" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+Bx  -  beadex<br>
+en  -  engrailed<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+tara  -  taranis<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+run  -  runt<br>
+ind  -  intermediate neuroblasts defective<br>
+shn  -  schnurri<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+Dl  -  delta<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+SoxN  -  soxneuro<br>
+H  -  hairless<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031324&amp;view=details" target="_blank">GO:0031324</a><a name="0031324"></a></td>
+<td>negative regulation of cellular metabolic process</td>
+<td align="center">1.92E-6</td>
+<td align="center">2.55E-4</td>
+<td align="center">2.70 (3114,310,93,25)</td>
+<td>
+<a id="ctrl_elements_GO:0031324" href="javascript:toggle(&#39;elements_GO:0031324&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031324" style="display:none"> <font size="1">
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0045944&amp;view=details" target="_blank">GO:0045944</a><a name="0045944"></a></td>
+<td>positive regulation of transcription by RNA polymerase II</td>
+<td align="center">1.97E-6</td>
+<td align="center">2.57E-4</td>
+<td align="center">3.33 (3114,191,93,19)</td>
+<td>
+<a id="ctrl_elements_GO:0045944" href="javascript:toggle(&#39;elements_GO:0045944&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0045944" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+eve  -  even skipped<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+NFAT  -  nfat homolog<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0035114&amp;view=details" target="_blank">GO:0035114</a><a name="0035114"></a></td>
+<td>imaginal disc-derived appendage morphogenesis</td>
+<td align="center">2.08E-6</td>
+<td align="center">2.65E-4</td>
+<td align="center">4.73 (3114,92,93,13)</td>
+<td>
+<a id="ctrl_elements_GO:0035114" href="javascript:toggle(&#39;elements_GO:0035114&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0035114" style="display:none"> <font size="1">
+Bx  -  beadex<br>
+mam  -  mastermind<br>
+ct  -  cut<br>
+lbe  -  ladybird early<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Poxn  -  pox neuro<br>
+shn  -  schnurri<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+btd  -  buttonhead<br>
+Dl  -  delta<br>
+rn  -  rotund<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010604&amp;view=details" target="_blank">GO:0010604</a><a name="0010604"></a></td>
+<td>positive regulation of macromolecule metabolic process</td>
+<td align="center">2.21E-6</td>
+<td align="center">2.76E-4</td>
+<td align="center">2.42 (3114,401,93,29)</td>
+<td>
+<a id="ctrl_elements_GO:0010604" href="javascript:toggle(&#39;elements_GO:0010604&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010604" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+Bx  -  beadex<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051172&amp;view=details" target="_blank">GO:0051172</a><a name="0051172"></a></td>
+<td>negative regulation of nitrogen compound metabolic process</td>
+<td align="center">2.32E-6</td>
+<td align="center">2.84E-4</td>
+<td align="center">2.75 (3114,292,93,24)</td>
+<td>
+<a id="ctrl_elements_GO:0051172" href="javascript:toggle(&#39;elements_GO:0051172&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051172" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+Psi  -  p-element somatic inhibitor<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048513&amp;view=details" target="_blank">GO:0048513</a><a name="0048513"></a></td>
+<td>animal organ development</td>
+<td align="center">2.78E-6</td>
+<td align="center">3.33E-4</td>
+<td align="center">2.51 (3114,360,93,27)</td>
+<td>
+<a id="ctrl_elements_GO:0048513" href="javascript:toggle(&#39;elements_GO:0048513&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048513" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+sr  -  stripe<br>
+ct  -  cut<br>
+noc  -  no ocelli<br>
+sens-2  -  senseless-2<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+Poxn  -  pox neuro<br>
+ind  -  intermediate neuroblasts defective<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+pygo  -  pygopus<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+abd-A  -  abdominal a<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Dl  -  delta<br>
+srp  -  serpent<br>
+Alh  -  alhambra<br>
+mbl  -  muscleblind<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0035107&amp;view=details" target="_blank">GO:0035107</a><a name="0035107"></a></td>
+<td>appendage morphogenesis</td>
+<td align="center">3.84E-6</td>
+<td align="center">4.52E-4</td>
+<td align="center">4.49 (3114,97,93,13)</td>
+<td>
+<a id="ctrl_elements_GO:0035107" href="javascript:toggle(&#39;elements_GO:0035107&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0035107" style="display:none"> <font size="1">
+Bx  -  beadex<br>
+mam  -  mastermind<br>
+ct  -  cut<br>
+lbe  -  ladybird early<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+Poxn  -  pox neuro<br>
+shn  -  schnurri<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+btd  -  buttonhead<br>
+rn  -  rotund<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009892&amp;view=details" target="_blank">GO:0009892</a><a name="0009892"></a></td>
+<td>negative regulation of metabolic process</td>
+<td align="center">3.84E-6</td>
+<td align="center">4.44E-4</td>
+<td align="center">2.47 (3114,366,93,27)</td>
+<td>
+<a id="ctrl_elements_GO:0009892" href="javascript:toggle(&#39;elements_GO:0009892&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009892" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+Psi  -  p-element somatic inhibitor<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+noc  -  no ocelli<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010605&amp;view=details" target="_blank">GO:0010605</a><a name="0010605"></a></td>
+<td>negative regulation of macromolecule metabolic process</td>
+<td align="center">3.91E-6</td>
+<td align="center">4.43E-4</td>
+<td align="center">2.53 (3114,344,93,26)</td>
+<td>
+<a id="ctrl_elements_GO:0010605" href="javascript:toggle(&#39;elements_GO:0010605&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010605" style="display:none"> <font size="1">
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+noc  -  no ocelli<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+sob  -  sister of odd and bowl<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048869&amp;view=details" target="_blank">GO:0048869</a><a name="0048869"></a></td>
+<td>cellular developmental process</td>
+<td align="center">4.15E-6</td>
+<td align="center">4.62E-4</td>
+<td align="center">2.06 (3114,585,93,36)</td>
+<td>
+<a id="ctrl_elements_GO:0048869" href="javascript:toggle(&#39;elements_GO:0048869&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048869" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+ct  -  cut<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+noc  -  no ocelli<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+ind  -  intermediate neuroblasts defective<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+H  -  hairless<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+fru  -  fruitless<br>
+disco-r  -  disco-related<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Msi  -  male-specific insect derived growth factor<br>
+Ubx  -  ultrabithorax<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+Dl  -  delta<br>
+yrt  -  yurt<br>
+mbl  -  muscleblind<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009888&amp;view=details" target="_blank">GO:0009888</a><a name="0009888"></a></td>
+<td>tissue development</td>
+<td align="center">4.24E-6</td>
+<td align="center">4.63E-4</td>
+<td align="center">3.47 (3114,164,93,17)</td>
+<td>
+<a id="ctrl_elements_GO:0009888" href="javascript:toggle(&#39;elements_GO:0009888&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009888" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+Bx  -  beadex<br>
+mam  -  mastermind<br>
+sr  -  stripe<br>
+en  -  engrailed<br>
+noc  -  no ocelli<br>
+abd-A  -  abdominal a<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+eyg  -  eyegone<br>
+ind  -  intermediate neuroblasts defective<br>
+shn  -  schnurri<br>
+dac  -  dachshund<br>
+srp  -  serpent<br>
+Dl  -  delta<br>
+pygo  -  pygopus<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051173&amp;view=details" target="_blank">GO:0051173</a><a name="0051173"></a></td>
+<td>positive regulation of nitrogen compound metabolic process</td>
+<td align="center">4.55E-6</td>
+<td align="center">4.89E-4</td>
+<td align="center">2.39 (3114,392,93,28)</td>
+<td>
+<a id="ctrl_elements_GO:0051173" href="javascript:toggle(&#39;elements_GO:0051173&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051173" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+Bx  -  beadex<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007399&amp;view=details" target="_blank">GO:0007399</a><a name="0007399"></a></td>
+<td>nervous system development</td>
+<td align="center">6.51E-6</td>
+<td align="center">6.88E-4</td>
+<td align="center">5.68 (3114,59,93,10)</td>
+<td>
+<a id="ctrl_elements_GO:0007399" href="javascript:toggle(&#39;elements_GO:0007399&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007399" style="display:none"> <font size="1">
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+tou  -  toutatis<br>
+B-H1  -  barh1<br>
+mam  -  mastermind<br>
+CG15765  -  cg15765 gene product from transcript cg15765-ra<br>
+abd-A  -  abdominal a<br>
+Dl  -  delta<br>
+mnb  -  minibrain<br>
+SoxN  -  soxneuro<br>
+CG13001  -  cg13001 gene product from transcript cg13001-ra<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050789&amp;view=details" target="_blank">GO:0050789</a><a name="0050789"></a></td>
+<td>regulation of biological process</td>
+<td align="center">6.63E-6</td>
+<td align="center">6.88E-4</td>
+<td align="center">1.45 (3114,1544,93,67)</td>
+<td>
+<a id="ctrl_elements_GO:0050789" href="javascript:toggle(&#39;elements_GO:0050789&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050789" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG18130  -  cg18130 gene product from transcript cg18130-ra<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+noc  -  no ocelli<br>
+sens-2  -  senseless-2<br>
+CG8786  -  cg8786 gene product from transcript cg8786-rb<br>
+ind  -  intermediate neuroblasts defective<br>
+CG32683  -  cg32683 gene product from transcript cg32683-ra<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+slo  -  slowpoke<br>
+Spn  -  spinophilin<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+wapl  -  wings apart-like<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+tara  -  taranis<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+dysc  -  dyschronic<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+H  -  hairless<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+disco-r  -  disco-related<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+mnb  -  minibrain<br>
+hkb  -  huckebein<br>
+hang  -  hangover<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Dl  -  delta<br>
+Alh  -  alhambra<br>
+mbl  -  muscleblind<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031325&amp;view=details" target="_blank">GO:0031325</a><a name="0031325"></a></td>
+<td>positive regulation of cellular metabolic process</td>
+<td align="center">6.81E-6</td>
+<td align="center">6.95E-4</td>
+<td align="center">2.34 (3114,400,93,28)</td>
+<td>
+<a id="ctrl_elements_GO:0031325" href="javascript:toggle(&#39;elements_GO:0031325&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031325" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+Bx  -  beadex<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009893&amp;view=details" target="_blank">GO:0009893</a><a name="0009893"></a></td>
+<td>positive regulation of metabolic process</td>
+<td align="center">7.7E-6</td>
+<td align="center">7.73E-4</td>
+<td align="center">2.28 (3114,426,93,29)</td>
+<td>
+<a id="ctrl_elements_GO:0009893" href="javascript:toggle(&#39;elements_GO:0009893&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009893" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+Bx  -  beadex<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032502&amp;view=details" target="_blank">GO:0032502</a><a name="0032502"></a></td>
+<td>developmental process</td>
+<td align="center">7.74E-6</td>
+<td align="center">7.64E-4</td>
+<td align="center">1.64 (3114,1085,93,53)</td>
+<td>
+<a id="ctrl_elements_GO:0032502" href="javascript:toggle(&#39;elements_GO:0032502&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032502" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+mam  -  mastermind<br>
+sr  -  stripe<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+noc  -  no ocelli<br>
+sens-2  -  senseless-2<br>
+ind  -  intermediate neuroblasts defective<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+Bx  -  beadex<br>
+CG15765  -  cg15765 gene product from transcript cg15765-ra<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+CG13001  -  cg13001 gene product from transcript cg13001-ra<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+yrt  -  yurt<br>
+B-H1  -  barh1<br>
+ct  -  cut<br>
+nvy  -  nervy<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+H  -  hairless<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+abd-A  -  abdominal a<br>
+disco-r  -  disco-related<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+mnb  -  minibrain<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+Msi  -  male-specific insect derived growth factor<br>
+eyg  -  eyegone<br>
+Dl  -  delta<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0065007&amp;view=details" target="_blank">GO:0065007</a><a name="0065007"></a></td>
+<td>biological regulation</td>
+<td align="center">9.66E-6</td>
+<td align="center">9.38E-4</td>
+<td align="center">1.41 (3114,1666,93,70)</td>
+<td>
+<a id="ctrl_elements_GO:0065007" href="javascript:toggle(&#39;elements_GO:0065007&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0065007" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG18130  -  cg18130 gene product from transcript cg18130-ra<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+noc  -  no ocelli<br>
+sens-2  -  senseless-2<br>
+CG8786  -  cg8786 gene product from transcript cg8786-rb<br>
+ind  -  intermediate neuroblasts defective<br>
+CG32683  -  cg32683 gene product from transcript cg32683-ra<br>
+CG9650  -  cg9650 gene product from transcript cg9650-rg<br>
+vfl  -  vielfaltig<br>
+dac  -  dachshund<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+slo  -  slowpoke<br>
+Spn  -  spinophilin<br>
+Hr51  -  hormone receptor 51<br>
+srp  -  serpent<br>
+yrt  -  yurt<br>
+wapl  -  wings apart-like<br>
+Psi  -  p-element somatic inhibitor<br>
+B-H1  -  barh1<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+ct  -  cut<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+tara  -  taranis<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+dysc  -  dyschronic<br>
+Poxn  -  pox neuro<br>
+Smr  -  smrter<br>
+shn  -  schnurri<br>
+btd  -  buttonhead<br>
+CanB  -  calcineurin b<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+H  -  hairless<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+disco-r  -  disco-related<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+mnb  -  minibrain<br>
+hkb  -  huckebein<br>
+hang  -  hangover<br>
+Ubx  -  ultrabithorax<br>
+CG6227  -  cg6227 gene product from transcript cg6227-ra<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+para  -  paralytic<br>
+eyg  -  eyegone<br>
+NFAT  -  nfat homolog<br>
+Dl  -  delta<br>
+Alh  -  alhambra<br>
+SoxN  -  soxneuro<br>
+mbl  -  muscleblind<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007447&amp;view=details" target="_blank">GO:0007447</a><a name="0007447"></a></td>
+<td>imaginal disc pattern formation</td>
+<td align="center">1.6E-5</td>
+<td align="center">1.53E-3</td>
+<td align="center">5.15 (3114,65,93,10)</td>
+<td>
+<a id="ctrl_elements_GO:0007447" href="javascript:toggle(&#39;elements_GO:0007447&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007447" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+en  -  engrailed<br>
+shn  -  schnurri<br>
+tara  -  taranis<br>
+abd-A  -  abdominal a<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+H  -  hairless<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007480&amp;view=details" target="_blank">GO:0007480</a><a name="0007480"></a></td>
+<td>imaginal disc-derived leg morphogenesis</td>
+<td align="center">1.96E-5</td>
+<td align="center">1.85E-3</td>
+<td align="center">7.81 (3114,30,93,7)</td>
+<td>
+<a id="ctrl_elements_GO:0007480" href="javascript:toggle(&#39;elements_GO:0007480&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007480" style="display:none"> <font size="1">
+Poxn  -  pox neuro<br>
+Dl  -  delta<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+lbe  -  ladybird early<br>
+Ubx  -  ultrabithorax<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048098&amp;view=details" target="_blank">GO:0048098</a><a name="0048098"></a></td>
+<td>antennal joint development</td>
+<td align="center">2.58E-5</td>
+<td align="center">2.39E-3</td>
+<td align="center">33.48 (3114,3,93,3)</td>
+<td>
+<a id="ctrl_elements_GO:0048098" href="javascript:toggle(&#39;elements_GO:0048098&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048098" style="display:none"> <font size="1">
+ct  -  cut<br>
+dac  -  dachshund<br>
+salm  -  spalt major<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0035120&amp;view=details" target="_blank">GO:0035120</a><a name="0035120"></a></td>
+<td>post-embryonic appendage morphogenesis</td>
+<td align="center">3.58E-5</td>
+<td align="center">3.27E-3</td>
+<td align="center">4.28 (3114,86,93,11)</td>
+<td>
+<a id="ctrl_elements_GO:0035120" href="javascript:toggle(&#39;elements_GO:0035120&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0035120" style="display:none"> <font size="1">
+Poxn  -  pox neuro<br>
+Bx  -  beadex<br>
+mam  -  mastermind<br>
+shn  -  schnurri<br>
+Dl  -  delta<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+rn  -  rotund<br>
+lbe  -  ladybird early<br>
+Ubx  -  ultrabithorax<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0001709&amp;view=details" target="_blank">GO:0001709</a><a name="0001709"></a></td>
+<td>cell fate determination</td>
+<td align="center">6.79E-5</td>
+<td align="center">6.11E-3</td>
+<td align="center">4.00 (3114,92,93,11)</td>
+<td>
+<a id="ctrl_elements_GO:0001709" href="javascript:toggle(&#39;elements_GO:0001709&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0001709" style="display:none"> <font size="1">
+ind  -  intermediate neuroblasts defective<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+abd-A  -  abdominal a<br>
+srp  -  serpent<br>
+hkb  -  huckebein<br>
+H  -  hairless<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0001706&amp;view=details" target="_blank">GO:0001706</a><a name="0001706"></a></td>
+<td>endoderm formation</td>
+<td align="center">1.01E-4</td>
+<td align="center">8.96E-3</td>
+<td align="center">25.11 (3114,4,93,3)</td>
+<td>
+<a id="ctrl_elements_GO:0001706" href="javascript:toggle(&#39;elements_GO:0001706&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0001706" style="display:none"> <font size="1">
+srp  -  serpent<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048190&amp;view=details" target="_blank">GO:0048190</a><a name="0048190"></a></td>
+<td>wing disc dorsal/ventral pattern formation</td>
+<td align="center">1.08E-4</td>
+<td align="center">9.42E-3</td>
+<td align="center">7.44 (3114,27,93,6)</td>
+<td>
+<a id="ctrl_elements_GO:0048190" href="javascript:toggle(&#39;elements_GO:0048190&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048190" style="display:none"> <font size="1">
+shn  -  schnurri<br>
+tara  -  taranis<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+H  -  hairless<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007417&amp;view=details" target="_blank">GO:0007417</a><a name="0007417"></a></td>
+<td>central nervous system development</td>
+<td align="center">1.19E-4</td>
+<td align="center">1.03E-2</td>
+<td align="center">5.15 (3114,52,93,8)</td>
+<td>
+<a id="ctrl_elements_GO:0007417" href="javascript:toggle(&#39;elements_GO:0007417&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007417" style="display:none"> <font size="1">
+ind  -  intermediate neuroblasts defective<br>
+ct  -  cut<br>
+sr  -  stripe<br>
+fru  -  fruitless<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+SoxN  -  soxneuro<br>
+eve  -  even skipped<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030154&amp;view=details" target="_blank">GO:0030154</a><a name="0030154"></a></td>
+<td>cell differentiation</td>
+<td align="center">1.49E-4</td>
+<td align="center">1.26E-2</td>
+<td align="center">2.89 (3114,174,93,15)</td>
+<td>
+<a id="ctrl_elements_GO:0030154" href="javascript:toggle(&#39;elements_GO:0030154&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030154" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+abd-A  -  abdominal a<br>
+disco-r  -  disco-related<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+hkb  -  huckebein<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+salm  -  spalt major<br>
+dac  -  dachshund<br>
+srp  -  serpent<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+yrt  -  yurt<br>
+mbl  -  muscleblind<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007400&amp;view=details" target="_blank">GO:0007400</a><a name="0007400"></a></td>
+<td>neuroblast fate determination</td>
+<td align="center">1.78E-4</td>
+<td align="center">1.49E-2</td>
+<td align="center">8.81 (3114,19,93,5)</td>
+<td>
+<a id="ctrl_elements_GO:0007400" href="javascript:toggle(&#39;elements_GO:0007400&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007400" style="display:none"> <font size="1">
+ind  -  intermediate neuroblasts defective<br>
+en  -  engrailed<br>
+abd-A  -  abdominal a<br>
+hkb  -  huckebein<br>
+run  -  runt<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0001708&amp;view=details" target="_blank">GO:0001708</a><a name="0001708"></a></td>
+<td>cell fate specification</td>
+<td align="center">1.8E-4</td>
+<td align="center">1.49E-2</td>
+<td align="center">4.87 (3114,55,93,8)</td>
+<td>
+<a id="ctrl_elements_GO:0001708" href="javascript:toggle(&#39;elements_GO:0001708&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0001708" style="display:none"> <font size="1">
+abd-A  -  abdominal a<br>
+Dl  -  delta<br>
+dac  -  dachshund<br>
+rn  -  rotund<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048518&amp;view=details" target="_blank">GO:0048518</a><a name="0048518"></a></td>
+<td>positive regulation of biological process</td>
+<td align="center">1.97E-4</td>
+<td align="center">1.6E-2</td>
+<td align="center">1.72 (3114,720,93,37)</td>
+<td>
+<a id="ctrl_elements_GO:0048518" href="javascript:toggle(&#39;elements_GO:0048518&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048518" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+pum  -  pumilio<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+dysc  -  dyschronic<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+HDAC4  -  cg1770 gene product from transcript cg1770-rg<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+Bx  -  beadex<br>
+abd-A  -  abdominal a<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+mnb  -  minibrain<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Dl  -  delta<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007450&amp;view=details" target="_blank">GO:0007450</a><a name="0007450"></a></td>
+<td>dorsal/ventral pattern formation, imaginal disc</td>
+<td align="center">2.01E-4</td>
+<td align="center">1.62E-2</td>
+<td align="center">6.70 (3114,30,93,6)</td>
+<td>
+<a id="ctrl_elements_GO:0007450" href="javascript:toggle(&#39;elements_GO:0007450&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007450" style="display:none"> <font size="1">
+shn  -  schnurri<br>
+tara  -  taranis<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+H  -  hairless<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007398&amp;view=details" target="_blank">GO:0007398</a><a name="0007398"></a></td>
+<td>ectoderm development</td>
+<td align="center">2.32E-4</td>
+<td align="center">1.84E-2</td>
+<td align="center">8.37 (3114,20,93,5)</td>
+<td>
+<a id="ctrl_elements_GO:0007398" href="javascript:toggle(&#39;elements_GO:0007398&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007398" style="display:none"> <font size="1">
+ind  -  intermediate neuroblasts defective<br>
+mam  -  mastermind<br>
+sr  -  stripe<br>
+shn  -  schnurri<br>
+Dl  -  delta<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009952&amp;view=details" target="_blank">GO:0009952</a><a name="0009952"></a></td>
+<td>anterior/posterior pattern specification</td>
+<td align="center">2.62E-4</td>
+<td align="center">2.06E-2</td>
+<td align="center">5.33 (3114,44,93,7)</td>
+<td>
+<a id="ctrl_elements_GO:0009952" href="javascript:toggle(&#39;elements_GO:0009952&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009952" style="display:none"> <font size="1">
+en  -  engrailed<br>
+shn  -  schnurri<br>
+abd-A  -  abdominal a<br>
+sob  -  sister of odd and bowl<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+run  -  runt<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0035222&amp;view=details" target="_blank">GO:0035222</a><a name="0035222"></a></td>
+<td>wing disc pattern formation</td>
+<td align="center">3.49E-4</td>
+<td align="center">2.71E-2</td>
+<td align="center">5.10 (3114,46,93,7)</td>
+<td>
+<a id="ctrl_elements_GO:0035222" href="javascript:toggle(&#39;elements_GO:0035222&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0035222" style="display:none"> <font size="1">
+en  -  engrailed<br>
+shn  -  schnurri<br>
+tara  -  taranis<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+H  -  hairless<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010453&amp;view=details" target="_blank">GO:0010453</a><a name="0010453"></a></td>
+<td>regulation of cell fate commitment</td>
+<td align="center">3.76E-4</td>
+<td align="center">2.87E-2</td>
+<td align="center">7.61 (3114,22,93,5)</td>
+<td>
+<a id="ctrl_elements_GO:0010453" href="javascript:toggle(&#39;elements_GO:0010453&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010453" style="display:none"> <font size="1">
+Dl  -  delta<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0042659&amp;view=details" target="_blank">GO:0042659</a><a name="0042659"></a></td>
+<td>regulation of cell fate specification</td>
+<td align="center">3.76E-4</td>
+<td align="center">2.84E-2</td>
+<td align="center">7.61 (3114,22,93,5)</td>
+<td>
+<a id="ctrl_elements_GO:0042659" href="javascript:toggle(&#39;elements_GO:0042659&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0042659" style="display:none"> <font size="1">
+Dl  -  delta<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048867&amp;view=details" target="_blank">GO:0048867</a><a name="0048867"></a></td>
+<td>stem cell fate determination</td>
+<td align="center">3.76E-4</td>
+<td align="center">2.8E-2</td>
+<td align="center">7.61 (3114,22,93,5)</td>
+<td>
+<a id="ctrl_elements_GO:0048867" href="javascript:toggle(&#39;elements_GO:0048867&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048867" style="display:none"> <font size="1">
+ind  -  intermediate neuroblasts defective<br>
+en  -  engrailed<br>
+abd-A  -  abdominal a<br>
+hkb  -  huckebein<br>
+run  -  runt<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0030182&amp;view=details" target="_blank">GO:0030182</a><a name="0030182"></a></td>
+<td>neuron differentiation</td>
+<td align="center">4.57E-4</td>
+<td align="center">3.37E-2</td>
+<td align="center">4.88 (3114,48,93,7)</td>
+<td>
+<a id="ctrl_elements_GO:0030182" href="javascript:toggle(&#39;elements_GO:0030182&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0030182" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+dac  -  dachshund<br>
+mbl  -  muscleblind<br>
+salm  -  spalt major<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009953&amp;view=details" target="_blank">GO:0009953</a><a name="0009953"></a></td>
+<td>dorsal/ventral pattern formation</td>
+<td align="center">4.57E-4</td>
+<td align="center">3.33E-2</td>
+<td align="center">4.88 (3114,48,93,7)</td>
+<td>
+<a id="ctrl_elements_GO:0009953" href="javascript:toggle(&#39;elements_GO:0009953&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009953" style="display:none"> <font size="1">
+ind  -  intermediate neuroblasts defective<br>
+shn  -  schnurri<br>
+tara  -  taranis<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+H  -  hairless<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0001704&amp;view=details" target="_blank">GO:0001704</a><a name="0001704"></a></td>
+<td>formation of primary germ layer</td>
+<td align="center">4.83E-4</td>
+<td align="center">3.48E-2</td>
+<td align="center">16.74 (3114,6,93,3)</td>
+<td>
+<a id="ctrl_elements_GO:0001704" href="javascript:toggle(&#39;elements_GO:0001704&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0001704" style="display:none"> <font size="1">
+srp  -  serpent<br>
+hkb  -  huckebein<br>
+Ubx  -  ultrabithorax<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0046530&amp;view=details" target="_blank">GO:0046530</a><a name="0046530"></a></td>
+<td>photoreceptor cell differentiation</td>
+<td align="center">4.87E-4</td>
+<td align="center">3.46E-2</td>
+<td align="center">5.74 (3114,35,93,6)</td>
+<td>
+<a id="ctrl_elements_GO:0046530" href="javascript:toggle(&#39;elements_GO:0046530&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0046530" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+mask  -  multiple ankyrin repeats single kh domain<br>
+Dl  -  delta<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+mbl  -  muscleblind<br>
+salm  -  spalt major<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0008586&amp;view=details" target="_blank">GO:0008586</a><a name="0008586"></a></td>
+<td>imaginal disc-derived wing vein morphogenesis</td>
+<td align="center">5.78E-4</td>
+<td align="center">4.07E-2</td>
+<td align="center">6.98 (3114,24,93,5)</td>
+<td>
+<a id="ctrl_elements_GO:0008586" href="javascript:toggle(&#39;elements_GO:0008586&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0008586" style="display:none"> <font size="1">
+shn  -  schnurri<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+Dl  -  delta<br>
+H  -  hairless<br>
+salm  -  spalt major<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009887&amp;view=details" target="_blank">GO:0009887</a><a name="0009887"></a></td>
+<td>animal organ morphogenesis</td>
+<td align="center">5.85E-4</td>
+<td align="center">4.07E-2</td>
+<td align="center">2.55 (3114,197,93,15)</td>
+<td>
+<a id="ctrl_elements_GO:0009887" href="javascript:toggle(&#39;elements_GO:0009887&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009887" style="display:none"> <font size="1">
+B-H1  -  barh1<br>
+mam  -  mastermind<br>
+nvy  -  nervy<br>
+disco-r  -  disco-related<br>
+lbe  -  ladybird early<br>
+hkb  -  huckebein<br>
+eve  -  even skipped<br>
+run  -  runt<br>
+salm  -  spalt major<br>
+eyg  -  eyegone<br>
+shn  -  schnurri<br>
+dac  -  dachshund<br>
+Dl  -  delta<br>
+srp  -  serpent<br>
+pygo  -  pygopus<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048522&amp;view=details" target="_blank">GO:0048522</a><a name="0048522"></a></td>
+<td>positive regulation of cellular process</td>
+<td align="center">6.01E-4</td>
+<td align="center">4.14E-2</td>
+<td align="center">1.71 (3114,646,93,33)</td>
+<td>
+<a id="ctrl_elements_GO:0048522" href="javascript:toggle(&#39;elements_GO:0048522&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048522" style="display:none"> <font size="1">
+tou  -  toutatis<br>
+CG12769  -  cg12769 gene product from transcript cg12769-rb<br>
+mam  -  mastermind<br>
+en  -  engrailed<br>
+Vsx1  -  visual system homeobox 1 ortholog<br>
+JIL-1  -  cg6297 gene product from transcript cg6297-rc<br>
+fs(1)h  -  female sterile (1) homeotic<br>
+pum  -  pumilio<br>
+tara  -  taranis<br>
+Eip93F  -  ecdysone-induced protein 93f<br>
+pzg  -  putzig<br>
+Ncoa6  -  cg14023 gene product from transcript cg14023-rd<br>
+Eip74EF  -  ecdysone-induced protein 74ef<br>
+run  -  runt<br>
+shn  -  schnurri<br>
+vfl  -  vielfaltig<br>
+btd  -  buttonhead<br>
+osa  -  cg7467 gene product from transcript cg7467-re<br>
+sob  -  sister of odd and bowl<br>
+pygo  -  pygopus<br>
+Bx  -  beadex<br>
+CG10555  -  cg10555 gene product from transcript cg10555-ra<br>
+ASPP  -  ankyrin-repeat, sh3-domain, and proline-rich-region containing protein<br>
+abd-A  -  abdominal a<br>
+ovo  -  cg6824 gene product from transcript cg6824-re<br>
+mnb  -  minibrain<br>
+eve  -  even skipped<br>
+CG8405  -  cg8405 gene product from transcript cg8405-ra<br>
+Hr51  -  hormone receptor 51<br>
+NFAT  -  nfat homolog<br>
+srp  -  serpent<br>
+Dl  -  delta<br>
+SoxN  -  soxneuro<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0061061&amp;view=details" target="_blank">GO:0061061</a><a name="0061061"></a></td>
+<td>muscle structure development</td>
+<td align="center">7.92E-4</td>
+<td align="center">5.39E-2</td>
+<td align="center">3.94 (3114,68,93,8)</td>
+<td>
+<a id="ctrl_elements_GO:0061061" href="javascript:toggle(&#39;elements_GO:0061061&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0061061" style="display:none"> <font size="1">
+sr  -  stripe<br>
+fru  -  fruitless<br>
+Alh  -  alhambra<br>
+lbe  -  ladybird early<br>
+mbl  -  muscleblind<br>
+eve  -  even skipped<br>
+Ubx  -  ultrabithorax<br>
+salm  -  spalt major<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0048526&amp;view=details" target="_blank">GO:0048526</a><a name="0048526"></a></td>
+<td>imaginal disc-derived wing expansion</td>
+<td align="center">8.28E-4</td>
+<td align="center">5.57E-2</td>
+<td align="center">14.35 (3114,7,93,3)</td>
+<td>
+<a id="ctrl_elements_GO:0048526" href="javascript:toggle(&#39;elements_GO:0048526&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0048526" style="display:none"> <font size="1">
+Hr51  -  hormone receptor 51<br>
+disco-r  -  disco-related<br>
+pygo  -  pygopus<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007366&amp;view=details" target="_blank">GO:0007366</a><a name="0007366"></a></td>
+<td>periodic partitioning by pair rule gene</td>
+<td align="center">8.28E-4</td>
+<td align="center">5.51E-2</td>
+<td align="center">14.35 (3114,7,93,3)</td>
+<td>
+<a id="ctrl_elements_GO:0007366" href="javascript:toggle(&#39;elements_GO:0007366&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007366" style="display:none"> <font size="1">
+sob  -  sister of odd and bowl<br>
+eve  -  even skipped<br>
+run  -  runt<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007517&amp;view=details" target="_blank">GO:0007517</a><a name="0007517"></a></td>
+<td>muscle organ development</td>
+<td align="center">8.53E-4</td>
+<td align="center">5.62E-2</td>
+<td align="center">6.44 (3114,26,93,5)</td>
+<td>
+<a id="ctrl_elements_GO:0007517" href="javascript:toggle(&#39;elements_GO:0007517&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007517" style="display:none"> <font size="1">
+sr  -  stripe<br>
+fru  -  fruitless<br>
+lbe  -  ladybird early<br>
+mbl  -  muscleblind<br>
+eve  -  even skipped<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007483&amp;view=details" target="_blank">GO:0007483</a><a name="0007483"></a></td>
+<td>genital disc morphogenesis</td>
+<td align="center">8.83E-4</td>
+<td align="center">5.75E-2</td>
+<td align="center">33.48 (3114,2,93,2)</td>
+<td>
+<a id="ctrl_elements_GO:0007483" href="javascript:toggle(&#39;elements_GO:0007483&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007483" style="display:none"> <font size="1">
+dac  -  dachshund<br>
+lbe  -  ladybird early<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007376&amp;view=details" target="_blank">GO:0007376</a><a name="0007376"></a></td>
+<td>cephalic furrow formation</td>
+<td align="center">8.83E-4</td>
+<td align="center">5.69E-2</td>
+<td align="center">33.48 (3114,2,93,2)</td>
+<td>
+<a id="ctrl_elements_GO:0007376" href="javascript:toggle(&#39;elements_GO:0007376&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007376" style="display:none"> <font size="1">
+btd  -  buttonhead<br>
+eve  -  even skipped<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007365&amp;view=details" target="_blank">GO:0007365</a><a name="0007365"></a></td>
+<td>periodic partitioning</td>
+<td align="center">8.88E-4</td>
+<td align="center">5.67E-2</td>
+<td align="center">5.15 (3114,39,93,6)</td>
+<td>
+<a id="ctrl_elements_GO:0007365" href="javascript:toggle(&#39;elements_GO:0007365&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007365" style="display:none"> <font size="1">
+en  -  engrailed<br>
+sob  -  sister of odd and bowl<br>
+SoxN  -  soxneuro<br>
+pygo  -  pygopus<br>
+eve  -  even skipped<br>
+run  -  runt<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006928&amp;view=details" target="_blank">GO:0006928</a><a name="0006928"></a></td>
+<td>movement of cell or subcellular component</td>
+<td align="center">9.36E-4</td>
+<td align="center">5.91E-2</td>
+<td align="center">2.09 (3114,321,93,20)</td>
+<td>
+<a id="ctrl_elements_GO:0006928" href="javascript:toggle(&#39;elements_GO:0006928&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006928" style="display:none"> <font size="1">
+futsch  -  cg34387 gene product from transcript cg34387-rf<br>
+ct  -  cut<br>
+en  -  engrailed<br>
+sr  -  stripe<br>
+nvy  -  nervy<br>
+pum  -  pumilio<br>
+Kif19A  -  cg9913 gene product from transcript cg9913-rb<br>
+abd-A  -  abdominal a<br>
+hkb  -  huckebein<br>
+lbe  -  ladybird early<br>
+eve  -  even skipped<br>
+salm  -  spalt major<br>
+run  -  runt<br>
+dysc  -  dyschronic<br>
+Hr51  -  hormone receptor 51<br>
+dac  -  dachshund<br>
+Dl  -  delta<br>
+srp  -  serpent<br>
+SoxN  -  soxneuro<br>
+kis  -  kismet<br>
+</font></div>
+</td>
+</tr>
+</tbody></table>
+<p>Species used: Drosophila melanogaster</p><p>The system has recognized 3267 genes out of 3559 gene terms entered by the user.<br> 3267 genes were recognized by gene symbol and 0 genes by other gene IDs .<br>59 duplicate genes were removed (keeping the highest ranking instance of each gene) leaving  a total of 3208 genes.<br>Only 3114 of these genes are associated with a GO term.<br></p>
+<p> The GOrilla database is periodically updated using the <a href="http://www.geneontology.org/">GO database</a> and other sources.<br>
+The GOrilla database was last updated on Jul 7, 2018</p>
+<p>This results page will be available on this site for one month from now (until 
+Aug 6, 2018
+). You can bookmark this page and come back to it later.
+</p>
+<a name="p_value_info"></a><br><b>'P-value'</b> is the enrichment p-value computed according to the mHG or HG model. This p-value is not corrected for multiple testing of 6123 GO terms.<br>
+<a name="fdr_info"></a><br><b>'FDR q-value'</b> is the correction of the above p-value for multiple testing using the Benjamini and Hochberg (1995) method. <br>Namely, for the i<sup>th</sup> term (ranked according to p-value) the FDR q-value is (p-value * number of GO terms) / i. <br>
+<a name="enrich_info"></a><br><b>Enrichment (N, B, n, b)</b> is defined as follows:<br>N - is the total number of genes<br>B - is the total number of genes associated with a specific GO term<br>n - is the number of genes in the top of the user's input list or in the target set when appropriate<br>b - is the number of genes in the intersection<br>Enrichment = (b/n) / (B/N)<br>
+<a name="genes_info"></a><br><b>Genes:</b> For each GO term you can see the list of associated genes that appear in the optimal top of the list.<br>Each gene name is specified by gene symbol followed by a short description of the gene <br>
+<p>
+<a href="http://cbl-gorilla.cs.technion.ac.il/"> Back to the GOrilla main page </a>
+</p>
+
+
+</body></html>
