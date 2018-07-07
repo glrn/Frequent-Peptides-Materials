@@ -1,0 +1,1833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0075)http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+Results
+</title>
+
+<script type="text/javascript">
+function toggle(item) {
+obj=document.getElementById(item);
+visible=(obj.style.display!="none")
+key=document.getElementById("ctrl_" + item);
+if (visible) {
+    obj.style.display="none";
+key.innerHTML="[+] Show genes";
+}
+else {
+obj.style.display="block";
+key.innerHTML="[-] Hide genes";
+}
+}
+</script>
+</head>
+<body>
+<p></p><center><b>
+
+</b></center><p></p>
+<table border="1" width="80%" id="tab:pval_legend" align="center">
+<caption><em>P-value color scale</em></caption>
+<tbody><tr>
+	<td width="140" align="center"> &gt; 10<sup>-3</sup></td>
+	<td width="140" align="center" bgcolor="#FFFFCC"> 10<sup>-3</sup> to 10<sup>-5</sup></td>
+	<td width="140" align="center" bgcolor="#FFCC66"> 10<sup>-5</sup> to 10<sup>-7</sup></td>
+	<td width="140" align="center" bgcolor="#FF9900"> 10<sup>-7</sup> to 10<sup>-9</sup></td>
+	<td width="140" align="center" bgcolor="#FF3300"> &lt; 10<sup>-9</sup></td>
+</tr>
+</tbody></table>
+<map name="goPathImage">
+<area shape="RECT" coords="823,343,919,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0044249" alt="">
+<area shape="RECT" coords="816,481,912,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0019438" alt="">
+<area shape="RECT" coords="936,473,1032,570" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0044271" alt="">
+<area shape="RECT" coords="696,490,792,553" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0018130" alt="">
+<area shape="RECT" coords="1325,628,1440,708" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0034645" alt="">
+<area shape="RECT" coords="201,1169,316,1231" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0006355" alt="">
+<area shape="RECT" coords="1007,628,1161,708" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0034654" alt="">
+<area shape="RECT" coords="1448,919,1573,967" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0032774" alt="">
+<area shape="RECT" coords="705,343,799,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0046483" alt="">
+<area shape="RECT" coords="1107,481,1261,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0006139" alt="">
+<area shape="RECT" coords="1419,1056,1573,1104" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0097659" alt="">
+<area shape="RECT" coords="473,343,556,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0050794" alt="">
+<area shape="RECT" coords="435,481,517,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0031323" alt="">
+<area shape="RECT" coords="541,497,672,545" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0007165" alt="">
+<area shape="RECT" coords="1052,326,1137,423" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0034641" alt="">
+<area shape="RECT" coords="27,1056,157,1104" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0010468" alt="">
+<area shape="RECT" coords="540,637,673,699" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0009755" alt="">
+<area shape="RECT" coords="548,765,665,845" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0043401" alt="">
+<area shape="RECT" coords="408,765,504,845" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0031326" alt="">
+<area shape="RECT" coords="157,619,325,717" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0019219" alt="">
+<area shape="RECT" coords="1272,213,1368,261" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0009058" alt="">
+<area shape="RECT" coords="1400,343,1531,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#1901576" alt="">
+<area shape="RECT" coords="564,101,644,149" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0065007" alt="">
+<area shape="RECT" coords="468,206,561,269" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0050789" alt="">
+<area shape="RECT" coords="757,101,829,149" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0009987" alt="">
+<area shape="RECT" coords="904,206,987,269" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0044237" alt="">
+<area shape="RECT" coords="1472,637,1565,699" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0090304" alt="">
+<area shape="RECT" coords="1463,781,1575,829" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0016070" alt="">
+<area shape="RECT" coords="309,343,405,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0019222" alt="">
+<area shape="RECT" coords="188,911,329,974" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#2001141" alt="">
+<area shape="RECT" coords="204,1040,313,1120" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#1903506" alt="">
+<area shape="RECT" coords="1285,481,1392,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#1901362" alt="">
+<area shape="RECT" coords="1011,197,1096,277" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0006807" alt="">
+<area shape="RECT" coords="1397,206,1528,269" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0071704" alt="">
+<area shape="RECT" coords="1555,343,1669,406" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0043170" alt="">
+<area shape="RECT" coords="1219,335,1325,415" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#1901360" alt="">
+<area shape="RECT" coords="1555,490,1669,553" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0009059" alt="">
+<area shape="RECT" coords="1077,101,1160,149" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0008152" alt="">
+<area shape="RECT" coords="1120,213,1248,261" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0044238" alt="">
+<area shape="RECT" coords="168,473,253,570" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0051171" alt="">
+<area shape="RECT" coords="1416,481,1531,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0044260" alt="">
+<area shape="RECT" coords="1380,1176,1489,1224" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0006351" alt="">
+<area shape="RECT" coords="353,894,468,991" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#2000112" alt="">
+<area shape="RECT" coords="5,628,133,708" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0060255" alt="">
+<area shape="RECT" coords="256,765,384,845" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0010556" alt="">
+<area shape="RECT" coords="107,774,232,837" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0051252" alt="">
+<area shape="RECT" coords="277,481,360,561" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0080090" alt="">
+<area shape="RECT" coords="793,5,681,29" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0008150" alt="">
+<area shape="RECT" coords="943,326,1028,423" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0006725" alt="">
+<area shape="RECT" coords="349,637,459,699" href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#0009889" alt="">
+</map>
+<p align="center"><img border="0" src="./Results_files/GOPROCESS.png" usemap="#goPathImage" alt=""></p>
+<p>&nbsp;</p>
+<table border="1" width="100%" id="table1">
+	<tbody><tr>
+		<td align="center"><b>GO term</b></td>
+		<td align="center"><b>Description</b></td>
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#p_value_info">P-value</a></b></td> 
+		<td width="120" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#fdr_info">FDR q-value</a></b></td> 
+		<td width="230" align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#enrich_info"> Enrichment (N, B, n, b) </a></b> </td>
+		<td align="center"><b><a href="http://cbl-gorilla.cs.technion.ac.il/GOrilla/rfb82v7p/GOResultsPROCESS.html#genes_info"> Genes </a></b></td>
+	</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0043401&amp;view=details" target="_blank">GO:0043401</a><a name="0043401"></a></td>
+<td>steroid hormone mediated signaling pathway</td>
+<td align="center">3.07E-37</td>
+<td align="center">1.5E-33</td>
+<td align="center">34.31 (3328,97,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0043401" href="javascript:toggle(&#39;elements_GO:0043401&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0043401" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-286  -  protein nhr-286<br>
+nhr-54  -  protein nhr-54<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-115  -  protein nhr-115<br>
+nhr-53  -  protein nhr-53<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009755&amp;view=details" target="_blank">GO:0009755</a><a name="0009755"></a></td>
+<td>hormone-mediated signaling pathway</td>
+<td align="center">4.01E-37</td>
+<td align="center">9.82E-34</td>
+<td align="center">33.96 (3328,98,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0009755" href="javascript:toggle(&#39;elements_GO:0009755&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009755" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-286  -  protein nhr-286<br>
+nhr-54  -  protein nhr-54<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-115  -  protein nhr-115<br>
+nhr-53  -  protein nhr-53<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006351&amp;view=details" target="_blank">GO:0006351</a><a name="0006351"></a></td>
+<td>transcription, DNA-templated</td>
+<td align="center">3.51E-24</td>
+<td align="center">5.73E-21</td>
+<td align="center">10.15 (3328,328,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0006351" href="javascript:toggle(&#39;elements_GO:0006351&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006351" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-286  -  protein nhr-286<br>
+nhr-54  -  protein nhr-54<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0097659&amp;view=details" target="_blank">GO:0097659</a><a name="0097659"></a></td>
+<td>nucleic acid-templated transcription</td>
+<td align="center">3.51E-24</td>
+<td align="center">4.3E-21</td>
+<td align="center">10.15 (3328,328,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0097659" href="javascript:toggle(&#39;elements_GO:0097659&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0097659" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-286  -  protein nhr-286<br>
+nhr-54  -  protein nhr-54<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0032774&amp;view=details" target="_blank">GO:0032774</a><a name="0032774"></a></td>
+<td>RNA biosynthetic process</td>
+<td align="center">5.4E-24</td>
+<td align="center">5.3E-21</td>
+<td align="center">9.96 (3328,334,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0032774" href="javascript:toggle(&#39;elements_GO:0032774&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0032774" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-286  -  protein nhr-286<br>
+nhr-54  -  protein nhr-54<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006355&amp;view=details" target="_blank">GO:0006355</a><a name="0006355"></a></td>
+<td>regulation of transcription, DNA-templated</td>
+<td align="center">1.23E-21</td>
+<td align="center">1.01E-18</td>
+<td align="center">7.92 (3328,420,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0006355" href="javascript:toggle(&#39;elements_GO:0006355&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006355" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2001141&amp;view=details" target="_blank">GO:2001141</a><a name="2001141"></a></td>
+<td>regulation of RNA biosynthetic process</td>
+<td align="center">1.3E-21</td>
+<td align="center">9.14E-19</td>
+<td align="center">7.90 (3328,421,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:2001141" href="javascript:toggle(&#39;elements_GO:2001141&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2001141" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1903506&amp;view=details" target="_blank">GO:1903506</a><a name="1903506"></a></td>
+<td>regulation of nucleic acid-templated transcription</td>
+<td align="center">1.3E-21</td>
+<td align="center">8E-19</td>
+<td align="center">7.90 (3328,421,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:1903506" href="javascript:toggle(&#39;elements_GO:1903506&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1903506" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051252&amp;view=details" target="_blank">GO:0051252</a><a name="0051252"></a></td>
+<td>regulation of RNA metabolic process</td>
+<td align="center">5.66E-21</td>
+<td align="center">3.08E-18</td>
+<td align="center">7.43 (3328,448,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0051252" href="javascript:toggle(&#39;elements_GO:0051252&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051252" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034654&amp;view=details" target="_blank">GO:0034654</a><a name="0034654"></a></td>
+<td>nucleobase-containing compound biosynthetic process</td>
+<td align="center">9.05E-21</td>
+<td align="center">4.44E-18</td>
+<td align="center">7.28 (3328,457,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0034654" href="javascript:toggle(&#39;elements_GO:0034654&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034654" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019219&amp;view=details" target="_blank">GO:0019219</a><a name="0019219"></a></td>
+<td>regulation of nucleobase-containing compound metabolic process</td>
+<td align="center">1.84E-20</td>
+<td align="center">8.21E-18</td>
+<td align="center">7.07 (3328,471,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0019219" href="javascript:toggle(&#39;elements_GO:0019219&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019219" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019438&amp;view=details" target="_blank">GO:0019438</a><a name="0019438"></a></td>
+<td>aromatic compound biosynthetic process</td>
+<td align="center">2.48E-20</td>
+<td align="center">1.01E-17</td>
+<td align="center">6.98 (3328,477,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0019438" href="javascript:toggle(&#39;elements_GO:0019438&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019438" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0018130&amp;view=details" target="_blank">GO:0018130</a><a name="0018130"></a></td>
+<td>heterocycle biosynthetic process</td>
+<td align="center">2.74E-20</td>
+<td align="center">1.03E-17</td>
+<td align="center">6.95 (3328,479,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0018130" href="javascript:toggle(&#39;elements_GO:0018130&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0018130" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:2000112&amp;view=details" target="_blank">GO:2000112</a><a name="2000112"></a></td>
+<td>regulation of cellular macromolecule biosynthetic process</td>
+<td align="center">2.74E-20</td>
+<td align="center">9.59E-18</td>
+<td align="center">6.95 (3328,479,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:2000112" href="javascript:toggle(&#39;elements_GO:2000112&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:2000112" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010556&amp;view=details" target="_blank">GO:0010556</a><a name="0010556"></a></td>
+<td>regulation of macromolecule biosynthetic process</td>
+<td align="center">2.88E-20</td>
+<td align="center">9.4E-18</td>
+<td align="center">6.93 (3328,480,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0010556" href="javascript:toggle(&#39;elements_GO:0010556&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010556" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031326&amp;view=details" target="_blank">GO:0031326</a><a name="0031326"></a></td>
+<td>regulation of cellular biosynthetic process</td>
+<td align="center">3.67E-20</td>
+<td align="center">1.12E-17</td>
+<td align="center">6.86 (3328,485,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0031326" href="javascript:toggle(&#39;elements_GO:0031326&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031326" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009889&amp;view=details" target="_blank">GO:0009889</a><a name="0009889"></a></td>
+<td>regulation of biosynthetic process</td>
+<td align="center">4.04E-20</td>
+<td align="center">1.17E-17</td>
+<td align="center">6.83 (3328,487,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0009889" href="javascript:toggle(&#39;elements_GO:0009889&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009889" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901362&amp;view=details" target="_blank">GO:1901362</a><a name="1901362"></a></td>
+<td>organic cyclic compound biosynthetic process</td>
+<td align="center">5.14E-20</td>
+<td align="center">1.4E-17</td>
+<td align="center">6.76 (3328,492,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:1901362" href="javascript:toggle(&#39;elements_GO:1901362&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901362" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034645&amp;view=details" target="_blank">GO:0034645</a><a name="0034645"></a></td>
+<td>cellular macromolecule biosynthetic process</td>
+<td align="center">1.73E-19</td>
+<td align="center">4.46E-17</td>
+<td align="center">6.42 (3328,518,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0034645" href="javascript:toggle(&#39;elements_GO:0034645&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034645" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0016070&amp;view=details" target="_blank">GO:0016070</a><a name="0016070"></a></td>
+<td>RNA metabolic process</td>
+<td align="center">1.98E-19</td>
+<td align="center">4.85E-17</td>
+<td align="center">6.39 (3328,521,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0016070" href="javascript:toggle(&#39;elements_GO:0016070&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0016070" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009059&amp;view=details" target="_blank">GO:0009059</a><a name="0009059"></a></td>
+<td>macromolecule biosynthetic process</td>
+<td align="center">2.16E-19</td>
+<td align="center">5.05E-17</td>
+<td align="center">6.36 (3328,523,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0009059" href="javascript:toggle(&#39;elements_GO:0009059&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009059" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0010468&amp;view=details" target="_blank">GO:0010468</a><a name="0010468"></a></td>
+<td>regulation of gene expression</td>
+<td align="center">2.45E-18</td>
+<td align="center">5.47E-16</td>
+<td align="center">5.74 (3328,580,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0010468" href="javascript:toggle(&#39;elements_GO:0010468&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0010468" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0007165&amp;view=details" target="_blank">GO:0007165</a><a name="0007165"></a></td>
+<td>signal transduction</td>
+<td align="center">6.6E-18</td>
+<td align="center">1.41E-15</td>
+<td align="center">5.50 (3328,605,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0007165" href="javascript:toggle(&#39;elements_GO:0007165&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0007165" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0090304&amp;view=details" target="_blank">GO:0090304</a><a name="0090304"></a></td>
+<td>nucleic acid metabolic process</td>
+<td align="center">6.6E-18</td>
+<td align="center">1.35E-15</td>
+<td align="center">5.50 (3328,605,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0090304" href="javascript:toggle(&#39;elements_GO:0090304&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0090304" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0051171&amp;view=details" target="_blank">GO:0051171</a><a name="0051171"></a></td>
+<td>regulation of nitrogen compound metabolic process</td>
+<td align="center">1.7E-17</td>
+<td align="center">3.34E-15</td>
+<td align="center">5.28 (3328,630,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0051171" href="javascript:toggle(&#39;elements_GO:0051171&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0051171" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044271&amp;view=details" target="_blank">GO:0044271</a><a name="0044271"></a></td>
+<td>cellular nitrogen compound biosynthetic process</td>
+<td align="center">1.83E-17</td>
+<td align="center">3.46E-15</td>
+<td align="center">5.27 (3328,632,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0044271" href="javascript:toggle(&#39;elements_GO:0044271&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044271" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0080090&amp;view=details" target="_blank">GO:0080090</a><a name="0080090"></a></td>
+<td>regulation of primary metabolic process</td>
+<td align="center">2.05E-17</td>
+<td align="center">3.72E-15</td>
+<td align="center">5.24 (3328,635,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0080090" href="javascript:toggle(&#39;elements_GO:0080090&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0080090" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0031323&amp;view=details" target="_blank">GO:0031323</a><a name="0031323"></a></td>
+<td>regulation of cellular metabolic process</td>
+<td align="center">2.85E-17</td>
+<td align="center">4.99E-15</td>
+<td align="center">5.17 (3328,644,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0031323" href="javascript:toggle(&#39;elements_GO:0031323&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0031323" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0060255&amp;view=details" target="_blank">GO:0060255</a><a name="0060255"></a></td>
+<td>regulation of macromolecule metabolic process</td>
+<td align="center">2.14E-16</td>
+<td align="center">3.62E-14</td>
+<td align="center">4.74 (3328,702,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0060255" href="javascript:toggle(&#39;elements_GO:0060255&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0060255" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0019222&amp;view=details" target="_blank">GO:0019222</a><a name="0019222"></a></td>
+<td>regulation of metabolic process</td>
+<td align="center">5.34E-16</td>
+<td align="center">8.72E-14</td>
+<td align="center">4.56 (3328,730,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0019222" href="javascript:toggle(&#39;elements_GO:0019222&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0019222" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006139&amp;view=details" target="_blank">GO:0006139</a><a name="0006139"></a></td>
+<td>nucleobase-containing compound metabolic process</td>
+<td align="center">8.58E-16</td>
+<td align="center">1.36E-13</td>
+<td align="center">4.47 (3328,745,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0006139" href="javascript:toggle(&#39;elements_GO:0006139&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006139" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044249&amp;view=details" target="_blank">GO:0044249</a><a name="0044249"></a></td>
+<td>cellular biosynthetic process</td>
+<td align="center">1.28E-15</td>
+<td align="center">1.97E-13</td>
+<td align="center">4.39 (3328,758,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0044249" href="javascript:toggle(&#39;elements_GO:0044249&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044249" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901576&amp;view=details" target="_blank">GO:1901576</a><a name="1901576"></a></td>
+<td>organic substance biosynthetic process</td>
+<td align="center">1.74E-15</td>
+<td align="center">2.59E-13</td>
+<td align="center">4.33 (3328,768,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:1901576" href="javascript:toggle(&#39;elements_GO:1901576&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901576" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-213  -  protein nhr-213<br>
+nhr-232  -  protein nhr-232<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0046483&amp;view=details" target="_blank">GO:0046483</a><a name="0046483"></a></td>
+<td>heterocycle metabolic process</td>
+<td align="center">2.09E-15</td>
+<td align="center">3.02E-13</td>
+<td align="center">4.30 (3328,774,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0046483" href="javascript:toggle(&#39;elements_GO:0046483&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0046483" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006725&amp;view=details" target="_blank">GO:0006725</a><a name="0006725"></a></td>
+<td>cellular aromatic compound metabolic process</td>
+<td align="center">2.16E-15</td>
+<td align="center">3.02E-13</td>
+<td align="center">4.29 (3328,775,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0006725" href="javascript:toggle(&#39;elements_GO:0006725&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006725" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009058&amp;view=details" target="_blank">GO:0009058</a><a name="0009058"></a></td>
+<td>biosynthetic process</td>
+<td align="center">2.22E-15</td>
+<td align="center">3.03E-13</td>
+<td align="center">4.29 (3328,776,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0009058" href="javascript:toggle(&#39;elements_GO:0009058&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009058" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:1901360&amp;view=details" target="_blank">GO:1901360</a><a name="1901360"></a></td>
+<td>organic cyclic compound metabolic process</td>
+<td align="center">3.68E-15</td>
+<td align="center">4.88E-13</td>
+<td align="center">4.20 (3328,793,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:1901360" href="javascript:toggle(&#39;elements_GO:1901360&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:1901360" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0034641&amp;view=details" target="_blank">GO:0034641</a><a name="0034641"></a></td>
+<td>cellular nitrogen compound metabolic process</td>
+<td align="center">1.23E-13</td>
+<td align="center">1.59E-11</td>
+<td align="center">3.61 (3328,922,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0034641" href="javascript:toggle(&#39;elements_GO:0034641&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0034641" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044260&amp;view=details" target="_blank">GO:0044260</a><a name="0044260"></a></td>
+<td>cellular macromolecule metabolic process</td>
+<td align="center">6.32E-12</td>
+<td align="center">7.94E-10</td>
+<td align="center">3.05 (3328,1092,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0044260" href="javascript:toggle(&#39;elements_GO:0044260&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044260" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050794&amp;view=details" target="_blank">GO:0050794</a><a name="0050794"></a></td>
+<td>regulation of cellular process</td>
+<td align="center">6.14E-10</td>
+<td align="center">7.53E-8</td>
+<td align="center">2.50 (3328,1330,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0050794" href="javascript:toggle(&#39;elements_GO:0050794&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050794" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0043170&amp;view=details" target="_blank">GO:0043170</a><a name="0043170"></a></td>
+<td>macromolecule metabolic process</td>
+<td align="center">7.18E-10</td>
+<td align="center">8.59E-8</td>
+<td align="center">2.49 (3328,1339,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0043170" href="javascript:toggle(&#39;elements_GO:0043170&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0043170" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0050789&amp;view=details" target="_blank">GO:0050789</a><a name="0050789"></a></td>
+<td>regulation of biological process</td>
+<td align="center">7.91E-9</td>
+<td align="center">9.23E-7</td>
+<td align="center">2.24 (3328,1485,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0050789" href="javascript:toggle(&#39;elements_GO:0050789&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0050789" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0006807&amp;view=details" target="_blank">GO:0006807</a><a name="0006807"></a></td>
+<td>nitrogen compound metabolic process</td>
+<td align="center">1.78E-8</td>
+<td align="center">2.03E-6</td>
+<td align="center">2.16 (3328,1538,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0006807" href="javascript:toggle(&#39;elements_GO:0006807&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0006807" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0065007&amp;view=details" target="_blank">GO:0065007</a><a name="0065007"></a></td>
+<td>biological regulation</td>
+<td align="center">2.59E-8</td>
+<td align="center">2.89E-6</td>
+<td align="center">2.13 (3328,1563,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0065007" href="javascript:toggle(&#39;elements_GO:0065007&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0065007" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044237&amp;view=details" target="_blank">GO:0044237</a><a name="0044237"></a></td>
+<td>cellular metabolic process</td>
+<td align="center">2.79E-8</td>
+<td align="center">3.04E-6</td>
+<td align="center">2.12 (3328,1568,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0044237" href="javascript:toggle(&#39;elements_GO:0044237&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044237" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0044238&amp;view=details" target="_blank">GO:0044238</a><a name="0044238"></a></td>
+<td>primary metabolic process</td>
+<td align="center">4.39E-8</td>
+<td align="center">4.68E-6</td>
+<td align="center">2.08 (3328,1599,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0044238" href="javascript:toggle(&#39;elements_GO:0044238&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0044238" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0071704&amp;view=details" target="_blank">GO:0071704</a><a name="0071704"></a></td>
+<td>organic substance metabolic process</td>
+<td align="center">1.04E-7</td>
+<td align="center">1.09E-5</td>
+<td align="center">2.00 (3328,1660,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0071704" href="javascript:toggle(&#39;elements_GO:0071704&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0071704" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0008152&amp;view=details" target="_blank">GO:0008152</a><a name="0008152"></a></td>
+<td>metabolic process</td>
+<td align="center">4.86E-7</td>
+<td align="center">4.96E-5</td>
+<td align="center">1.88 (3328,1774,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0008152" href="javascript:toggle(&#39;elements_GO:0008152&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0008152" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+<tr>
+<td><a href="http://www.godatabase.org/cgi-bin/amigo/go.cgi?query=GO:0009987&amp;view=details" target="_blank">GO:0009987</a><a name="0009987"></a></td>
+<td>cellular process</td>
+<td align="center">5.48E-4</td>
+<td align="center">5.48E-2</td>
+<td align="center">1.38 (3328,2404,23,23)</td>
+<td>
+<a id="ctrl_elements_GO:0009987" href="javascript:toggle(&#39;elements_GO:0009987&#39;)">[+] Show genes</a><br>
+<div id="elements_GO:0009987" style="display:none"> <font size="1">
+nhr-145  -  protein nhr-145<br>
+nhr-232  -  protein nhr-232<br>
+nhr-213  -  protein nhr-213<br>
+nhr-44  -  protein nhr-44<br>
+nhr-50  -  protein nhr-50<br>
+nhr-54  -  protein nhr-54<br>
+nhr-286  -  protein nhr-286<br>
+nhr-150  -  protein nhr-150<br>
+nhr-205  -  protein nhr-205<br>
+nhr-218  -  protein nhr-218<br>
+nhr-139  -  protein nhr-139<br>
+nhr-16  -  protein nhr-16<br>
+nhr-59  -  protein nhr-59<br>
+nhr-177  -  protein nhr-177<br>
+nhr-53  -  protein nhr-53<br>
+nhr-115  -  protein nhr-115<br>
+nhr-43  -  protein nhr-43<br>
+nhr-45  -  protein nhr-45<br>
+nhr-28  -  protein nhr-28<br>
+nhr-30  -  protein nhr-30<br>
+nhr-18  -  protein nhr-18<br>
+nhr-42  -  protein nhr-42<br>
+nhr-55  -  protein nhr-55<br>
+</font></div>
+</td>
+</tr>
+</tbody></table>
+<p>Species used: Caenorhabditis elegans</p><p>The system has recognized 3707 genes out of 4022 gene terms entered by the user.<br> 3526 genes were recognized by gene symbol and 181 genes by other gene IDs .<br>13 duplicate genes were removed (keeping the highest ranking instance of each gene) leaving  a total of 3694 genes.<br>Only 3328 of these genes are associated with a GO term.<br></p>
+<p> The GOrilla database is periodically updated using the <a href="http://www.geneontology.org/">GO database</a> and other sources.<br>
+The GOrilla database was last updated on Jul 7, 2018</p>
+<p>This results page will be available on this site for one month from now (until 
+Aug 6, 2018
+). You can bookmark this page and come back to it later.
+</p>
+<a name="p_value_info"></a><br><b>'P-value'</b> is the enrichment p-value computed according to the mHG or HG model. This p-value is not corrected for multiple testing of 4903 GO terms.<br>
+<a name="fdr_info"></a><br><b>'FDR q-value'</b> is the correction of the above p-value for multiple testing using the Benjamini and Hochberg (1995) method. <br>Namely, for the i<sup>th</sup> term (ranked according to p-value) the FDR q-value is (p-value * number of GO terms) / i. <br>
+<a name="enrich_info"></a><br><b>Enrichment (N, B, n, b)</b> is defined as follows:<br>N - is the total number of genes<br>B - is the total number of genes associated with a specific GO term<br>n - is the number of genes in the top of the user's input list or in the target set when appropriate<br>b - is the number of genes in the intersection<br>Enrichment = (b/n) / (B/N)<br>
+<a name="genes_info"></a><br><b>Genes:</b> For each GO term you can see the list of associated genes that appear in the optimal top of the list.<br>Each gene name is specified by gene symbol followed by a short description of the gene <br>
+<p>
+<a href="http://cbl-gorilla.cs.technion.ac.il/"> Back to the GOrilla main page </a>
+</p>
+
+
+</body></html>
