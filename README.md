@@ -8,6 +8,11 @@ Supplemental materials for TAU Thesis, including results, tables and graphs.
 - [_WebGestalt_ results](materials/WebGestalt%20Results) for disease and pathway enrichment.
 - [Lists of the most frequent short peptides across 28 species](materials/Most%20Frequent%20Short%20Peptides), before and after dilution of similar proteins, and the corresponding proteins.
 
+### References
+
+Eden E, Navon R, Steinfeld I, Lipson D, Yakhini Z. [GOrilla](http://cbl-gorilla.cs.technion.ac.il/): A Tool For Discovery And Visualization of Enriched GO Terms in Ranked Gene Lists. BMC Bioinformatics (2009), 10:48.
+
+Zhang B, Kirov S, Snoddy J. [WebGestalt](http://www.webgestalt.org): an integrated system for exploring gene sets in various biological contexts. Nucleic Acids Res (2005), 33, W741-748.
 
 ### Thesis Abstract
 In this work, we study Frequent Short Peptides (FSPs) in proteomes of species from across the Eukarya. Our definition of FSP captures peptides that are the most frequent among different proteins within the same species. Specifically, we are interested in short peptides of 10 amino acids. We show a considerable variance between the identities of FSPs of different species. For most species, the FSPs belong to a small set of homologous protein families, such as _zinc fingers_ and _olfactory receptors_ in humans.
