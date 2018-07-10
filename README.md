@@ -3,10 +3,10 @@ Supplemental materials for TAU Thesis, including results, tables and graphs.
 
 ### Materials
 
-- [_GOrilla_ results](materials/GOrilla results) of GO term enrichment for various target sets in Homo Sapiens, Drosophila Melanogaster, C. Elegans and Arabidopsis Thaliana.
-- Visualization of [clusters of frequent short peptides](Frequent Short Peptides Clusters/Human) in human.
-- [_WebGestalt_ results](materials/WebGestalt Results) for disease and pathway enrichment.
-- [Lists of the most frequent short peptides across 28 species](materials/Most Frequent Short Peptides), before and after dilution of similar proteins, and the corresponding proteins.
+- [_GOrilla_ results](materials/GOrilla%20results) of GO term enrichment for various target sets in Homo Sapiens, Drosophila Melanogaster, C. Elegans and Arabidopsis Thaliana.
+- Visualization of [clusters of frequent short peptides](materials/Frequent%20Short%20Peptides%20Clusters/Human) in human.
+- [_WebGestalt_ results](materials/WebGestalt%20Results) for disease and pathway enrichment.
+- [Lists of the most frequent short peptides across 28 species](materials/Most%20Frequent%20Short%20Peptides), before and after dilution of similar proteins, and the corresponding proteins.
 
 
 ### Thesis Abstract
